@@ -1,0 +1,14 @@
+flowchart TD
+    A[Register source version] --> B{Schema valid?}
+    B -- No --> C[Reject and report validation errors]
+    B -- Yes --> D[Extract candidate rules]
+    D --> E{Explicit and deterministic?}
+    E -- Yes --> F[System 1: run deterministic checks]
+    E -- No --> G[System 2: flag ambiguity and evidence]
+    F --> H[Reviewer inspects candidate and provenance]
+    G --> H
+    H --> I{Accepted?}
+    I -- Yes --> J[Record accepted rule and review event]
+    I -- No --> K[Record rejection or request clarification]
+    J --> L[Publish versioned traceable output]
+    K --> M[Preserve decision and rationale]

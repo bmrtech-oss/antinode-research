@@ -1,0 +1,12 @@
+flowchart LR
+    Sources[Source documents] --> Ingest[Validated ingestion]
+    Ingest --> Extract[Rule extraction]
+    Extract --> Candidates[Candidate rules]
+    Candidates --> Graph[(Rule and provenance graph)]
+    Taxonomy[Versioned YAML taxonomy] --> Extract
+    Graph --> System1[System 1: deterministic checks]
+    Graph --> System2[System 2: ambiguity and review]
+    System1 --> Review[Domain review]
+    System2 --> Review
+    Review --> Graph
+    Graph --> Output[Traceable rule set]
