@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Antinode Research"
+type: software
+authors:
+  - name: "Antinode Labs"
+    affiliation: "bmrtech-oss"
+repository-code: "https://github.com/bmrtech-oss/antinode-research"
+license: MIT
+keywords:
+  - system design
+  - knowledge graphs
+  - software architecture
+  - registered reports
+abstract: >-
+  Research papers, registered reports, and design documents from Antinode Labs.
