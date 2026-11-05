@@ -1,5 +1,140 @@
-/* Roboto Mono (Material's default) has no box-drawing glyphs, so browsers fall back to a
-   font with different widths and the ASCII diagrams drift. Use fonts that include them. */
+/* Four themes modelled on antinodelabs.com: dark, solarized, logseq (dark green), light.
+   html[data-theme] is set by the inline script in tools/overrides/main.html and cycled by
+   assets/book-theme.js. Selectors use "html[...] body" so they beat Material's own scheme
+   variables, which are defined on body. */
+
+html[data-theme="dark"] body {
+  --bk-bg: #15202b; --bk-fg: #e5e7eb; --bk-heading: #f3f4f6; --bk-link: #1493fb;
+  --bk-border: #2b3a4a; --bk-card: #1b2836; --bk-accent: #f5a524;
+  --bk-btn: #4aa8ff; --bk-btn-fg: #04121f;
+}
+html[data-theme="solarized"] body {
+  --bk-bg: #fdf6e3; --bk-fg: #586e75; --bk-heading: #073642; --bk-link: #268bd2;
+  --bk-border: #d6cfb8; --bk-card: #eee8d5; --bk-accent: #b58900;
+  --bk-btn: #268bd2; --bk-btn-fg: #fdf6e3;
+}
+html[data-theme="logseq"] body {
+  --bk-bg: #0e2622; --bk-fg: #d2e5dd; --bk-heading: #eaf6f1; --bk-link: #6fe0b0;
+  --bk-border: #24493f; --bk-card: #153630; --bk-accent: #e6c35c;
+  --bk-btn: #6fe0b0; --bk-btn-fg: #07211b;
+}
+html[data-theme="light"] body {
+  --bk-bg: #ffffff; --bk-fg: #374151; --bk-heading: #1f2937; --bk-link: #0b5cad;
+  --bk-border: #e2e6ea; --bk-card: #f5f7fa; --bk-accent: #b86e00;
+  --bk-btn: #0b5cad; --bk-btn-fg: #ffffff;
+}
+
+html[data-theme] body {
+  --bk-muted: color-mix(in srgb, var(--bk-fg) 68%, var(--bk-bg));
+
+  --md-default-bg-color: var(--bk-bg);
+  --md-default-fg-color: var(--bk-fg);
+  --md-default-fg-color--light: var(--bk-muted);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--bk-fg) 40%, var(--bk-bg));
+  --md-default-fg-color--lightest: var(--bk-border);
+  --md-primary-fg-color: var(--bk-bg);
+  --md-primary-bg-color: var(--bk-heading);
+  --md-primary-bg-color--light: var(--bk-muted);
+  --md-accent-fg-color: var(--bk-accent);
+  --md-typeset-color: var(--bk-fg);
+  --md-typeset-a-color: var(--bk-link);
+  --md-code-bg-color: var(--bk-card);
+  --md-code-fg-color: var(--bk-fg);
+  --md-footer-bg-color: var(--bk-card);
+  --md-footer-bg-color--dark: var(--bk-card);
+  --md-footer-fg-color: var(--bk-fg);
+  --md-footer-fg-color--light: var(--bk-muted);
+  --md-footer-fg-color--lighter: var(--bk-muted);
+
+  /* System font stack, as on antinodelabs.com */
+  --md-text-font: -apple-system, system-ui, "Segoe UI", sans-serif;
+  background-color: var(--bk-bg);
+  color: var(--bk-fg);
+}
+
+/* Header: flat, same colour as the page, hairline underneath */
+.md-header {
+  background-color: var(--bk-bg);
+  color: var(--bk-heading);
+  box-shadow: none;
+  border-bottom: 1px solid var(--bk-border);
+}
+.md-header__title { font-weight: 700; }
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--bk-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--bk-heading);
+  font: inherit;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+.theme-toggle:hover { border-color: var(--bk-accent); color: var(--bk-accent); }
+.theme-toggle:focus-visible { outline: 2px solid var(--bk-accent); outline-offset: 2px; }
+@media (max-width: 44.9375em) { .theme-toggle__label { display: none; } }
+
+/* Typography */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 { color: var(--bk-heading); font-weight: 700; letter-spacing: -0.01em; }
+.md-typeset h1 { font-size: 2.1em; }
+.md-typeset a { text-underline-offset: 0.18em; }
+.md-typeset a:hover { color: var(--bk-accent); }
+.md-typeset hr { border-bottom: 1px solid var(--bk-border); }
+
+/* Blockquotes read like the site's accent-edged cards */
+.md-typeset blockquote {
+  background: var(--bk-card);
+  border: 1px solid var(--bk-border);
+  border-left: 4px solid var(--bk-accent);
+  border-radius: 0.5rem;
+  padding: 0.6rem 1rem;
+  color: var(--bk-fg);
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--bk-border);
+  border-radius: 0.5rem;
+  background: transparent;
+  box-shadow: none;
+}
+.md-typeset table:not([class]) th { background: var(--bk-card); color: var(--bk-heading); }
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th { border-top-color: var(--bk-border); }
+
+/* Code and ASCII diagrams */
+.md-typeset pre > code {
+  border: 1px solid var(--bk-border);
+  border-radius: 0.5rem;
+}
+.md-typeset code { color: var(--bk-fg); }
+
+/* Sidebar and table of contents */
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active { color: var(--bk-accent); font-weight: 600; }
+.md-nav__title { color: var(--bk-muted); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.65rem; }
+.md-sidebar__scrollwrap { scrollbar-color: var(--bk-border) transparent; }
+
+/* Search */
+.md-search__form { background-color: var(--bk-card); border: 1px solid var(--bk-border); }
+.md-search__input::placeholder { color: var(--bk-muted); }
+.md-search__output { background-color: var(--bk-bg); }
+
+/* Footer prev/next */
+.md-footer { border-top: 1px solid var(--bk-border); }
+.md-footer__link:hover { color: var(--bk-accent); }
+
+/* Edit button, back-to-top */
+.md-top { background: var(--bk-btn); color: var(--bk-btn-fg); }
+
+/* Fonts with box-drawing glyphs keep the diagrams aligned (Roboto Mono lacks them) */
 .md-typeset pre > code,
 .md-typeset .highlight code {
   font-family: "DejaVu Sans Mono", "Cascadia Mono", Consolas, Menlo, "Liberation Mono",

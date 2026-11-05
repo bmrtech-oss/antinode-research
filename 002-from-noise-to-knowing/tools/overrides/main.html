@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <script>
+    (function () {
+      var themes = ["dark", "solarized", "logseq", "light"], t = null;
+      try { t = localStorage.getItem("antinode-theme"); } catch (e) {}
+      if (themes.indexOf(t) < 0) {
+        t = window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+{% endblock %}

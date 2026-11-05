@@ -11,8 +11,12 @@ hooks:
   - tools/mkdocs_hooks.py
 extra_css:
   - assets/book.css
+extra_javascript:
+  - assets/book-theme.js
 theme:
   name: material
+  custom_dir: tools/overrides
+  font: false
   features:
     - navigation.footer
     - navigation.top
@@ -20,10 +24,7 @@ theme:
     - search.highlight
     - content.action.edit
   palette:
-    - scheme: default
-      toggle: {icon: material/weather-night, name: Dark mode}
-    - scheme: slate
-      toggle: {icon: material/weather-sunny, name: Light mode}
+    scheme: slate
 markdown_extensions:
   - admonition
   - toc: {permalink: true}
