@@ -94,6 +94,9 @@ The classic study of how groups suppress dissent and make bad decisions. The sou
 **★ Vannevar Bush, "As We May Think," *The Atlantic Monthly* 176, no. 1 (July 1945): 101–108.**
 The essay that imagined the memex—and with it, the idea that the mind needs external scaffolds. Read it for the historical vision, and for the recognition that the problem of information overload is not new.
 
+**◆ Andy Clark and David J. Chalmers, "The Extended Mind," *Analysis* 58, no. 1 (1998): 7–19.**
+The argument that external tools can be part of the cognitive system rather than merely aids to it. It is the philosophical background to the extension-versus-substitution distinction in Chapter 19.
+
 **◆ Tiago Forte, *Building a Second Brain: A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential* (Atria Books, 2022).**
 The most accessible modern statement of personal knowledge management. Forte's PARA method and his emphasis on expression over collection are directly reflected in Chapter 20.
 
@@ -145,6 +148,6 @@ If you read only one, read Popper. The discipline of falsification is the heart 
 
 ---
 
-[← Appendix C](../back-matter/98-appendix-c-fallacy-cheat-sheet.md) | [Contents](../README.md) | [Finis →](../back-matter/99-finis.md)
+[← Appendix C](../back-matter/98-appendix-c-fallacy-cheat-sheet.md) | [Contents](../README.md) | [Appendix E →](../back-matter/98-appendix-e-limitations.md)
 
 <!-- book-nav:end -->

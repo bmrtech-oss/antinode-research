@@ -268,6 +268,59 @@ The dogmatist holds everything firmly, including the things that should be held 
 
 Wisdom is the calibration between them. It is the disposition to hold each belief at the firmness the stakes require—firm enough to act, loose enough to correct.
 
+### Using It: Three Questions
+
+The model is simple enough to state on a card, and it asks three questions of any belief you are about to act on. Ask them in order.
+
+**First: what are the stakes?** What does it cost if I am wrong, and who pays? The second half of the question matters most. When the cost falls on me, I tend to estimate it fairly. When it falls on someone else, or on the team six months from now, I tend to estimate it low. The architect in Chapter 18 had every incentive to treat his anecdote as low-stakes, because he would not be the one paying if it was wrong.
+
+**Second: what confidence do I need before I act?** This is not a fixed number. The percentages in the diagram above are not a formula. Read them as the confidence at which I would commit: about 40 percent is enough to run a cheap experiment, and about 70 percent is what I want before committing to something expensive. The direction is the point. As the stakes rise, so does the evidence I require.
+
+**Third: what review do I owe this belief?** Acting on a belief at 70 percent confidence means being wrong three times in ten. The review is what makes that tolerable. A high-stakes decision made at 70 percent with no scheduled review is not calibrated. It is just a bet. The review is the "loose enough to correct" half of the sentence.
+
+```
+   THE THREE QUESTIONS
+
+   ??????????????????????????????????????????????????????????
+   ?                                                        ?
+   ?   1. STAKES       What does it cost if I am wrong,     ?
+   ?                   and who pays?                        ?
+   ?                                                        ?
+   ?   2. CONFIDENCE   How much evidence do I need before   ?
+   ?                   I act?                               ?
+   ?                                                        ?
+   ?   3. REVIEW       When will I look at this again,      ?
+   ?                   and what would change my mind?       ?
+   ?                                                        ?
+   ??????????????????????????????????????????????????????????
+```
+
+### The Calibration in the Book's Own Failures
+
+Looked at this way, several of the failures in this book are calibration errors, and the pattern is the same each time.
+
+The **retrieval system** was a high-stakes belief held with the confidence of a low-stakes one. The benchmark gave me a number, and I treated the number as permission to stop looking. I held the belief firmly and had no scheduled review of it. The review that would have caught the problem was the one I did not schedule.
+
+The **design document** in Chapter 22 was high stakes and low reliability, and I verified it partially because it read fluently. The fluency raised my confidence without raising the evidence. That is the calibration error in its purest form: the feeling of confidence came apart from the grounds for it.
+
+The **migration** in Chapter 25 was a decision in which the stakes included things I had reduced to a single number. I was calibrated on the quantities I could measure and uncalibrated on the ones I could not. The model cannot help with values that are not commensurable, but it can tell you when you have stopped asking about them.
+
+### Why It Is Hard
+
+Calibration is not hard because the idea is difficult. It is hard for three reasons that are about us.
+
+**Firmness feels like virtue.** In a meeting, the person who holds a position firmly is rewarded, and the person who says "I am at about sixty percent" is not. The social incentive pushes every belief toward the firm end.
+
+**Looseness feels like safety.** The opposite pull is real too. Saying "who can say?" costs nothing, and nobody is blamed for a decision they did not make. The skeptic is rarely wrong in public. The cost is paid later, in the actions that never happened.
+
+**The stakes are not labelled.** Nothing tells you at the moment of decision that this one is a high-stakes belief. The migration did not announce itself. Part of the discipline is to ask the first question even when the situation does not seem to call for it.
+
+### A Practice
+
+Take one belief you are currently acting on at work. Write down the stakes, the confidence you hold, the confidence you would have required, and the date on which you will review it. If you cannot name the date, you have found the gap. Do this for three beliefs this week, one high-stakes and two low, and notice whether the firmness you hold matches the firmness the stakes require.
+
+The point is not to produce a number. The point is that the question becomes a habit, and that the habit changes how you hold the things you know.
+
 ---
 
 ## The Limits of Knowledge

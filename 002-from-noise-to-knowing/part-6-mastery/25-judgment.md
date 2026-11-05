@@ -419,6 +419,8 @@ My migration analysis reduced all values to a single metric: expected value. Tha
 
 The migration analysis was a cost-benefit analysis. Cost-benefit analysis assumes that all values are commensurable. They are not always. When they are not, judgment is required—not calculation.
 
+How firmly to hold that judgment, once you have made it, is the question of the confidence–stakes calibration in Chapter 26.
+
 ```
    THE HIERARCHY OF VALUES
 

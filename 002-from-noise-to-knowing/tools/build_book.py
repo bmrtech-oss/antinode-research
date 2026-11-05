@@ -18,7 +18,13 @@ PARTS = [
     ("part-5-the-tools", "Part V"),
     ("part-6-mastery", "Part VI"),
 ]
-FRONT = ["00-cover-page.md", "00-opening-thoughts.md", "00-table-of-contents.md"]
+FRONT = [
+    "00-cover-page.md",
+    "00-opening-thoughts.md",
+    "00-table-of-contents.md",
+    "00-evidence-note.md",
+    "00-calibration-model.md",
+]
 EXTRAS = [
     ("00-front-matter/00-blog-post.md", None),
     ("00-front-matter/00-blog-diagram.md", None),

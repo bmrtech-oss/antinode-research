@@ -22,6 +22,8 @@
 - [Cover](../00-front-matter/00-cover-page.md)
 - [Opening Thoughts](../00-front-matter/00-opening-thoughts.md)
 - [Table of Contents](../00-front-matter/00-table-of-contents.md)
+- [A Note on Evidence](../00-front-matter/00-evidence-note.md)
+- [The Confidence–Stakes Calibration](../00-front-matter/00-calibration-model.md)
 <!-- toc:front:end -->
 
 ---
@@ -132,6 +134,7 @@
 - [Appendix B — The Knowledge Extraction Checklist](../back-matter/98-appendix-b-knowledge-checklist.md)
 - [Appendix C — Fallacy Cheat Sheet](../back-matter/98-appendix-c-fallacy-cheat-sheet.md)
 - [Appendix D — Further Reading](../back-matter/98-appendix-d-further-reading.md)
+- [Appendix E — Limitations](../back-matter/98-appendix-e-limitations.md)
 - [Finis](../back-matter/99-finis.md)
 <!-- toc:back:end -->
 
@@ -227,6 +230,6 @@ Figures are numbered by chapter. A range such as 8.2–8.10 groups the diagrams 
 
 ---
 
-[← Opening Thoughts](../00-front-matter/00-opening-thoughts.md) | [Contents](../README.md) | [Part I →](../part-1-the-problem/part-1-divider.md)
+[← Opening Thoughts](../00-front-matter/00-opening-thoughts.md) | [Contents](../README.md) | [A Note on Evidence →](../00-front-matter/00-evidence-note.md)
 
 <!-- book-nav:end -->

@@ -279,7 +279,7 @@ The discipline of knowing is not just a set of practices. It is a set of **virtu
    └──────────────┴──────────────────────────────────────┘
 ```
 
-These virtues are not optional. They are the foundation of the discipline. Without them, the practices become empty rituals. With them, the practices become a way of life.
+These virtues are not optional. They are the foundation of the discipline. Without them, the practices become empty rituals. With them, the practices become a way of life. Humility and courage meet in the confidence–stakes calibration of Chapter 26: the humility to hold a belief loosely enough to correct, and the courage to hold it firmly enough to act.
 
 ---
 

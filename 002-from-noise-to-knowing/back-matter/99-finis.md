@@ -83,6 +83,6 @@ You have the method. Now go use it.
 
 ---
 
-[← Appendix D](../back-matter/98-appendix-d-further-reading.md) | [Contents](../README.md)
+[← Appendix E](../back-matter/98-appendix-e-limitations.md) | [Contents](../README.md)
 
 <!-- book-nav:end -->

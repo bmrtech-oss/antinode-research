@@ -9,6 +9,8 @@ Start reading with the [cover](00-front-matter/00-cover-page.md) or [opening tho
 - [Cover](00-front-matter/00-cover-page.md)
 - [Opening Thoughts](00-front-matter/00-opening-thoughts.md)
 - [Table of Contents](00-front-matter/00-table-of-contents.md)
+- [A Note on Evidence](00-front-matter/00-evidence-note.md)
+- [The Confidence–Stakes Calibration](00-front-matter/00-calibration-model.md)
 
 ## Part I — The Problem
 
@@ -61,6 +63,7 @@ Start reading with the [cover](00-front-matter/00-cover-page.md) or [opening tho
 - [Appendix B — The Knowledge Extraction Checklist](back-matter/98-appendix-b-knowledge-checklist.md)
 - [Appendix C — Fallacy Cheat Sheet](back-matter/98-appendix-c-fallacy-cheat-sheet.md)
 - [Appendix D — Further Reading](back-matter/98-appendix-d-further-reading.md)
+- [Appendix E — Limitations](back-matter/98-appendix-e-limitations.md)
 - [Finis](back-matter/99-finis.md)
 
 ## Extras

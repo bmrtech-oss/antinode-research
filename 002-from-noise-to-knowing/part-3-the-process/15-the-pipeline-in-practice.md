@@ -281,6 +281,154 @@ This is what the pipeline looks like in practice. It is not a formula. It is a d
 
 ---
 
+## A Second Worked Example: Twelve Documents, Before and After
+
+The first example walked one decision through the stages. This one is about a situation you will meet more often: someone hands you a folder of material on a topic you do not know and expects you to come back understanding it.
+
+The example below is constructed. The documents are invented to show the process, and nothing in them is a claim about any real technology. Call the topic *replication lag*, and suppose I have been asked to brief a team on it by Friday. The folder holds twelve documents.
+
+```
+   THE FOLDER
+
+   ┌──────┬──────────────────────────────────────────────────┐
+   │  #   │  DOCUMENT                                        │
+   ├──────┼──────────────────────────────────────────────────┤
+   │  1   │  Vendor whitepaper A                             │
+   │  2   │  Vendor whitepaper B                             │
+   │  3   │  Vendor whitepaper C                             │
+   │  4   │  Engineering blog post, written after an outage  │
+   │  5   │  Engineering blog post, written at launch        │
+   │  6   │  Conference talk transcript, a practitioner      │
+   │  7   │  Conference talk transcript, a vendor            │
+   │  8   │  Survey paper                                    │
+   │  9   │  Internal incident postmortem                    │
+   │  10  │  Question-and-answer forum thread                │
+   │  11  │  Official documentation page                     │
+   │  12  │  A critic's long post                            │
+   └──────┴──────────────────────────────────────────────────┘
+```
+
+### Before: What I Would Do by Instinct
+
+My instinct is to open the documents in order, highlight what looks important, and write a summary. It is the instinct I have to resist. Here is what it produces.
+
+> Replication lag is the delay between a write on one node and its visibility on another. It is an important problem for distributed systems. Several approaches exist, each with trade-offs. Vendors report that their solutions reduce lag significantly. Teams should monitor lag and choose an approach that fits their needs.
+
+Every sentence is true, or at least unobjectionable. It could have been written without opening the folder. It gives the team nothing to do, tells them nothing about which of the twelve documents to trust, and hides every disagreement among the sources. It is information arranged into a paragraph. It is not knowledge. This is what happens when the stages are skipped and the folder is treated as the material to be summarized, instead of the evidence to be worked on.
+
+Now the same folder, through the seven stages. See Chapter 7 for the stage definitions.
+
+### Stage 1: Select
+
+I begin by writing down the purpose, because without it I cannot select. The team runs a service that reads from replicas, and users have reported seeing stale data after saving a change. The purpose is: *decide whether replication lag explains the stale reads, and what to do about it.*
+
+With that sentence on the page, the folder sorts quickly.
+
+- Documents 1, 2, 3, and 7 are vendor material. They describe what each product does well. I keep them for vocabulary, but I will not use them as evidence about how the problem behaves.
+- Document 5 was written at launch and describes a design. Document 4 was written after an outage and describes what happened. I weight the outage more heavily.
+- Document 9, the postmortem, is closest to my situation. It goes to the top of the pile.
+- Documents 6, 8, and 11 are the sources I will rely on for the definitions and the mechanism.
+- Documents 10 and 12 are opinion. I will read them for objections.
+
+Twelve documents become four tiers. Reading the folder in order would have given the vendors the same weight as the postmortem.
+
+### Stage 2: Pre-process
+
+Before I read for content, I fix the terms. Documents 1, 3, and 7 use "consistency" to mean different things. Document 11 uses it more narrowly than the survey does. If I do not resolve this now, I will carry the confusion into my conclusions, and the three vendors will seem to disagree with each other when they are only using the word differently.
+
+I write one line per document: what it claims, what it offers as evidence, and when it was written. I note that two of the vendor claims rest on a benchmark that measured a quiet system, and that the outage post describes a loaded one. I restore the context the claim was made in. A figure about lag is meaningless until I know the load it was measured under.
+
+```
+   PRE-PROCESSING THE FOLDER
+
+   ┌──────────────────────────────────────────────────────┐
+   │  Terms fixed:     "consistency" used three ways      │
+   │  Claims listed:   one line per document              │
+   │  Context noted:   quiet system vs. loaded system     │
+   │  Dates checked:   launch post predates the outage    │
+   └──────────────────────────────────────────────────────┘
+```
+
+### Stage 3: Generate
+
+Now I generate candidate explanations for the stale reads. I write three, and I make myself write a third that I do not expect to be true.
+
+1. Lag under load is long enough to make reads stale after a write.
+2. The application reads from a replica immediately after writing to the primary, so it would see stale data even with a small lag.
+3. The reports are not about replication at all. They come from a cache in front of the service.
+
+The second hypothesis comes from document 10, the forum thread, which I would have skipped if I had been reading for confirmation. The third is the one I added to avoid having only explanations that implicate the technology I was asked to study.
+
+### Stage 4: Test
+
+I ask what evidence would separate the hypotheses. If the first is true, the lag measured during the reports should be large. If the second is true, the stale reads should cluster immediately after writes, whatever the lag. If the third is true, bypassing the cache should make the stale data disappear.
+
+The documents cannot answer these questions about my system, but they tell me where to look. The postmortem reports a case that matches the second hypothesis: the lag was small, and the problem was that the read followed the write too quickly. The critic in document 12 argues that teams blame lag when they should blame read-after-write patterns, which I would have dismissed if I had not already generated the hypothesis. I also look for disconfirming evidence, as Chapter 11 describes. Is there any document where the lag was large and the stale reads did not occur? There is one, in the survey, and I note it as a case my first hypothesis does not explain.
+
+Then I do the part no document can do for me. I check my own system's lag metrics for the dates of the reports. The lag was small. The stale reads clustered right after saves. Hypothesis 2 survives. Hypothesis 1 does not.
+
+### Stage 5: Integrate
+
+I now have one surviving explanation. The next question is whether it fits with what I know. It fits with the way the service was built: the save endpoint returns, and the page reloads from a replica. It fits the postmortem. It conflicts with the vendor claims, which suggest that choosing a better product would fix the problem. I resolve that conflict rather than hide it: a better product would reduce lag, but lag was never the problem, so the claim is true and beside the point.
+
+I also see a consequence I had not expected. The fix is not a database change. It is a change to which node the application reads from after a write, which the team can make in a day.
+
+### Stage 6: Retain or Discard
+
+Of the twelve documents, I keep four: the postmortem, the survey, the documentation page, and the critic's post. I keep the vendor material only as a glossary. I discard the rest. If the team needs a vendor comparison later, that is a different question, and the folder will still be there.
+
+What I retain is not the documents. It is the artifact below.
+
+### Stage 7: Correct
+
+I write down what would show me I am wrong: if the stale reads continue after the read path is changed, then the explanation is incomplete, and the cache hypothesis returns. I put a review on the calendar for two weeks after the change, and I tell the team what to watch.
+
+### After: The One-Page Artifact
+
+This is what I hand the team. It is shorter than the folder and longer than my instinctive summary, and the difference is that every line is something someone can act on or check.
+
+```
+   REPLICATION LAG: BRIEFING FOR THE TEAM
+
+   ┌──────────────────────────────────────────────────────┐
+   │  QUESTION                                            │
+   │  Does replication lag explain the stale reads, and   │
+   │  what should we do?                                  │
+   │                                                      │
+   │  ANSWER                                              │
+   │  Probably not. Lag was small. The stale reads        │
+   │  follow saves immediately. Change the read path.     │
+   │                                                      │
+   │  WHY I BELIEVE IT                                    │
+   │  • Our lag metrics were low on the report dates      │
+   │  • Stale reads cluster right after writes            │
+   │  • The postmortem describes the same pattern         │
+   │                                                      │
+   │  WHAT I DO NOT KNOW                                  │
+   │  • Why the survey reports a case with high lag and   │
+   │    no stale reads                                    │
+   │  • Whether the cache contributes                     │
+   │                                                      │
+   │  WHAT TO TRUST                                       │
+   │  Postmortem, survey, docs. Vendor material only      │
+   │  for vocabulary.                                     │
+   │                                                      │
+   │  WHAT WOULD CHANGE MY MIND                           │
+   │  Stale reads continuing after the read-path change   │
+   │                                                      │
+   │  REVIEW                                              │
+   │  Two weeks after the change                          │
+   └──────────────────────────────────────────────────────┘
+```
+
+The proportions are worth noticing. Selection and pre-processing took about half the afternoon, and generation and testing took most of the rest. Reading the documents, the activity my instinct would have spent the whole afternoon on, was the smallest part. Most of the work was deciding what to read, what to ask of it, and what would count as an answer.
+
+Compare it with the summary I wrote by instinct. The first version could be forwarded to anyone and be equally useful to all of them. The second is useful to this team, this week, and can be proved wrong. That is the difference between information and knowledge, and in this example it took one afternoon.
+
+Notice what the process did that reading did not. It forced a purpose before the first page. It sorted the sources by what they could be trusted for. It generated an explanation I would not have reached by highlighting. It looked for the case that did not fit. And it ended with a record of what would change my mind, which is the thing a summary almost never contains.
+
+---
+
 ## Exercises for Building the Pipeline
 
 Knowing the pipeline is not enough. You must **practice** it. Here are five exercises to help you build the pipeline into a habit.

@@ -86,6 +86,6 @@ The rest of the book is about that method.
 
 ---
 
-[← Table of Contents](../00-front-matter/00-table-of-contents.md) | [Contents](../README.md) | [Chapter 1 →](../part-1-the-problem/01-the-information-deluge.md)
+[← The Confidence–Stakes Calibration](../00-front-matter/00-calibration-model.md) | [Contents](../README.md) | [Chapter 1 →](../part-1-the-problem/01-the-information-deluge.md)
 
 <!-- book-nav:end -->
