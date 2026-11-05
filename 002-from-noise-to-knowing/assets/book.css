@@ -1,3 +1,12 @@
+/* Bundled DejaVu Sans Mono (OFL) so phones without it still render box-drawing glyphs at one width */
+@font-face {
+  font-family: "Book Diagram Mono";
+  src: url("fonts/dejavu-mono-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Four themes modelled on antinodelabs.com: dark, solarized, logseq (dark green), light.
    html[data-theme] is set by the inline script in tools/overrides/main.html and cycled by
    assets/book-theme.js. Selectors use "html[...] body" so they beat Material's own scheme
@@ -137,8 +146,10 @@ html[data-theme] body {
 /* Fonts with box-drawing glyphs keep the diagrams aligned (Roboto Mono lacks them) */
 .md-typeset pre > code,
 .md-typeset .highlight code {
-  font-family: "DejaVu Sans Mono", "Cascadia Mono", Consolas, Menlo, "Liberation Mono",
-    "Courier New", monospace;
+  font-family: "Book Diagram Mono", "DejaVu Sans Mono", "Cascadia Mono", Consolas, Menlo,
+    "Liberation Mono", "Courier New", monospace;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   font-variant-ligatures: none;
   font-feature-settings: "liga" 0, "calt" 0;
   line-height: 1.1;
