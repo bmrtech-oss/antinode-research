@@ -1,5 +1,13 @@
 # Chapter 11: Testing — Comparing Candidate Models Against Evidence
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Base Rate](../back-matter/98-appendix-a-glossary.md#base-rate) · [Bayesian Reasoning](../back-matter/98-appendix-a-glossary.md#bayesian-reasoning) · [Bias (Statistical)](../back-matter/98-appendix-a-glossary.md#bias-statistical) · [Confirmation Bias](../back-matter/98-appendix-a-glossary.md#confirmation-bias) · [Disconfirmation](../back-matter/98-appendix-a-glossary.md#disconfirmation) · [Evidence](../back-matter/98-appendix-a-glossary.md#evidence) · [Falsification](../back-matter/98-appendix-a-glossary.md#falsification) · [Hindsight Bias](../back-matter/98-appendix-a-glossary.md#hindsight-bias) · [Regression to the Mean](../back-matter/98-appendix-a-glossary.md#regression-to-the-mean) · [Reliability](../back-matter/98-appendix-a-glossary.md#reliability) · [Testing](../back-matter/98-appendix-a-glossary.md#testing) · [Theory](../back-matter/98-appendix-a-glossary.md#theory) · [Validity](../back-matter/98-appendix-a-glossary.md#validity). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once shipped a retrieval system that passed every test I gave it.
@@ -498,6 +506,19 @@ The evaluation suite that cannot fail is not a test. It is a mirror. It shows yo
 - Common pitfalls include **contaminated test sets, overfitting, hindsight bias, small samples, and confusing correlation with causation**.
 - **AI testing** has its own pitfalls: wrong metrics, biased data, opaque models, and benchmark contamination.
 - The lesson of the **evaluation suite** is that a test that cannot fail is not a test. It is a mirror. The test must be independent, capable of failing, and continuously evaluated against reality.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Take a test, review, or evaluation your team relies on. Who wrote it, and what did they believe when they wrote it? Name a result that would have surprised them. If you cannot, it may be a mirror.
+2. Choose a metric you report. Describe a way it could improve while the thing it is meant to measure gets worse.
+3. Recall a time you changed your mind because of evidence. Who designed the test that produced it? If you cannot remember one, what does that suggest?
+4. Think of the last time a check came back confirming exactly what you expected. What would a skeptical colleague have asked you to look at before you believed it?
+
+<!-- reflection:end -->
 
 ---
 

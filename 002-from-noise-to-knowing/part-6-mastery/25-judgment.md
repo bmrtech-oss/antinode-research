@@ -1,5 +1,13 @@
 # Chapter 25: Judgment — Knowing What to Do with Knowledge
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Judgment](../back-matter/98-appendix-a-glossary.md#judgment) · [Normative](../back-matter/98-appendix-a-glossary.md#normative) · [Uncertainty](../back-matter/98-appendix-a-glossary.md#uncertainty). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once made a decision that was correct by every metric and wrong in every way that mattered.
@@ -563,6 +571,19 @@ And they remember that the numbers are not the decision. The numbers are inputs 
 - **Cultivating judgment** requires seeking diverse perspectives, reflecting on decisions, studying history and literature, practicing deliberately, and cultivating virtues.
 - **Judgment and the pipeline** are inseparable. Judgment is the goal, test, correction, and application of the pipeline.
 - The lesson of the **migration** is that judgment is not calculation. The pipeline produces knowledge. It does not produce judgment. Judgment requires values, and the wisdom to weigh them.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Describe a decision where you reduced a conflict of values to a single number. What was left out of the calculation?
+2. For a decision you face now, list the values at stake and mark which are commensurable. How will you weigh the rest, and who should be in the room when you do?
+3. Take the last decision that went badly. Separate the judgment from the outcome. Was it a good decision with a bad result, or the other way round?
+4. Whose judgment do you trust most? What is your evidence for it other than their confidence?
+
+<!-- reflection:end -->
 
 ---
 

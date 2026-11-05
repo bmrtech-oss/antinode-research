@@ -1,5 +1,13 @@
 # Chapter 13: Retain or Discard — The Discipline of Selective Memory
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Discard](../back-matter/98-appendix-a-glossary.md#discard) · [Retention](../back-matter/98-appendix-a-glossary.md#retention) · [Retrieval](../back-matter/98-appendix-a-glossary.md#retrieval). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 The best retrieval system I ever built was also the worst, and the difference was what it kept.

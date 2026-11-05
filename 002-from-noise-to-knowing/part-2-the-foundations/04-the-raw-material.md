@@ -1,5 +1,13 @@
 # Chapter 4: The Raw Material — Information, Signals, and Noise
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Context](../back-matter/98-appendix-a-glossary.md#context) · [Fact](../back-matter/98-appendix-a-glossary.md#fact) · [Noise](../back-matter/98-appendix-a-glossary.md#noise) · [Signal](../back-matter/98-appendix-a-glossary.md#signal). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 The first time I built a retrieval system for a customer, I made a mistake that took me a year to understand.

@@ -1,5 +1,13 @@
 # Chapter 20: Personal Knowledge Management — Building a Second Brain
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Collector's Fallacy](../back-matter/98-appendix-a-glossary.md#collectors-fallacy) · [Personal Knowledge Management (PKM)](../back-matter/98-appendix-a-glossary.md#personal-knowledge-management-pkm) · [Zettelkasten](../back-matter/98-appendix-a-glossary.md#zettelkasten). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I built my first Zettelkasten in 2019, and for two years it was a write-only memory.

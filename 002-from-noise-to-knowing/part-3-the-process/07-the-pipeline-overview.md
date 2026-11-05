@@ -1,5 +1,13 @@
 # Chapter 7: The Pipeline Overview
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Knowledge Pipeline](../back-matter/98-appendix-a-glossary.md#knowledge-pipeline). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once watched a junior engineer outperform a senior engineer on a problem that should have favored the senior.

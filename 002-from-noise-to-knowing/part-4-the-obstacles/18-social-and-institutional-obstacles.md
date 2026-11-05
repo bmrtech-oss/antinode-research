@@ -1,5 +1,13 @@
 # Chapter 18: Social and Institutional Obstacles — When the Environment Fights Back
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Filter Bubble](../back-matter/98-appendix-a-glossary.md#filter-bubble) · [Groupthink](../back-matter/98-appendix-a-glossary.md#groupthink) · [Information Cascade](../back-matter/98-appendix-a-glossary.md#information-cascade) · [Social Proof](../back-matter/98-appendix-a-glossary.md#social-proof). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once watched a room talk the right answer out of existence in ninety minutes.
@@ -418,6 +426,19 @@ And they remember the junior engineer—who was right, who was not heard, and wh
 - The **erosion of epistemic authority** means that when there is no shared standard of evidence, status becomes the standard.
 - **Countermeasures** include collecting judgments independently, assigning a devil's advocate, establishing a shared standard of evidence, changing the sequence, protecting the dissenter, and building a community of inquiry.
 - The lesson of the **room** is that the social environment is part of the pipeline. The best analysis is inert if the room cannot hear it.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Think of the last important decision you took part in. Trace the order in which evidence was presented. Who spoke first, and would a different order have changed the outcome?
+2. Recall a time you paid the courage tax, or chose not to. What did it cost? What would have made the price lower?
+3. What counts as evidence on your team? When a senior person's recollection and an incident report disagree, which wins? Write down the rule that is actually followed, not the one that is stated.
+4. Name one thing you could do this month to lower the cost of dissent for someone who works beside you or reports to you.
+
+<!-- reflection:end -->
 
 ---
 

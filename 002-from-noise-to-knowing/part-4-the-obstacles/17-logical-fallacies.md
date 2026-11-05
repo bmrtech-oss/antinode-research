@@ -1,5 +1,13 @@
 # Chapter 17: Logical Fallacies — The Enemies Without
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Cherry-Picking](../back-matter/98-appendix-a-glossary.md#cherry-picking) · [Equivocation](../back-matter/98-appendix-a-glossary.md#equivocation) · [Fallacy](../back-matter/98-appendix-a-glossary.md#fallacy) · [Survivorship Bias](../back-matter/98-appendix-a-glossary.md#survivorship-bias). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once approved an architecture decision because the document arguing for it was the most rigorous thing I had read all quarter.
@@ -366,6 +374,19 @@ It doesn't. It makes them the only person in the room who is actually reading.
 - **AI-generated fallacies** are the same fallacies, but more polished and more confident. Models are optimized for plausibility, not validity, and they reproduce the fallacies in their training data fluently.
 - The **detection method** includes a seventh step: **strip the clothing.** Rewrite the argument in plain language. If the plain version is a fallacy, the technical version is a fallacy.
 - The lesson of the **architecture document** is that the fallacies that cost money don't look like fallacies. They look like engineering. The knowledge engineer strips the clothing and asks the obvious question.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Take a document you wrote or approved: a proposal, a design, a report. Strip the clothing from its three most persuasive paragraphs and restate each argument in plain language. Which survive?
+2. Which fallacy do you commit most often under time pressure? Find one instance from the past month.
+3. Where in your work does a technical term, such as an accuracy figure, a benchmark, or a best practice, do the job an argument should be doing?
+4. Take an AI-generated answer you used recently. Which claim in it would you have challenged if a colleague had made it?
+
+<!-- reflection:end -->
 
 ---
 

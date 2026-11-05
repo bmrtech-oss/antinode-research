@@ -1,5 +1,13 @@
 # Chapter 24: Expertise — What It Really Is
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Expertise](../back-matter/98-appendix-a-glossary.md#expertise) · [Intuition](../back-matter/98-appendix-a-glossary.md#intuition) · [Pattern Recognition](../back-matter/98-appendix-a-glossary.md#pattern-recognition). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once watched a senior engineer diagnose in ninety seconds a bug that had taken me six hours.

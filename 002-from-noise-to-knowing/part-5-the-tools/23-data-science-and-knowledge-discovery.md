@@ -1,5 +1,13 @@
 # Chapter 23: Data Science and Knowledge Discovery — The Computational Pipeline
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Bias-Variance Tradeoff](../back-matter/98-appendix-a-glossary.md#bias-variance-tradeoff) · [Confounder](../back-matter/98-appendix-a-glossary.md#confounder) · [Machine Learning](../back-matter/98-appendix-a-glossary.md#machine-learning). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once built a churn model that scored 0.94 on the test set and predicted nothing in production.
@@ -497,6 +505,19 @@ The knowledge engineer does not trust the score. They trust the evidence. And th
 - **When to trust an algorithm** depends on five criteria: out-of-sample performance, robustness, interpretability, fairness, and causal validity.
 - **Algorithms cannot replace judgment, understand meaning, take responsibility, or replace the pipeline.**
 - The lesson of the **churn model** is that a model that scores 0.94 on a contaminated test set is worse than a model that scores 0.68 on a representative one. The score is not the knowledge.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Think of a model, metric, or analysis in your work that was validated on data from the same source or period it was built on. Where could temporal leakage be hiding, and how would you split the data to find out?
+2. Which of the three temptations are you most exposed to at the moment? What evidence would tell you?
+3. Choose a number you report as a result. What decision does it drive, and is the thing measured the thing that matters?
+4. Is there a model you use that predicts but does not tell you what to do? Write the question it does not answer.
+
+<!-- reflection:end -->
 
 ---
 

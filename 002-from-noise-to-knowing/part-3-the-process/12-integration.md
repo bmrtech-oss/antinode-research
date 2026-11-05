@@ -1,5 +1,13 @@
 # Chapter 12: Integration — Building a Coherent Knowledge Base
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Consilience](../back-matter/98-appendix-a-glossary.md#consilience) · [Hierarchy (of Knowledge)](../back-matter/98-appendix-a-glossary.md#hierarchy-of-knowledge) · [Integration](../back-matter/98-appendix-a-glossary.md#integration) · [Knowledge Base](../back-matter/98-appendix-a-glossary.md#knowledge-base). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 After the worst outage I ever caused, I had three dashboards telling me three different stories.

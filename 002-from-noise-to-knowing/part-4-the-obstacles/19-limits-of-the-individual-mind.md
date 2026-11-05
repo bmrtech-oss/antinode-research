@@ -1,5 +1,13 @@
 # Chapter 19: The Limits of the Individual Mind — Why We Need External Scaffolds
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Cognitive Load](../back-matter/98-appendix-a-glossary.md#cognitive-load) · [Working Memory](../back-matter/98-appendix-a-glossary.md#working-memory). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once built a personal knowledge management system so good that I couldn't think without it.
@@ -386,6 +394,19 @@ And they remember that the goal is not to have the best scaffold. The goal is to
 - **Designing scaffolds well** requires matching the scaffold to the limit, building for removal, testing the capacity without the scaffold, reducing friction, and iterating.
 - The **unscaffolded test**—periodically removing the scaffold and trying the task without it—is the only way to know whether the scaffold is an extension or a substitution.
 - The lesson of the **trip** is that the goal is not to have the best scaffold. The goal is to have the best mind—with or without the scaffold.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Run an unscaffolded test on one topic in your field. Without tools, write what you know and the three questions you would ask next. Where did you find yourself reaching for something that was not there?
+2. List the tools you rely on every day. For each, decide whether it extends a capacity you have or substitutes for one you no longer exercise.
+3. Which scaffold would hurt most if it disappeared tomorrow? Is it backed up, documented, and understood well enough that you could rebuild it?
+4. Find a scaffold you use that could pay down its own debt, that is, one that could be changed to build capacity as well as extend it. What would the change be?
+
+<!-- reflection:end -->
 
 ---
 

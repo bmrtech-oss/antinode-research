@@ -1,5 +1,13 @@
 # Chapter 14: Correct — Updating Beliefs and Models in Light of Error
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Correction](../back-matter/98-appendix-a-glossary.md#correction) · [Feedback](../back-matter/98-appendix-a-glossary.md#feedback) · [Metacognition](../back-matter/98-appendix-a-glossary.md#metacognition). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 For two years, I believed that hybrid retrieval was better than dense retrieval.
@@ -531,6 +539,19 @@ And it begins with humility—the recognition that you can be wrong, that your m
 - **AI can assist** with correction—learning from feedback, being fine-tuned—but it cannot replace human judgment. True correction requires understanding and responsibility.
 - **Humility** is the virtue that underlies correction. It is the recognition that you can be wrong, that all knowledge is provisional, that error is inevitable, and that learning is lifelong.
 - The lesson of the **retrieval system** is that the most dangerous belief is the one you never question. The system did not fail because it was wrong. It failed because it could not become less wrong.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Recall a belief you held longer than the evidence justified. What was the first signal you ignored, and what did it look like at the time?
+2. In your work, who is allowed to tell you that you are wrong, and how long does it take for the message to reach you? Sketch the path.
+3. Choose a system, process, or document you own that has not been reviewed since it was launched. What would drift look like, and what would you notice first?
+4. Think of an error from the last year that was fixed as a bug. Restate it as evidence about your model of the situation. What does it say?
+
+<!-- reflection:end -->
 
 ---
 

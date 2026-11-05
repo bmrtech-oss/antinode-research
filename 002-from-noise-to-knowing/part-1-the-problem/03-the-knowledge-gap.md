@@ -1,5 +1,13 @@
 # Chapter 3: The Knowledge Gap
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Knowledge Gap](../back-matter/98-appendix-a-glossary.md#knowledge-gap). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 In early 2020, a hospital system I consulted for had a problem that should not have existed.

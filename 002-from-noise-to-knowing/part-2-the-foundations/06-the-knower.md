@@ -1,5 +1,13 @@
 # Chapter 6: The Knower — How Brains Build Knowledge
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Concept](../back-matter/98-appendix-a-glossary.md#concept) · [Dopamine](../back-matter/98-appendix-a-glossary.md#dopamine) · [Error (Prediction Error)](../back-matter/98-appendix-a-glossary.md#error-prediction-error) · [Long-Term Memory](../back-matter/98-appendix-a-glossary.md#long-term-memory) · [Prediction Error](../back-matter/98-appendix-a-glossary.md#prediction-error) · [Predictive Processing](../back-matter/98-appendix-a-glossary.md#predictive-processing) · [Pruning](../back-matter/98-appendix-a-glossary.md#pruning) · [Synaptic Homeostasis Hypothesis (SHY)](../back-matter/98-appendix-a-glossary.md#synaptic-homeostasis-hypothesis-shy). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once spent three weeks trying to teach a language model to classify support tickets.

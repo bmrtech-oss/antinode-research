@@ -1,5 +1,13 @@
 # Chapter 9: Pre-processing — Cleaning, Structuring, and Contextualizing
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Analysis](../back-matter/98-appendix-a-glossary.md#analysis) · [Pre-processing](../back-matter/98-appendix-a-glossary.md#pre-processing). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 The worst bug I ever shipped was a chunking bug.

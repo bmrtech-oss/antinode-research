@@ -1,5 +1,13 @@
 # Chapter 16: Cognitive Biases — The Enemies Within
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Anchoring Effect](../back-matter/98-appendix-a-glossary.md#anchoring-effect) · [Availability Heuristic](../back-matter/98-appendix-a-glossary.md#availability-heuristic) · [Bias (Cognitive)](../back-matter/98-appendix-a-glossary.md#bias-cognitive) · [Heuristic](../back-matter/98-appendix-a-glossary.md#heuristic) · [Narrative Fallacy](../back-matter/98-appendix-a-glossary.md#narrative-fallacy) · [Sunk Cost Fallacy](../back-matter/98-appendix-a-glossary.md#sunk-cost-fallacy) · [System 1 / System 2](../back-matter/98-appendix-a-glossary.md#system-1-system-2). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once designed an evaluation suite that measured exactly what I was good at building.

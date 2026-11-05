@@ -1,5 +1,13 @@
 # Chapter 2: Information Is Not Knowledge
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Data](../back-matter/98-appendix-a-glossary.md#data) · [Epistemology](../back-matter/98-appendix-a-glossary.md#epistemology) · [Information](../back-matter/98-appendix-a-glossary.md#information) · [Knowledge](../back-matter/98-appendix-a-glossary.md#knowledge). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 Last year I watched a retrieval system do something I still think about.

@@ -1,5 +1,13 @@
 # Chapter 26: Wisdom — The Integration of Knowledge and Life
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Wisdom](../back-matter/98-appendix-a-glossary.md#wisdom). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 The best engineer I ever worked with was not the smartest person in the room.
@@ -539,6 +547,19 @@ That is the promise of wisdom. It is the hardest thing to cultivate and the most
 - **Cultivating wisdom** requires examining your life, cultivating virtue, seeking diverse experiences, reflecting on experience, engaging with great works, and seeking mentors and community.
 - The **examined life** is the culmination of wisdom—a life that is reflective, honest, committed, open, and humble.
 - The lesson of the **engineer** is that wisdom is not a flash of insight or a grand theory. It is a disposition—the disposition to hold knowledge well, to act with virtue, and to live deliberately.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Which of your beliefs do you hold more firmly than you could justify? Who benefits from your holding it that way?
+2. Think of someone whose judgment you admire. What do they do, in observable terms, that shows they hold beliefs at different firmness for different stakes?
+3. Where do the stakes of your decisions escape you? Name someone who pays when you are wrong and is not you.
+4. Of the six practices for cultivating wisdom, which have you neglected? What is the cheapest version you could start this week?
+
+<!-- reflection:end -->
 
 ---
 

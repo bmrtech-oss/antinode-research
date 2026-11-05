@@ -1,5 +1,13 @@
 # Chapter 5: The Target — What Knowledge Actually Is
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Belief](../back-matter/98-appendix-a-glossary.md#belief) · [Coherence](../back-matter/98-appendix-a-glossary.md#coherence) · [Explicit Knowledge](../back-matter/98-appendix-a-glossary.md#explicit-knowledge) · [Mental Model](../back-matter/98-appendix-a-glossary.md#mental-model) · [Tacit Knowledge](../back-matter/98-appendix-a-glossary.md#tacit-knowledge) · [Truth](../back-matter/98-appendix-a-glossary.md#truth). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 When I first started building evaluation suites for AI systems, I thought the hard part would be the models. It was not. The hard part was defining what I was evaluating.

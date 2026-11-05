@@ -27,6 +27,8 @@ jobs:
         run: |
           python 002-from-noise-to-knowing/tools/build_book.py
           git diff --exit-code -- 002-from-noise-to-knowing
+      - name: Check links and chapter references
+        run: python 002-from-noise-to-knowing/tools/check_links.py
       - run: mkdocs build --strict -f 002-from-noise-to-knowing/mkdocs.yml
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,5 +1,13 @@
 # Chapter 21: Context Engineering for Humans and Machines
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Context Engineering](../back-matter/98-appendix-a-glossary.md#context-engineering) · [Representation](../back-matter/98-appendix-a-glossary.md#representation). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once made a retrieval system worse by giving it better evidence.

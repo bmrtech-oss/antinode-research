@@ -1,5 +1,13 @@
 # Chapter 8: Selection — Deciding What Deserves Attention
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Attention](../back-matter/98-appendix-a-glossary.md#attention) · [Selection](../back-matter/98-appendix-a-glossary.md#selection). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 The first retrieval system I tuned, I tuned wrong.
@@ -393,6 +401,19 @@ That is the discipline of selection. It is the first stage of the pipeline, and 
 - Selection is connected to every other stage of the pipeline by **feedback loops**. The pipeline is a learning system.
 - Selection requires **purpose, judgment, discipline, and humility**.
 - The lesson of `top_k` is that **recall is not selection**. Maximizing the amount of information is easy and mostly useless. Maximizing signal is hard and enormously valuable.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. List the last five sources you added to something you read regularly: a feed, a newsletter, a channel, a saved-search alert. For each, write the question it helps you answer. How many serve none?
+2. Recall a recent decision where you had more candidates than you could examine. What was your stopping rule, and did it choose by relevance or by the order in which things arrived?
+3. Find one place in your work that maximizes recall: an alert, a search, a dashboard. Describe a version that selects instead. What would you lose, and would you miss it?
+4. Pick one source you trust highly. Apart from familiarity, what evidence do you have that it deserves the trust?
+
+<!-- reflection:end -->
 
 ---
 

@@ -1,5 +1,13 @@
 # Chapter 27: The Discipline of Knowing — A Lifelong Practice
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Wasted-Day Insight](../back-matter/98-appendix-a-glossary.md#wasted-day-insight). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I kept a log for ten years.
@@ -348,6 +356,19 @@ That is the work. It is your work. It is our work. And it does not end. It compo
 - The lesson of the **log** is that the practice compounds, and what looks like a wasted day may be the day the practice is working.
 - The point is not perfection. The point is **return**. You will fall off. You will come back. The coming back is the practice.
 - The work does not end. It compounds.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Look back over the last year. Which days looked wasted but fed something later? Can you trace one thread from the day to the result?
+2. What does your calendar protect for reading and thinking without producing? What would you have to give up to protect more?
+3. Of the seven virtues in this chapter, which do you avoid most in practice? Describe a recent situation where it was called for.
+4. If you kept a log for ten years, what would you want it to show? What will you start recording this week?
+
+<!-- reflection:end -->
 
 ---
 

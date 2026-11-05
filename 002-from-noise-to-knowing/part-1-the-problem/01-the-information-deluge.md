@@ -1,5 +1,13 @@
 # Chapter 1: The Information Deluge
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Illusion of Explanatory Depth](../back-matter/98-appendix-a-glossary.md#illusion-of-explanatory-depth). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 In the spring of 2024, I watched a system I had helped build answer a question about a technical standard. The answer was fluent, confident, well-formatted, and wrong.

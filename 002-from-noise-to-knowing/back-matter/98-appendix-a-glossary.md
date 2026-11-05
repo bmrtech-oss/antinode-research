@@ -178,6 +178,16 @@ Terms are listed alphabetically. Each entry gives a definition, notes on why the
 
 ---
 
+### Confident Gap-Filling
+
+**Definition:** The failure mode in which an AI system, lacking the specific fact a question requires, produces a fluent, specific, plausible-sounding one instead of marking the gap.
+
+**Why it matters:** It is not hallucination in the abstract but a particular, predictable behaviour, and it is the one the knowledge engineer must design against: fluency raises our confidence without raising the evidence.
+
+**See:** Chapter 22 (AI as a Knowledge Partner).
+
+---
+
 ### Confirmation Bias
 
 **Definition:** The tendency to seek out, interpret, and remember information in ways that confirm existing beliefs.
@@ -487,6 +497,16 @@ Terms are listed alphabetically. Each entry gives a definition, notes on why the
 ---
 
 ## I–K
+
+### Illusion of Explanatory Depth
+
+**Definition:** The tendency to believe we understand how something works far better than we do, until we are asked to explain it step by step.
+
+**Why it matters:** Information abundance intensifies the illusion: familiarity with the surface of a subject feels like understanding. It is one reason the knowledge gap goes unnoticed.
+
+**See:** Chapter 1 (The Information Deluge).
+
+---
 
 ### Induction
 
@@ -900,6 +920,16 @@ Terms are listed alphabetically. Each entry gives a definition, notes on why the
 
 ---
 
+### Trust Calibration Matrix
+
+**Definition:** A way of deciding how far to rely on an AI output by weighing what the AI is reliable at, what the stakes are, and what verification costs.
+
+**Why it matters:** It replaces blanket trust or blanket distrust with a decision made for each output, and it is the AI-specific form of the confidence?stakes calibration.
+
+**See:** Chapter 22 (AI as a Knowledge Partner), Chapter 26 (Wisdom).
+
+---
+
 ### Truth
 
 **Definition:** The correspondence between a belief or proposition and reality.
@@ -929,6 +959,16 @@ Terms are listed alphabetically. Each entry gives a definition, notes on why the
 **Why it matters:** Validity is distinct from reliability. A measure can be reliable (consistent) without being valid (accurate). The knowledge engineer must assess both.
 
 **See:** Chapter 11 (Testing), Chapter 15 (Atkinson summary).
+
+---
+
+### Wasted-Day Insight
+
+**Definition:** The observation, drawn from a ten-year log, that days that looked wasted (reading without producing, thinking without deciding) were often the days that seeded work that later looked productive.
+
+**Why it matters:** It is a reason to protect unproductive-looking time in the practice of knowing, and a caution against judging a practice by its daily output.
+
+**See:** Chapter 27 (The Discipline of Knowing).
 
 ---
 

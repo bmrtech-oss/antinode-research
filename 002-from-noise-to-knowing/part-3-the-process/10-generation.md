@@ -1,5 +1,13 @@
 # Chapter 10: Generation — Forming Candidate Models, Concepts, and Hypotheses
 
+<!-- chapter-meta:start -->
+
+**Level:** Both
+
+> **Key Terms:** [Abduction](../back-matter/98-appendix-a-glossary.md#abduction) · [Deduction](../back-matter/98-appendix-a-glossary.md#deduction) · [First Principles](../back-matter/98-appendix-a-glossary.md#first-principles) · [Generation](../back-matter/98-appendix-a-glossary.md#generation) · [Hypothesis](../back-matter/98-appendix-a-glossary.md#hypothesis) · [Induction](../back-matter/98-appendix-a-glossary.md#induction) · [Synthesis](../back-matter/98-appendix-a-glossary.md#synthesis). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 The first time I asked a language model to help me debug a production issue, I was impressed.

@@ -1,5 +1,13 @@
 # Chapter 15: The Pipeline in Practice — A Guide to Implementation
 
+<!-- chapter-meta:start -->
+
+**Level:** Beginner
+
+> **Key Terms:** [Decision Memo](../back-matter/98-appendix-a-glossary.md#decision-memo) · [Proposition](../back-matter/98-appendix-a-glossary.md#proposition). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 The first time I tried to implement the pipeline, I failed.
@@ -809,6 +817,19 @@ The pipeline is not a guarantee of success. It is not a formula for certainty. I
 - A **case study** of a hospital system shows how the pipeline works in a real organizational context.
 - **Tools** can support the pipeline—knowledge management tools, collaboration tools, and AI tools—but they cannot replace the discipline of the pipeline itself.
 - The best time to start is **now**. Pick a question, apply the pipeline, and repeat.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Recall the last time someone handed you a pile of material and expected you to come back understanding it. Which parts of the instinctive summary did you produce? What would the one-page artifact have said instead?
+2. Write the purpose sentence for a question you have right now. A good one lets you reject half of what you could read. If yours rejects nothing, it is not yet a purpose.
+3. The briefing in the worked example includes "what I do not know" and "what would change my mind." Which of your recent reports or summaries included either? What would adding them have changed for the reader?
+4. Which stage took most of your time on your last piece of analysis, and which took least? Is that the proportion the question needed?
+
+<!-- reflection:end -->
 
 ---
 

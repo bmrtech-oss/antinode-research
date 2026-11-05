@@ -1,5 +1,13 @@
 # Chapter 22: AI as a Knowledge Partner — Using Large Language Models in the Pipeline
 
+<!-- chapter-meta:start -->
+
+**Level:** Advanced
+
+> **Key Terms:** [Confident Gap-Filling](../back-matter/98-appendix-a-glossary.md#confident-gap-filling) · [Trust Calibration Matrix](../back-matter/98-appendix-a-glossary.md#trust-calibration-matrix). Definitions are in [Appendix A](../back-matter/98-appendix-a-glossary.md).
+
+<!-- chapter-meta:end -->
+
 ---
 
 I once approved a technical document that an AI had written, and it took me three weeks to find the flaw.
@@ -645,6 +653,19 @@ The AI is not the oracle. The AI is the draft. The knowledge engineer is the one
 - **AI supports every stage of the pipeline**, but the risk is highest where the AI does the cognitive work for you.
 - **Trust calibration** requires knowing what the AI is reliable at, what the stakes are, and what the verification cost is.
 - The lesson of the **design document** is that the AI's gap is invisible until you look for it. The knowledge engineer treats AI as a draft, not an oracle.
+
+<!-- reflection:start -->
+
+## Reflection Questions
+
+Each takes between ten and thirty minutes and asks you to look at your own work.
+
+1. Pick an AI output you used in the last month. Where did it sit on the trust calibration matrix, and did you verify it in proportion?
+2. Find one place in that output where a gap might have been filled with something confident: a name, a number, a citation, a standard. Check three such items.
+3. What do you do differently with a junior colleague's draft than with an AI draft? Where is the difference unjustified in either direction?
+4. Write a one-sentence instruction that asks an AI to say what it is unsure of. Try it on a real question and compare the result with your usual prompt.
+
+<!-- reflection:end -->
 
 ---
 
