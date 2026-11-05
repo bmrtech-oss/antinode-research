@@ -161,9 +161,48 @@ def write_mkdocs(front, parts, back):
     (ROOT / "mkdocs.yml").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="")
 
 
+def write_toc(front, parts, back):
+    toc_rel = "00-front-matter/00-table-of-contents.md"
+    path = ROOT / toc_rel
+    text = read(path).replace("\r\n", "\n")
+
+    def link(f, label):
+        return f"[{label}]({rel_link(toc_rel, f)})"
+
+    def region(name, body):
+        nonlocal text
+        pat = re.compile(rf"(<!-- toc:{name}:start -->\n).*?(<!-- toc:{name}:end -->)", re.S)
+        text = pat.sub(lambda m: m.group(1) + body + "\n" + m.group(2), text)
+
+    region("front", "\n".join(f"- {link(f, title_of(f))}" for f in front))
+    for (folder, _), (_, files) in zip(PARTS, parts):
+        rows = ["| Ch. | Title |", "|-----|-------|"]
+        for f in files[1:]:
+            m = re.match(r"(\d+)-", Path(f).name)
+            if not m:
+                continue
+            num = int(m.group(1))
+            name = title_of(f).split(": ", 1)[-1]
+            rows.append(f"| {num} | {link(f, name)} |")
+        region(folder, "\n".join(rows))
+    region("back", "\n".join(f"- {link(f, title_of(f))}" for f in back))
+
+    chapters = {int(re.match(r"(\d+)-", Path(f).name).group(1)): f
+                for _, files in parts for f in files[1:]}
+
+    def chapter_cell(m):
+        num = int(m.group(1) or m.group(2))
+        return f"| {link(chapters[num], f'Ch. {num}')} |" if num in chapters else m.group(0)
+
+    text = re.sub(r"\| (?:\[Ch\. (\d+)\]\([^)]*\)|Ch\. (\d+)) \|$", chapter_cell, text, flags=re.M)
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(text)
+
+
 def main():
     front, parts, back = build_structure()
     order = front + [f for _, files in parts for f in files] + back
+    write_toc(front, parts, back)
     apply_footers(order)
     write_readme(front, parts, back)
     write_mkdocs(front, parts, back)
