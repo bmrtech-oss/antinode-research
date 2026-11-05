@@ -435,7 +435,7 @@ Validation is essential, but it has limits.
 
 **Validation does not guarantee fairness.** A model can validate well on average while performing poorly for specific subgroups.
 
-**Validation is not a one-time event.** Models degrade over time as the world changes. Validation must be ongoing.
+**Validation is not a one-time event.** Models often degrade over time as the world changes. Validation must be ongoing.
 
 My churn model failed the first limit. The test set was not representative of the world it would be deployed in. It was representative of the world it had been trained on. The distinction is the whole game.
 

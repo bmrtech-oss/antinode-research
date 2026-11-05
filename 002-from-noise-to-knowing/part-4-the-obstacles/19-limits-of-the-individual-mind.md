@@ -223,7 +223,7 @@ Substitution does not happen on purpose. Nobody decides to atrophy their own cap
 
 Each step is rational. The scaffold *is* faster. Practicing without it *does* feel like wasted time. The capacity *does* weaken when unused. The scaffold *does* become necessary. And at the end, you *cannot* tell whether the capacity would still be there, because you have not tested it.
 
-This is the structure of dependency, and it applies to mental scaffolds as much as to physical ones. The person who always uses GPS loses their sense of direction. The person who always uses a calculator loses their mental arithmetic. The person who always uses a search engine loses their ability to recall. The person who always uses AI loses the ability to write from scratch.
+This is the structure of dependency, and it applies to mental scaffolds as much as to physical ones. The pattern is common, though not inevitable. The person who always uses GPS loses their sense of direction. The person who always uses a calculator loses their mental arithmetic. The person who always uses a search engine loses their ability to recall. The person who always uses AI loses the ability to write from scratch.
 
 None of these losses is catastrophic. Each is a trade. But the trade is invisible, and the trade is made without consent.
 

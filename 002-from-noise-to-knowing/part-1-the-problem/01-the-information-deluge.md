@@ -73,7 +73,7 @@ I will not drown you in statistics about statistics. Three numbers are enough.
 
 **Roughly 2 exabytes in 2000.** An exabyte is a billion gigabytes—a number with no intuitive meaning. What matters is that it was already more than any person, or any institution, could process.
 
-**Roughly 64 zettabytes in 2020.** A zettabyte is a thousand exabytes. In twenty years, the flow grew by a factor of thirty-two.
+**Roughly 64 zettabytes in 2020.** A zettabyte is a thousand exabytes. In twenty years, the flow grew by a factor of roughly thirty thousand. The two estimates measure slightly different things, so read the ratio as a sense of scale, not as precision.
 
 **Roughly 180 zettabytes projected by 2025.** And still climbing.
 
@@ -91,8 +91,8 @@ I will not drown you in statistics about statistics. Three numbers are enough.
 What drives it? Five forces, each individually unremarkable, collectively overwhelming:
 
 - **Cheap storage.** A gigabyte that cost millions in 1970 costs fractions of a cent now. When storage is free, we keep everything.
-- **Ubiquitous connectivity.** Five billion people carry devices that generate records of every search, click, location, and message.
-- **The Internet of Things.** Sensors in cars, factories, farms, and bodies stream data continuously. A single commercial flight generates half a terabyte.
+- **Ubiquitous connectivity.** Billions of people carry devices that generate records of every search, click, location, and message.
+- **The Internet of Things.** Sensors in cars, factories, farms, and bodies stream data continuously. A single commercial flight can generate hundreds of gigabytes, depending on the aircraft and what is recorded.
 - **Cheap publication.** Anyone can publish to the world in seconds. This is liberating. It is also a firehose.
 - **Machine generation.** Increasingly, the information is produced by algorithms, not people. The volume of machine-generated content now exceeds what humans can read.
 

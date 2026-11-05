@@ -613,7 +613,7 @@ We have described strategies for overcoming bias. But it is important to recogni
 <!-- diagram-alt -->*Diagram description: A diagram lists four limits of debiasing: biases cannot be eliminated, debiasing takes effort, it can backfire, and it cannot replace evidence.*
 
 
-**Biases cannot be eliminated.** They are inherent in the architecture of the mind. You can reduce their influence, but you cannot eliminate them entirely.
+**Biases cannot be eliminated.** They appear to be inherent in the architecture of the mind. You can reduce their influence, but you are unlikely to eliminate them entirely.
 
 **Debiasing requires effort.** System 2 is slow, effortful, and easily depleted. You cannot be deliberately unbiased all the time.
 

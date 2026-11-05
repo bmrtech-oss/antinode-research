@@ -244,7 +244,7 @@ The three criteria provide a conceptual framework. In practice, you need a metho
 
 **Step 3: Check incentives.** What does the source gain from making this claim? Are they trying to inform, persuade, sell, or entertain? Incentives are not disqualifying—but they should adjust your credence.
 
-**Step 4: Evaluate evidence.** Does the source provide evidence? Is it verifiable? Is it representative? Is it complete? A single well-designed study is worth more than a hundred anecdotes.
+**Step 4: Evaluate evidence.** Does the source provide evidence? Is it verifiable? Is it representative? Is it complete? A single well-designed study can be worth more than a hundred anecdotes.
 
 This framework is not a formula. It is a set of questions that guide judgment. You use it flexibly, adapting it to the context. But the questions are always the same.
 

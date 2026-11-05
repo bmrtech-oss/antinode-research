@@ -146,7 +146,7 @@ The rhythm is not a schedule. You will miss days. You will skip weeks. The point
 <!-- diagram-alt -->*Diagram description: A diagram of the daily routine: morning sets a question, midday captures and processes what is encountered, and evening reviews what went well or wrong and what was learned.*
 
 
-The daily practice is small. It takes twenty minutes. It is the unit of the compounding—the daily deposit that, over years, produces the body of work.
+The daily practice is small. It takes about twenty minutes. It is the unit of the compounding—the daily deposit that, over years, produces the body of work.
 
 ### Weekly: Review, Read, Converse
 

@@ -380,7 +380,7 @@ This is the Socratic insight. Socrates was wise because he knew he was ignorant.
 <!-- diagram-alt -->*Diagram description: A diagram of three limits of knowledge: what can be known, what an individual can know, and the role of knowledge itself as a tool rather than the highest good.*
 
 
-**The limits of what can be known.** Some things are unknowable—the future, the minds of others, the ultimate nature of reality. The wise person accepts these limits. They do not pretend to know what cannot be known.
+**The limits of what can be known.** Some things may be beyond knowing—the future, the minds of others, the ultimate nature of reality. The wise person accepts these limits. They do not pretend to know what cannot be known.
 
 **The limits of what you can know.** Even within the domain of the knowable, your knowledge is limited—by your experience, your intelligence, your time, your attention. The wise person recognizes these limits. They do not overestimate their own knowledge.
 

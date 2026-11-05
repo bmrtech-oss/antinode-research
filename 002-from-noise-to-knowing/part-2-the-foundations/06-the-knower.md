@@ -58,7 +58,7 @@ The difference matters. When you train a model, you are fitting it to a dataset.
 
 For most of the history of neuroscience, the dominant model of perception was **bottom-up**: sensory organs receive information from the world, transmit it to the brain, and the brain processes it to form a representation. Perception was thought to be a passive process of receiving and interpreting.
 
-In recent decades, this model has been overturned. The emerging consensus is that the brain is fundamentally a **prediction engine**. It does not passively receive information; it actively generates expectations about what it is about to perceive, and then compares those expectations against the sensory input.
+In recent decades, this model has been challenged by predictive processing, an influential account in which the brain is better understood as a **prediction engine** (Clark, *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*, 2016; see Appendix D). On this account, the brain does not passively receive information; it actively generates expectations about what it is about to perceive, and then compares those expectations against the sensory input.
 
 ```
    THE PREDICTIVE PROCESSING LOOP
@@ -180,9 +180,9 @@ Memory is not a single system. It is a collection of systems, each with its own 
 <!-- diagram-alt -->*Diagram description: A memory hierarchy divides long-term memory into declarative knowing-that, comprising episodic events and semantic facts or concepts, and procedural knowing-how, comprising skills, habits, and actions.*
 
 
-**Working memory** is the brain's temporary workspace—the mental scratchpad where information is held and manipulated in the service of current tasks. It is severely limited: about four to seven chunks of information at a time, and the capacity is fragile, easily disrupted by distraction, fatigue, and stress.
+**Working memory** is the brain's temporary workspace—the mental scratchpad where information is held and manipulated in the service of current tasks. It is severely limited: a handful of chunks of information at a time (estimates range from about four to seven), and the capacity is fragile, easily disrupted by distraction, fatigue, and stress.
 
-**Long-term memory** is the brain's vast store of knowledge and experience. It has essentially unlimited capacity. It is divided into **declarative memory** (facts and events) and **procedural memory** (skills and actions). Declarative memory is further divided into **episodic memory** (specific events) and **semantic memory** (general knowledge and concepts).
+**Long-term memory** is the brain's vast store of knowledge and experience. It has no known practical limit on capacity. It is divided into **declarative memory** (facts and events) and **procedural memory** (skills and actions). Declarative memory is further divided into **episodic memory** (specific events) and **semantic memory** (general knowledge and concepts).
 
 The distinction matters for knowledge engineering. Semantic memory is where explicit knowledge lives—the kind that can be verbalized and transmitted. Procedural memory is where tacit knowledge lives—the kind that can only be acquired through practice.
 
@@ -289,7 +289,7 @@ This is why sleep is essential for learning. A night of sleep does not just rest
 
 ### Active Forgetting
 
-The brain does not just passively lose memories; it **actively forgets**. There are dedicated molecular mechanisms for erasing memories—enzymes, receptors, and signaling pathways that actively degrade synaptic connections. This is not a bug; it is a feature. Active forgetting is essential for cognitive flexibility, for emotional regulation, and for the ability to update models when the world changes.
+The brain does not just passively lose memories; it **actively forgets**. There is evidence, mostly from animal studies, for molecular mechanisms that actively weaken memories—enzymes, receptors, and signaling pathways that degrade synaptic connections. This is not a bug; it is a feature. Active forgetting appears to support cognitive flexibility, for emotional regulation, and for the ability to update models when the world changes.
 
 The neuroscientist Ronald Davis has argued that **intrinsic forgetting may be the brain's default state**. Memories are constantly being eroded unless they are actively stabilized. This means that retention requires effort—rehearsal, retrieval, and consolidation. Forgetting is easy; remembering is hard.
 
@@ -377,7 +377,7 @@ Deliberate practice has several characteristics:
 - It involves **feedback**, so that errors can be detected and corrected.
 - It is **repetitive**, but with variation, so that the model is refined rather than merely reinforced.
 
-This is the process by which the brain's overgenerated connections are selectively pruned and strengthened. It is the mechanism of expertise. And it is slow—about ten years of deliberate practice in most domains.
+This is the process by which the brain's overgenerated connections are selectively pruned and strengthened. It is the mechanism of expertise. And it is slow—often about ten years of deliberate practice (see Chapter 24).
 
 ```
    DELIBERATE PRACTICE AND THE PRUNING CYCLE

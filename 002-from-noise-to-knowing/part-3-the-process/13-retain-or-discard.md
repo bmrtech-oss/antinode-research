@@ -259,7 +259,7 @@ How do you forget? Forgetting is not a single process. It operates through sever
 
 **Reconsolidation.** When a memory is retrieved, it becomes temporarily labile—open to modification. During this window, the memory can be updated, weakened, or even erased.
 
-**Active erasure.** The brain has dedicated molecular mechanisms for erasing memories—enzymes, receptors, and signaling pathways that actively degrade synaptic connections.
+**Active erasure.** The brain appears to have molecular mechanisms for actively weakening memories—enzymes, receptors, and signaling pathways that degrade synaptic connections.
 
 For the retrieval system, the most useful mechanism was **active erasure**. The system did not passively decay. It did not interfere. It had no retrieval failure (it could always find the document). It did not reconsolidate. It retained everything until I explicitly erased it.
 
@@ -506,7 +506,7 @@ The answer is yes—but the **nature** of what we retain changes.
 <!-- diagram-alt -->*Diagram description: A diagram comparing what AI can do with what humans must do in retention and discard. AI stores, retrieves, and summarizes information, while humans build integrated knowledge models, decide what matters, and combine it into a coherent whole.*
 
 
-**AI can store information; humans must store knowledge.** AI can remember every fact, every document, every conversation. But AI cannot build the integrated, actionable models that constitute knowledge. That remains the human's job.
+**AI can store information; humans must store knowledge.** AI can store far more facts, documents, and conversations than any person can hold. But AI cannot build the integrated, actionable models that constitute knowledge. That remains the human's job.
 
 **AI can retrieve information; humans must decide what matters.** AI can find any piece of information in its database. But AI cannot decide what is relevant, what is important, what is worth retaining.
 

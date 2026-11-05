@@ -227,7 +227,7 @@ This is a profound shift in attitude. Most people treat error as a failure—som
 <!-- diagram-alt -->*Diagram description: A diagram contrasting responses to error: most people treat it as failure and avoid, hide, or explain it away, while a knowledge engineer treats it as a signal to seek, amplify, and learn from. The contrast is stagnation versus growth.*
 
 
-The neuroscience of error is instructive. As we saw in Chapter 6, the brain encodes **prediction error** through dopamine. When an outcome is better than expected, dopamine neurons fire; when it is worse, they pause. This signal drives learning.
+The neuroscience of error is instructive. As we saw in Chapter 6, the brain appears to encode **prediction error** partly through dopamine. In classic experiments, when an outcome is better than expected, dopamine neurons fire more; when it is worse, their firing drops below baseline. This signal is thought to drive learning.
 
 The knowledge engineer **harnesses** this signal. They do not suppress error; they amplify it. They expose their models to tests that could fail. They seek out disconfirming evidence. They welcome criticism. They treat being wrong as an opportunity to become less wrong.
 

@@ -42,6 +42,10 @@ The UNVERIFIED count is high because most sentences in the book state general kn
 | 27 | 0 | 5 | 1 | 2 |
 | **Total** | **45** | **210** | **44** | **288** |
 
+## Softening pass (applied)
+
+A targeted subset of the UNVERIFIED rows was applied: Ch 24 and Ch 6 ten-year and predictive-processing claims (with Ericsson and Clark from Appendix D), the Ch 1 data claims (the growth ratio is now about thirty thousand; the flight and device figures are hedged), and absolute wording in Ch 3, 6, 8, 11, 12, 13, 14, 16, 19, 23, 26, 27 and the glossary. Not applied, left for the author: Ch 22 and Ch 17 AI-claim rows (near protected formulations), the Ch 5, Ch 10 and Ch 16 examples, front-matter claims, and the remaining low-severity rows below.
+
 ## What was changed in the text
 
 - 22 citations were added in chapters where Appendix D supports the claim (mostly Kahneman and Tversky in Chapters 1, 3, 7 and 16; Janis, Clark and Chalmers, Luhmann, Ahrens and Forte in Chapters 18?21; Popper, Clark in Chapters 6 and 11).

@@ -324,14 +324,14 @@ The senior engineer was an expert. She did not say "I've seen this before." She 
 
 ## The Ten-Year Rule
 
-How long does it take to become an expert? The research is remarkably consistent: **about ten years** of deliberate practice.
+How long does it take to become an expert? A common rule of thumb is **about ten years** of deliberate practice. It is a rough guide, not a law: the time varies with the domain and with the quality of the practice (Ericsson, Krampe, and Tesch-Römer, "The Role of Deliberate Practice in the Acquisition of Expert Performance," 1993; see Appendix D).
 
 ```
  ┌───────────────────────────────────────────────────────┐
  │              THE TEN-YEAR RULE                        │
  ├───────────────────────────────────────────────────────┤
  │                                                       │
- │   Expertise in most domains requires about ten years  │
+ │   In many domains, expertise takes about ten years    │
  │   of deliberate practice.                             │
  │                                                       │
  │   Year 1:  ██                                         │
@@ -340,17 +340,17 @@ How long does it take to become an expert? The research is remarkably consistent
  │   ...                                                 │
  │   Year 10: ████████████████████████████████████████   │
  │                                                       │
- │   There are no shortcuts.                             │
+ │   It is a rule of thumb, not a law.                   │
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
 
-<!-- diagram-alt -->*Diagram description: A diagram shows deliberate practice accumulating over ten years, with progressively longer bars from year one to year ten and a statement that expertise has no shortcuts.*
+<!-- diagram-alt -->*Diagram description: A diagram stating that in many domains expertise takes about ten years of deliberate practice, as a rule of thumb rather than a law, with progressively longer bars from year one to year ten.*
 
 
 The ten-year rule has several implications:
 
-**Expertise takes time.** There are no shortcuts. You cannot become an expert in a weekend, a month, or a year.
+**Expertise takes time.** I know of no shortcut. You cannot become an expert in a weekend, a month, or a year.
 
 **Expertise requires deliberate practice.** Not all practice is equal. Deliberate practice is focused, effortful, feedback-rich, and repetitive.
 
@@ -528,7 +528,7 @@ The knowledge engineer cultivates expertise—not by memorizing more, but by bui
 - Expertise has four components: **pattern recognition**, **mental models**, **intuition**, and **judgment**.
 - **Intuition** is reliable in high-validity environments and unreliable in low-validity ones. The expert must know which environment they are in.
 - The **expert** is not the same as the **pundit**. The expert is humble, accountable, and open to being wrong. The pundit is confident, unaccountable, and defensive.
-- The **ten-year rule** holds that expertise requires about ten years of deliberate practice. There are no shortcuts.
+- The **ten-year rule** is a rule of thumb: expertise in many domains takes about ten years of deliberate practice. I know of no shortcut.
 - **Deliberate practice** is focused, effortful, feedback-rich, and repetitive. It is not the same as experience.
 - Expertise has **limits**: misrecognition, low-validity environments, overconfidence, and rigidity.
 - **Judgment** is the highest form of expertise. It is cultivated through diverse experiences, reflection, feedback, study, and deliberate practice.

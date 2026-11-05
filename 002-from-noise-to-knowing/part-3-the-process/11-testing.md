@@ -173,7 +173,7 @@ For my retrieval system, the observation was the production failure. Users were 
 
 ### Experimentation
 
-The third form is **experimentation**. You intervene in the world—you change something—and observe the result. Experimentation is the most powerful form of testing because it allows you to establish **causation**, not just correlation.
+The third form is **experimentation**. You intervene in the world—you change something—and observe the result. Experimentation is among the most powerful forms of testing because it allows you to establish **causation**, not just correlation.
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -203,7 +203,7 @@ The third form is **experimentation**. You intervene in the world—you change s
 <!-- diagram-alt -->*Diagram description: A flow compares a treatment group receiving an intervention with a control group receiving none; their outcomes are compared, and the difference represents the intervention's effect.*
 
 
-The controlled comparison is the gold standard. It involves treatment and control groups, random assignment, blinding, and measurement.
+The controlled comparison is often called the gold standard. It involves treatment and control groups, random assignment, blinding, and measurement.
 
 ### Falsification
 

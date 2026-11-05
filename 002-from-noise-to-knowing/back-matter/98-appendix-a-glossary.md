@@ -212,7 +212,7 @@ Terms are listed alphabetically. Each entry gives a definition, notes on why the
 
 **Definition:** The unity of knowledge across domains—the degree to which knowledge from one field connects to and illuminates knowledge from another. Term popularized by E.O. Wilson.
 
-**Why it matters:** Consilience is a sign that a model is deeply true. When a model explains phenomena across multiple domains, it has likely captured something fundamental. It is one of the dimensions of integration.
+**Why it matters:** Consilience is a sign that a model may be deeply true. When a model explains phenomena across multiple domains, it has likely captured something fundamental. It is one of the dimensions of integration.
 
 **See:** Chapter 12 (Integration).
 
@@ -984,7 +984,7 @@ Terms are listed alphabetically. Each entry gives a definition, notes on why the
 
 ### Working Memory
 
-**Definition:** The brain's temporary workspace for holding and manipulating information in the service of current tasks. Capacity is limited to about four to seven chunks.
+**Definition:** The brain's temporary workspace for holding and manipulating information in the service of current tasks. Capacity is limited to a handful of chunks (estimates range from about four to seven).
 
 **Why it matters:** Working memory is a fundamental constraint on knowledge work. The knowledge engineer must offload cognitive load to external systems.
 

@@ -116,7 +116,7 @@ The definitive post-mortem of Google Flu Trends. A case study in the limits of a
 ## Part VI — Mastery: Expertise, Judgment, and Wisdom
 
 **★ K. Anders Ericsson, Ralf T. Krampe, and Clemens Tesch-Römer, "The Role of Deliberate Practice in the Acquisition of Expert Performance," *Psychological Review* 100, no. 3 (1993): 363–406.**
-The paper that established the ten-year rule and the concept of deliberate practice. Essential for Chapter 24—and for the sober recognition that expertise takes time.
+The paper that set out the concept of deliberate practice and discusses the ten-year rule of thumb. Essential for Chapter 24—and for the sober recognition that expertise takes time.
 
 **◆ Aristotle, *Nicomachean Ethics*, Book VI.** Any good translation (Ross, Irwin, or Crisp).
 The origin of the distinction between *sophia* (theoretical wisdom) and *phronesis* (practical wisdom). Aristotle's account of *phronesis*—wisdom as the capacity to deliberate well about how to live—is the philosophical foundation of Chapter 26.

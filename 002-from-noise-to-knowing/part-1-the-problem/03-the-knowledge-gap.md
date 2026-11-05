@@ -242,7 +242,7 @@ At the societal level, the knowledge gap produces **polarization and distrust**.
 
 It also produces **bad policy**. When policymakers lack knowledge, they make decisions based on ideology, anecdote, or political expediency. They respond to crises with measures that are too little, too late, or simply wrong.
 
-And it produces **a loss of collective intelligence**. The knowledge gap means that the vast information resources of the modern world are not being used to solve problems. We have the information to cure diseases, reduce poverty, and address climate change. We lack the knowledge—the integrated, validated, actionable understanding—to do so.
+And it produces **a loss of collective intelligence**. The knowledge gap means that the vast information resources of the modern world are not being used to solve problems. We have much of the information we need to make progress on disease, poverty, and climate change. We lack the knowledge—the integrated, validated, actionable understanding—to do so.
 
 ---
 

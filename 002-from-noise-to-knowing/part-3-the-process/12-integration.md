@@ -134,7 +134,7 @@ For the outage, coherence was the thing I lacked. The three dashboards were each
 
 **Consilience** is the unity of knowledge across domains. It is the degree to which your knowledge from one domain connects to and illuminates knowledge from another.
 
-The term was popularized by the biologist E.O. Wilson, who argued that all knowledge should ultimately be unified. Consilience is a sign that a model is deeply true. When a model from one domain explains phenomena in another, it is a sign that the model has captured something fundamental.
+The term was popularized by the biologist E.O. Wilson, who argued that all knowledge should ultimately be unified. Consilience is a sign that a model may be deeply true. When a model from one domain explains phenomena in another, it is evidence that the model has captured something fundamental.
 
 ```
    CONSILIENCE

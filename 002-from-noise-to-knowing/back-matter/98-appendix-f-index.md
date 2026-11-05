@@ -2,7 +2,7 @@
 
 Glossary terms link to their definition in [Appendix A](98-appendix-a-glossary.md) and to the chapters where the glossary introduces them. The book's named formulations, the people it draws on, and recurring topics link to the chapters where they appear.
 
-*154 entries.*
+*155 entries.*
 
 
 ## A
@@ -32,7 +32,7 @@ Glossary terms link to their definition in [Appendix A](98-appendix-a-glossary.m
 - **Chalmers**: Ch [19](../part-4-the-obstacles/19-limits-of-the-individual-mind.md)
 - **Cherry-Picking**: [definition](98-appendix-a-glossary.md#cherry-picking) · Ch [17](../part-4-the-obstacles/17-logical-fallacies.md)
 - **Chunking**: Ch [9](../part-3-the-process/09-pre-processing.md), [21](../part-5-the-tools/21-context-engineering.md)
-- **Clark**: Ch [11](../part-3-the-process/11-testing.md), [19](../part-4-the-obstacles/19-limits-of-the-individual-mind.md)
+- **Clark**: Ch [6](../part-2-the-foundations/06-the-knower.md), [11](../part-3-the-process/11-testing.md), [19](../part-4-the-obstacles/19-limits-of-the-individual-mind.md)
 - **Cognitive Load**: [definition](98-appendix-a-glossary.md#cognitive-load) · Ch [19](../part-4-the-obstacles/19-limits-of-the-individual-mind.md), [21](../part-5-the-tools/21-context-engineering.md)
 - **Coherence**: [definition](98-appendix-a-glossary.md#coherence) · Ch [5](../part-2-the-foundations/05-the-target.md), [12](../part-3-the-process/12-integration.md)
 - **Collector's Fallacy**: [definition](98-appendix-a-glossary.md#collectors-fallacy) · Ch [20](../part-5-the-tools/20-personal-knowledge-management.md)
@@ -67,6 +67,7 @@ Glossary terms link to their definition in [Appendix A](98-appendix-a-glossary.m
 - **Embedding**: Ch [14](../part-3-the-process/14-correct.md)
 - **Epistemology**: [definition](98-appendix-a-glossary.md#epistemology) · Ch [2](../part-1-the-problem/02-information-is-not-knowledge.md), [5](../part-2-the-foundations/05-the-target.md)
 - **Equivocation**: [definition](98-appendix-a-glossary.md#equivocation) · Ch [17](../part-4-the-obstacles/17-logical-fallacies.md)
+- **Ericsson**: Ch [24](../part-6-mastery/24-expertise.md)
 - **Error (Prediction Error)**: [definition](98-appendix-a-glossary.md#error-prediction-error) · Ch [6](../part-2-the-foundations/06-the-knower.md), [14](../part-3-the-process/14-correct.md)
 - **Evidence**: [definition](98-appendix-a-glossary.md#evidence) · Ch [11](../part-3-the-process/11-testing.md)
 - **Expertise**: [definition](98-appendix-a-glossary.md#expertise) · Ch [24](../part-6-mastery/24-expertise.md)
