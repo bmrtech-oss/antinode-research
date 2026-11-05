@@ -289,7 +289,7 @@ The neurotransmitter **dopamine** is central to learning. It is often described 
         → Weaken the action that led to the outcome
 ```
 
-This is the neural basis of the knowledge loop. The brain predicts, observes, computes the error, and updates the model. Dopamine is the signal that drives the update.
+This is the neural basis of the knowledge loop described in Chapter 5. Dopamine is the signal that drives the update.
 
 ### Incentive-Tagged Plasticity
 
@@ -369,7 +369,7 @@ This is the process by which the brain's overgenerated connections are selective
    prunes the noise.
 ```
 
-This is the third lesson I should have applied to my classifier. I trained it once and stopped. I did not give it a feedback loop. I did not give it a chance to practice, to correct, to refine. The human agent does this every day, with every ticket. The brain is a learning system because it is constantly cycling through prediction, error, and correction. My model was a snapshot.
+This is the third lesson I should have applied to my classifier. I trained it once and stopped. I did not give it a feedback loop. I did not give it a chance to practice, to correct, to refine. The human agent does this every day, with every ticket. My model was a snapshot. (The loop itself is the one defined in Chapter 5.)
 
 ---
 

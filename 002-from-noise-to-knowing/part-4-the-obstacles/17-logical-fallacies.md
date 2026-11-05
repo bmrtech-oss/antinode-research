@@ -73,18 +73,7 @@ There are six families of fallacy, each with its own logic and its own counterme
 
 ## The Six Families
 
-```
- ┌───────────────────────────────────────────────────────┐
- │              THE SIX FAMILIES OF FALLACY              │
- ├───────────────────────────────────────────────────────┤
- │  1. PREMISE      →  the starting point is flawed      │
- │  2. CONCLUSION   →  the conclusion does not follow    │
- │  3. AMBIGUITY    →  the terms shift meaning           │
- │  4. CAUSAL       →  the causal reasoning is broken    │
- │  5. STATISTICAL  →  the numbers are misused           │
- │  6. RELEVANCE    →  the appeal is to the wrong thing  │
- └───────────────────────────────────────────────────────┘
-```
+The six families are fallacies of premise, conclusion, ambiguity, causal reasoning, statistics, and relevance.
 
 ### Family 1: Fallacies of Premise
 
@@ -93,8 +82,6 @@ The starting point is broken.
 **Begging the question.** Assuming the conclusion in the premise. *"This architecture is correct because it follows best practices, and best practices are whatever this architecture does."*
 
 **False premise.** An argument resting on something untrue. *"All distributed systems need eventual consistency."*
-
-**Unwarranted assumption.** Assuming something unproven. *"If we migrate, the team will adapt quickly."* (Will they? Why?)
 
 ### Family 2: Fallacies of Conclusion
 
@@ -108,8 +95,6 @@ The premises may be fine, but the conclusion does not follow.
 
 **Straw man.** Misrepresenting a position to attack it. *"The critics want us to keep the old system forever."*
 
-**Slippery slope.** A chain of consequences asserted without support. *"If we allow this exception, soon everyone will want one, and the standard will collapse."*
-
 ### Family 3: Fallacies of Ambiguity
 
 The words shift meaning.
@@ -117,8 +102,6 @@ The words shift meaning.
 **Equivocation.** Same word, different senses. *"The system is 'available'—it responds to health checks. What do you mean, users can't log in?"*
 
 **Amphiboly.** Grammatical ambiguity. *"We will review the proposal with the security team."* (Are they reviewing it, or are you reviewing it together?)
-
-**Accent.** Emphasis changes meaning. *"The migration was a success"* — successful by what measure, and said by whom?
 
 ### Family 4: Causal Fallacies
 
@@ -129,8 +112,6 @@ The causal reasoning is broken.
 **Cum hoc.** A and B correlate, so one causes the other. *"Teams that use this tool ship faster."* (Or faster teams choose this tool.)
 
 **Ignoring a common cause.** Both are caused by a third factor. *"Services with more logs have more incidents."* (Or high-traffic services generate both more logs and more incidents.)
-
-**Reverse causation.** The arrow points the other way. *"Microservices cause organizational scaling."* (Or scaling organizations adopt microservices.)
 
 ### Family 5: Statistical Fallacies
 
@@ -151,8 +132,6 @@ The appeal is to the wrong thing.
 **Ad hominem.** Attacking the person. *"He's never run a team of this size, so his architecture review doesn't count."*
 
 **Appeal to authority.** *"Google does it this way."*
-
-**Appeal to emotion.** *"Think about what this means for the team's morale."*
 
 **Appeal to ignorance.** *"No one has proven this approach will fail."*
 

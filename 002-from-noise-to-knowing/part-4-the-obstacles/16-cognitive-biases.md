@@ -152,7 +152,7 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
 
 **How it gets built into instruments:** We choose test cases that confirm our approach. We select metrics that show our system in a favorable light. We define success in terms that our system can achieve.
 
-**How to counteract it:** Seek out disconfirming evidence. Consider alternative hypotheses. Test your predictions. Keep a prediction journal. Use red teams.
+**How to counteract it:** Seek out disconfirming evidence (see Chapter 11), and use the other countermeasures listed below.
 
 ```
  ┌───────────────────────────────────────────────────────┐

@@ -131,7 +131,7 @@ Most people who read this book will stay in Stage 1. The ones who move to Stage 
 
 ## A Worked Example: The Full Cycle
 
-Before we describe the exercises, let us walk through a complete example of the pipeline in action.
+Before we describe the exercises, let us walk through a complete example of the pipeline in action. See Chapter 7 for the stage definitions.
 
 **The question:** Should I adopt a new framework for my team's data pipeline?
 
@@ -401,7 +401,7 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
 
 ## Checklists for Each Stage
 
-Checklists are powerful tools for ensuring that you do not skip stages. Here are checklists for each stage of the pipeline.
+Checklists are powerful tools for ensuring that you do not skip stages. See Chapter 7 for the stage definitions; here are the checklists.
 
 ### Selection Checklist
 
@@ -626,7 +626,7 @@ Tools are not a substitute for the pipeline. They are **amplifiers**. They make 
 
 The pipeline is not a theory to be admired from a distance. It is a practice to be **used**. It is not something you read about and then forget. It is something you do, again and again, until it becomes a habit.
 
-The best time to start is now. Pick a question that matters to you—a decision you need to make, a problem you need to solve, a topic you want to understand. Apply the pipeline. Select your sources. Pre-process the information. Generate hypotheses. Test them. Integrate your findings. Retain what survives. Correct what fails.
+The best time to start is now. Pick a question that matters to you—a decision you need to make, a problem you need to solve, a topic you want to understand. Apply the pipeline. See Chapter 7 for the stage definitions.
 
 Then do it again. And again.
 

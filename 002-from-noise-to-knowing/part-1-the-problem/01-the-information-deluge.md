@@ -204,29 +204,7 @@ The person who responds to information overload by consuming even more informati
 
 ## The Knowledge Gap
 
-We can now state the problem precisely. There is a gap between the **information** available to us and the **knowledge** we actually possess. This gap is not new—it has existed since the first human tried to make sense of the world—but it has widened dramatically, because information has grown exponentially while our capacity to process it has remained roughly constant.
-
-The gap has several dimensions, and each must be closed.
-
-```
-   THE FIVE DIMENSIONS OF THE KNOWLEDGE GAP
-
-   ┌─────────────┬────────────────────────────────────────────┐
-   │  VOLUME     │  More information than we can consume      │
-   ├─────────────┼────────────────────────────────────────────┤
-   │  VELOCITY   │  Faster than we can process                │
-   ├─────────────┼────────────────────────────────────────────┤
-   │  VALIDITY   │  Much of it is false or misleading         │
-   ├─────────────┼────────────────────────────────────────────┤
-   │  INTEGRATION│  Fragmented, disconnected, unassimilable   │
-   ├─────────────┼────────────────────────────────────────────┤
-   │  APPLICATION│  Even when known, not usable for action    │
-   └─────────────┴────────────────────────────────────────────┘
-```
-
-The knowledge gap is not a failure of intelligence. It is a structural feature of the modern condition—a mismatch between the supply of information and the capacity of human cognition to transform it into knowledge.
-
-It cannot be closed by willpower alone. It requires a **method**.
+There is a gap between the **information** available to us and the **knowledge** we actually possess. Information has grown exponentially while our capacity to process it has stayed roughly constant, so the gap has widened. It cannot be closed by willpower alone. It requires a **method**.
 
 ---
 
@@ -278,7 +256,7 @@ I have also felt the temptation myself: the relief of a fast answer, the comfort
 
 This book is my attempt to resist that temptation—to build a method for myself, and to share it with anyone who feels the same pull. It is not a finished answer. It is a working method, offered in the hope that it will be useful and improved by use.
 
-The flood will not stop. But you can learn to navigate.
+The flood will not stop. But you can learn to navigate. Chapter 3 describes the gap this deluge creates.
 
 ---
 

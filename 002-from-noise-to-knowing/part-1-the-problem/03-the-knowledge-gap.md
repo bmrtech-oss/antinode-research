@@ -224,56 +224,46 @@ And it produces **a loss of collective intelligence**. The knowledge gap means t
 
 The intuitive response to the knowledge gap is to produce more information. If we are drowning, surely the solution is to swim harder. But this response misunderstands the nature of the problem.
 
-Here is what actually happens when you try to close the gap with more information.
+Chapter 1 showed why more information makes things worse. Here is the loop in full.
 
 ```
    THE DOOM LOOP
 
-   ┌─────────────────────────────────────────────────────┐
-   │                                                     │
-   │   More information                                  │
-   │        │                                            │
-   │        ▼                                            │
-   │   More noise ──────────────┐                        │
-   │        │                   │                        │
-   │        ▼                   │                        │
-   │   More overwhelm           │                        │
-   │        │                   │                        │
-   │        ▼                   │                        │
-   │   Less attention           │                        │
-   │        │                   │                        │
-   │        ▼                   │                        │
-   │   Less knowledge ──────────┘                        │
-   │        │                                            │
-   │        ▼                                            │
-   │   Feel less informed                                │
-   │        │                                            │
-   │        └──────────────────► Seek more information    │
-   │                                                     │
-   └─────────────────────────────────────────────────────┘
+   ???????????????????????????????????????????????????????
+   ?                                                     ?
+   ?   More information                                  ?
+   ?        ?                                            ?
+   ?        ?                                            ?
+   ?   More noise ???????????????                        ?
+   ?        ?                   ?                        ?
+   ?        ?                   ?                        ?
+   ?   More overwhelm           ?                        ?
+   ?        ?                   ?                        ?
+   ?        ?                   ?                        ?
+   ?   Less attention           ?                        ?
+   ?        ?                   ?                        ?
+   ?        ?                   ?                        ?
+   ?   Less knowledge ???????????                        ?
+   ?        ?                                            ?
+   ?        ?                                            ?
+   ?   Feel less informed                                ?
+   ?        ?                                            ?
+   ?        ???????????????????? Seek more information   ?
+   ?                                                     ?
+   ???????????????????????????????????????????????????????
 
    The loop feeds itself. Each cycle makes it worse.
 ```
 
-This is the doom loop. The person who responds to information overload by consuming even more information is like the person who responds to debt by borrowing more money. The immediate relief is real. The underlying problem is compounded.
-
 The hospital system was in this loop. They responded to the crisis by generating more reports, more meetings, more dashboards. And each addition made the overload worse, not better.
 
-The solution is not more information. The solution is to break the loop—to stop adding to the supply and start fixing the conversion.
+The solution is not more information. The solution is to break the loop?to stop adding to the supply and start fixing the conversion.
 
 ---
 
 ## Why This Book
 
-I have spent the last several years building systems that process information. I have built retrieval pipelines, context architectures, and agentic workflows. I have watched these systems produce fluent, confident, plausible output. And I have watched people accept that output because it was fast and well-formatted.
-
-I have also watched myself do the same thing. I have felt the relief of a fast answer, the comfort of a well-formatted summary, the illusion that consumption is understanding.
-
-This book is my attempt to break the loop—for myself, and for anyone who feels the same pull.
-
-The knowledge gap is real. It is widening. And it cannot be closed by willpower alone. It requires a method—a disciplined, repeatable process for converting information into knowledge.
-
-That method is the subject of this book. I call it the knowledge pipeline. And the rest of this book is about how to use it.
+I have felt this loop myself: the relief of a fast answer, the comfort of a well-formatted summary, the illusion that consumption is understanding. This book is my attempt to break it?for myself, and for anyone who feels the same pull. The method is the knowledge pipeline, and the rest of the book is about how to use it.
 
 ---
 

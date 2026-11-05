@@ -327,9 +327,7 @@ Correction is not a single act. It is a **discipline**—a set of practices that
 
 ### Practice 1: Seek Disconfirming Evidence
 
-Do not wait for evidence that challenges your beliefs to find you. Go looking for it. Read the critics. Check the alternative sources. Run the experiment that could fail.
-
-The knowledge engineer builds this into their routine. They subscribe to sources that disagree with them. They read the strongest arguments for positions they oppose. They ask people who hold different views to explain why.
+Go looking for the evidence that challenges your beliefs rather than waiting for it to find you; Chapter 11 gives the full treatment.
 
 For the retrieval system, the disconfirming evidence was the production data. I should have been looking at it. I should have been asking: is the system getting worse? Is the approach still the best? I should have been seeking the evidence that would tell me I was wrong.
 
