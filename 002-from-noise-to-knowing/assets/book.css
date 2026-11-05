@@ -153,8 +153,17 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
     "Liberation Mono", "Courier New", monospace;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-size: 14px;
+  text-rendering: geometricPrecision;
+  font-kerning: none;
   font-variant-ligatures: none;
   font-feature-settings: "liga" 0, "calt" 0;
   line-height: 1.1;
   letter-spacing: 0;
+}
+
+.md-typeset pre > code.diagram-scaled {
+  display: block;
+  width: max-content;
+  transform-origin: 0 0;
 }

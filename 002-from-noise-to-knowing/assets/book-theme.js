@@ -41,18 +41,24 @@
   });
 })();
 
-/* Shrink wide ASCII diagrams to fit narrow screens (down to a readable minimum) */
+/* Scale wide ASCII diagrams to fit narrow screens. The font size stays fixed and the block is
+   scaled with a transform, because fractional font sizes make Android round glyph widths and
+   the box edges drift. */
 (function () {
-  var MIN_PX = 6.5, MAX_WIDTH = 900;
+  var MIN_SCALE = 0.4, MAX_WIDTH = 900;
   function fit() {
     var blocks = document.querySelectorAll(".md-typeset pre > code");
     Array.prototype.forEach.call(blocks, function (code) {
-      code.style.fontSize = "";
+      code.style.transform = "";
+      code.style.marginBottom = "";
+      code.classList.remove("diagram-scaled");
       if (window.innerWidth > MAX_WIDTH) { return; }
       var pre = code.parentElement, avail = pre.clientWidth, need = code.scrollWidth;
       if (avail > 0 && need > avail + 1) {
-        var base = parseFloat(getComputedStyle(code).fontSize);
-        code.style.fontSize = Math.max(MIN_PX, Math.floor(base * avail / need * 10) / 10) + "px";
+        var s = Math.max(MIN_SCALE, (avail - 3) / need);
+        code.classList.add("diagram-scaled");
+        code.style.transform = "scale(" + s + ")";
+        code.style.marginBottom = (-code.offsetHeight * (1 - s)) + "px";
       }
     });
   }
