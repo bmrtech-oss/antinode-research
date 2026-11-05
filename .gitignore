@@ -8,3 +8,6 @@ dist/
 build/
 coverage/
 public/
+
+# MkDocs build output
+_site/

@@ -1,0 +1,70 @@
+# From Noise to Knowing
+
+*The Discipline of Turning Information into Knowledge* — Pramod Rathod
+
+Start reading with the [cover](00-front-matter/00-cover-page.md) or [opening thoughts](00-front-matter/00-opening-thoughts.md). Each page links to the previous and next page.
+
+## Front Matter
+
+- [Cover](00-front-matter/00-cover-page.md)
+- [Opening Thoughts](00-front-matter/00-opening-thoughts.md)
+- [Table of Contents](00-front-matter/00-table-of-contents.md)
+
+## Part I — The Problem
+
+- [Chapter 1: The Information Deluge](part-1-the-problem/01-the-information-deluge.md)
+- [Chapter 2: Information Is Not Knowledge](part-1-the-problem/02-information-is-not-knowledge.md)
+- [Chapter 3: The Knowledge Gap](part-1-the-problem/03-the-knowledge-gap.md)
+
+## Part II — The Foundations
+
+- [Chapter 4: The Raw Material — Information, Signals, and Noise](part-2-the-foundations/04-the-raw-material.md)
+- [Chapter 5: The Target — What Knowledge Actually Is](part-2-the-foundations/05-the-target.md)
+- [Chapter 6: The Knower — How Brains Build Knowledge](part-2-the-foundations/06-the-knower.md)
+
+## Part III — The Process
+
+- [Chapter 7: The Pipeline Overview](part-3-the-process/07-the-pipeline-overview.md)
+- [Chapter 8: Selection — Deciding What Deserves Attention](part-3-the-process/08-selection.md)
+- [Chapter 9: Pre-processing — Cleaning, Structuring, and Contextualizing](part-3-the-process/09-pre-processing.md)
+- [Chapter 10: Generation — Forming Candidate Models, Concepts, and Hypotheses](part-3-the-process/10-generation.md)
+- [Chapter 11: Testing — Comparing Candidate Models Against Evidence](part-3-the-process/11-testing.md)
+- [Chapter 12: Integration — Building a Coherent Knowledge Base](part-3-the-process/12-integration.md)
+- [Chapter 13: Retain or Discard — The Discipline of Selective Memory](part-3-the-process/13-retain-or-discard.md)
+- [Chapter 14: Correct — Updating Beliefs and Models in Light of Error](part-3-the-process/14-correct.md)
+- [Chapter 15: The Pipeline in Practice — A Guide to Implementation](part-3-the-process/15-the-pipeline-in-practice.md)
+
+## Part IV — The Obstacles
+
+- [Chapter 16: Cognitive Biases — The Enemies Within](part-4-the-obstacles/16-cognitive-biases.md)
+- [Chapter 17: Logical Fallacies — The Enemies Without](part-4-the-obstacles/17-logical-fallacies.md)
+- [Chapter 18: Social and Institutional Obstacles — When the Environment Fights Back](part-4-the-obstacles/18-social-and-institutional-obstacles.md)
+- [Chapter 19: The Limits of the Individual Mind — Why We Need External Scaffolds](part-4-the-obstacles/19-limits-of-the-individual-mind.md)
+
+## Part V — The Tools
+
+- [Chapter 20: Personal Knowledge Management — Building a Second Brain](part-5-the-tools/20-personal-knowledge-management.md)
+- [Chapter 21: Context Engineering for Humans and Machines](part-5-the-tools/21-context-engineering.md)
+- [Chapter 22: AI as a Knowledge Partner — Using Large Language Models in the Pipeline](part-5-the-tools/22-ai-as-a-knowledge-partner.md)
+- [Chapter 23: Data Science and Knowledge Discovery — The Computational Pipeline](part-5-the-tools/23-data-science-and-knowledge-discovery.md)
+
+## Part VI — Mastery
+
+- [Chapter 24: Expertise — What It Really Is](part-6-mastery/24-expertise.md)
+- [Chapter 25: Judgment — Knowing What to Do with Knowledge](part-6-mastery/25-judgment.md)
+- [Chapter 26: Wisdom — The Integration of Knowledge and Life](part-6-mastery/26-wisdom.md)
+- [Chapter 27: The Discipline of Knowing — A Lifelong Practice](part-6-mastery/27-the-discipline-of-knowing.md)
+
+## Back Matter
+
+- [Appendix A — Glossary of Key Terms](back-matter/98-appendix-a-glossary.md)
+- [Appendix B — The Knowledge Extraction Checklist](back-matter/98-appendix-b-knowledge-checklist.md)
+- [Appendix C — Fallacy Cheat Sheet](back-matter/98-appendix-c-fallacy-cheat-sheet.md)
+- [Appendix D — Further Reading](back-matter/98-appendix-d-further-reading.md)
+- [Finis](back-matter/99-finis.md)
+
+## Extras
+
+- [From Noise to Knowing: Why I Wrote a Book About the One Skill AI Can't Replace](00-front-matter/00-blog-post.md)
+- [Final Blog Diagram](00-front-matter/00-blog-diagram.md)
+- [Rating Notes](00-front-matter/00-rating-notes.md)
