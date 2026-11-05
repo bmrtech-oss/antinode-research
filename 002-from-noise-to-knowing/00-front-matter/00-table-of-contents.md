@@ -140,6 +140,8 @@
 
 ## List of Figures
 
+Figures are numbered by chapter. A range such as 8.2–8.10 groups the diagrams in that chapter, and the caption lists what they cover. Each chapter link goes to the start of the chapter.
+
 | Figure | Caption | Chapter |
 |--------|---------|---------|
 | 5.1 | The knowledge loop | [Ch. 5](../part-2-the-foundations/05-the-target.md) |
@@ -204,7 +206,7 @@
 
 ## A Note on the Type
 
-*From Noise to Knowing* is set in [typeface], with chapter headings in [typeface]. The diagrams are rendered in monospaced ASCII, a deliberate choice: they are meant to be portable, editable, and readable in any environment—just like the method the book describes.
+*From Noise to Knowing* is set in Roboto for the text and the chapter headings in the online edition, which uses the Material for MkDocs theme. The diagrams are rendered in monospaced ASCII and drawn in DejaVu Sans Mono, with Cascadia Mono, Consolas and similar fonts as fallbacks. The diagram choice is deliberate: they are meant to be portable, editable, and readable in any environment—just like the method the book describes.
 
 ---
 
