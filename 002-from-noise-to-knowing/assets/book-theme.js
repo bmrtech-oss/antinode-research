@@ -40,3 +40,29 @@
     apply(index(), btn);
   });
 })();
+
+/* Shrink wide ASCII diagrams to fit narrow screens (down to a readable minimum) */
+(function () {
+  var MIN_PX = 6.5, MAX_WIDTH = 900;
+  function fit() {
+    var blocks = document.querySelectorAll(".md-typeset pre > code");
+    Array.prototype.forEach.call(blocks, function (code) {
+      code.style.fontSize = "";
+      if (window.innerWidth > MAX_WIDTH) { return; }
+      var pre = code.parentElement, avail = pre.clientWidth, need = code.scrollWidth;
+      if (avail > 0 && need > avail + 1) {
+        var base = parseFloat(getComputedStyle(code).fontSize);
+        code.style.fontSize = Math.max(MIN_PX, Math.floor(base * avail / need * 10) / 10) + "px";
+      }
+    });
+  }
+  var timer;
+  function later() { clearTimeout(timer); timer = setTimeout(fit, 120); }
+  document.addEventListener("DOMContentLoaded", function () {
+    fit();
+    if (document.fonts && document.fonts.ready) { document.fonts.ready.then(fit); }
+    window.addEventListener("load", fit);
+  });
+  window.addEventListener("resize", later);
+  window.addEventListener("orientationchange", later);
+})();

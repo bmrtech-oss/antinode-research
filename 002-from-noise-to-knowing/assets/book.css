@@ -118,6 +118,9 @@ html[data-theme] body {
 .md-typeset table:not([class]) td,
 .md-typeset table:not([class]) th { border-top-color: var(--bk-border); }
 
+/* Stop mobile browsers from auto-sizing wide text blocks unevenly */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
 /* Code and ASCII diagrams */
 .md-typeset pre > code {
   border: 1px solid var(--bk-border);
