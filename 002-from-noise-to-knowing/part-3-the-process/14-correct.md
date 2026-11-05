@@ -57,6 +57,9 @@ Without correction, the pipeline is a **one-way process**. You select informatio
  └───────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow titled 'The Pipeline as a Learning System' moves from select through pre-process, generate, and test, then back through integrate, retain or discard, and correct. Correction closes the loop back to selection and makes the pipeline a learning system.*
+
+
 My retrieval system had no correction loop. It had a benchmark that was run once, a decision that was made once, and a belief that was never questioned. The system was not learning. It was repeating.
 
 Correction is also the stage that most directly addresses the **knowledge gap**. The gap exists because information is abundant and knowledge is scarce. The scarcity of knowledge is, in large part, a scarcity of correction—a failure to update models in light of error.
@@ -85,6 +88,9 @@ Correction operates at three levels. Each level is more powerful than the one be
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of three nested levels of correction, rising from level 1 beliefs that update specific beliefs, to level 2 models that revise frameworks, and level 3 process that improves the method.*
+
+
 ### Level 1: Correcting Beliefs
 
 The first level is **correcting beliefs**—updating a specific belief in light of new evidence.
@@ -106,6 +112,9 @@ This is the most basic form of correction. You believe that a certain approach i
  │  Limitation: doesn't fix the underlying model.        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of level 1 belief correction: new evidence changes the specific belief that hybrid retrieval is better to dense retrieval being better now. The limitation is that this corrects the answer without changing the underlying model.*
+
 
 Belief correction is essential, but it is limited. It addresses the specific belief, but it does not address the **model** that produced the belief. If your model of retrieval is wrong—if you believed that hybrid was inherently superior—correcting a specific belief about a specific system will not fix the underlying problem.
 
@@ -133,6 +142,9 @@ This is a deeper form of correction. You do not just update a specific belief; y
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of level 2 model correction, where repeated errors and evidence that dense retrieval improved lead from the claim that hybrid is always better to a model that depends on the current embedding models and data. This addresses the source of the error.*
+
+
 Model correction is more powerful than belief correction because it addresses the **source** of the error, not just the symptom. It prevents future errors of the same kind.
 
 My belief that hybrid was better was a symptom. The model that produced it was: *the best approach is the one that scored highest on the benchmark when I first ran it.* That model was wrong. It assumed that benchmarks are timeless. They are not.
@@ -159,6 +171,9 @@ This is the deepest form of correction. You do not just revise a model; you revi
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of level 3 process correction: systematic errors from running benchmarks only once lead to scheduled re-evaluation and quarterly benchmark runs. The change improves the system itself.*
+
+
 Process correction is the most powerful form of correction because it addresses the **system** that produces knowledge. It makes the entire pipeline more reliable, more accurate, more effective.
 
 My retrieval failure was ultimately a process failure. I had a process that evaluated the system once, at the beginning, and never again. The process had no correction loop. Fixing the belief (dense is better now) was necessary. Fixing the model (approaches change over time) was better. Fixing the process (re-evaluate quarterly) was the real fix.
@@ -183,6 +198,9 @@ My retrieval failure was ultimately a process failure. I had a process that eval
    Level 3 is the one that prevents the next failure.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram comparing three levels in practice: level 1 fixes the answer, level 2 fixes the reasoning, and level 3 fixes the system by scheduling benchmark reruns. All three are needed, with level 3 preventing the next failure.*
+
+
 ---
 
 ## Error as a Signal
@@ -205,6 +223,9 @@ This is a profound shift in attitude. Most people treat error as a failure—som
  │  stagnation and growth.                               │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasting responses to error: most people treat it as failure and avoid, hide, or explain it away, while a knowledge engineer treats it as a signal to seek, amplify, and learn from. The contrast is stagnation versus growth.*
+
 
 The neuroscience of error is instructive. As we saw in Chapter 6, the brain encodes **prediction error** through dopamine. When an outcome is better than expected, dopamine neurons fire; when it is worse, they pause. This signal drives learning.
 
@@ -231,6 +252,9 @@ For the retrieval system, the error signal was the production degradation. The s
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of error signals in a retrieval system, including user feedback, users reformulating queries, declining answer-quality metrics, and a new approach outperforming the current one in a benchmark. Together these indicate errors, though the system had none of these signals.*
+
+
 The fix was to add error signals. We added user feedback logging. We added query reformulation tracking. We added periodic re-benchmarking. We added comparison against a baseline. The system went from having no correction loop to having four.
 
 ---
@@ -251,6 +275,9 @@ In the Bayesian framework, beliefs are **probabilities**—degrees of belief tha
  │  The goal is calibration, not certainty.              │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram revisiting the Bayesian stance: beliefs are probabilities rather than certainties, correction is continuous and proportional to evidence, and the goal is calibration rather than certainty.*
+
 
 The Bayesian stance has several implications for correction:
 
@@ -279,6 +306,9 @@ Correction is hard, not just because it requires evidence, but because it requir
  │  FEAR OF UNCERTAINTY→  "I can't handle not knowing"     │
  └─────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of five psychological barriers to correction: sunk cost, confirmation bias, identity threat, social cost, and fear of uncertainty, each paired with a reason someone may resist changing a belief.*
+
 
 **The sunk cost fallacy.** The tendency to continue investing in a belief or a model because of the resources already invested in it. "I've spent years believing this. I can't give it up now." The knowledge engineer recognizes that past investment is irrelevant to present truth.
 
@@ -315,6 +345,9 @@ The fix was not just technical. It was psychological. I had to separate my ident
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A downward sequence separates belief from identity, moving from believing hybrid was better, to recognizing that belief was wrong, to affirming continued competence and the ability to improve. The concluding point is that a belief is not the self.*
+
+
 ---
 
 ## The Discipline of Error Correction
@@ -332,6 +365,9 @@ Correction is not a single act. It is a **discipline**—a set of practices that
  │  5. REVIEW AND REFLECT                                │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing five practices for error correction in order: seek disconfirming evidence, keep a prediction journal, conduct pre-mortems, use red teams, and review and reflect.*
+
 
 ### Practice 1: Seek Disconfirming Evidence
 
@@ -402,6 +438,9 @@ Review and reflection turn experience into knowledge. Without reflection, experi
    Reflection is what turns correction into learning.
 ```
 
+<!-- diagram-alt -->*Diagram description: A correction loop proceeds from predict to observe, compare, correct, and reflect, then returns to predict. Reflection completes the loop and turns correction into learning.*
+
+
 ---
 
 ## Correcting the Process
@@ -418,6 +457,9 @@ We have said that the deepest level of correction is **correcting the process**.
  │  REFINE RETENTION  →  is knowledge base focused?      │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of process correction linking four actions to review questions: audit selection, strengthen testing, improve integration, and refine retention. The questions check for missing information, disconfirmation, connected models, and a focused knowledge base.*
+
 
 **Audit selection.** Are you selecting information that confirms your biases? Are you ignoring sources that might challenge you? The knowledge engineer periodically audits their selection.
 
@@ -446,6 +488,9 @@ For the retrieval system, the process correction was **scheduled re-evaluation**
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A before-and-after comparison of process correction: before, a benchmark is run once and the decision is never revisited; after, benchmarks run quarterly, reviews happen monthly, results are compared with a baseline, and decisions are updated. The revised process adds a correction loop.*
+
+
 ---
 
 ## Correction in the Age of AI
@@ -469,6 +514,9 @@ But AI correction has its own pitfalls.
  │    • Correct itself without human judgment            │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasting AI capabilities and limits: AI can learn from feedback, be fine-tuned, and improve with more data, but cannot understand its error mechanisms or correct itself reliably without human judgment.*
+
 
 **AI can be corrected without understanding.** A language model can be fine-tuned to produce more accurate outputs without understanding why the outputs were wrong. This is not correction; it is adjustment. True correction requires understanding the mechanism of the error.
 
@@ -496,6 +544,9 @@ We have described correction as a discipline—a set of practices and principles
  │  4. LEARNING IS LIFELONG                              │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing four principles of correction and humility: all knowledge is provisional, error is inevitable, uncertainty is not failure, and learning is lifelong.*
+
 
 **All knowledge is provisional.** Every model is subject to revision. Holding on to a model after it has been disproven is not loyalty; it is stubbornness.
 

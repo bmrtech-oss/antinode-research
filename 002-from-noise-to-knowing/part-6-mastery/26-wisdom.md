@@ -52,6 +52,9 @@ As with expertise and judgment, it is clarifying to say what wisdom is **not**.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasting wisdom with five things it is not: knowledge, intelligence, age, certainty, or a destination; it presents wisdom instead as a continuing practice.*
+
+
 The knowledge engineer must see through these myths. They must recognize that wisdom is not something you acquire by reading more, thinking harder, or growing older. It is something you **cultivate**.
 
 ---
@@ -88,6 +91,9 @@ There is a gap between knowing what is good and doing it. The gap is not a failu
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasting knowing what is right with doing something else, with the wisdom gap between them; it says wisdom, rather than more knowledge, fills the gap.*
+
+
 I know that I should sleep more. I know that I should not check email first thing in the morning. I know that the decision I am about to make is being driven by frustration rather than evidence. The knowledge is not the problem. The integration is the problem.
 
 Wisdom is the capacity to close that gap—to bring what you know into how you live.
@@ -107,6 +113,9 @@ Wisdom has three components. Each is necessary. None is sufficient.
  │  3. PRACTICAL   →  living well, here and now          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of three components of wisdom: cognitive understanding of what matters, virtuous character, and the practical ability to live well in the present.*
+
 
 ### Component 1: The Cognitive — Knowing What Matters
 
@@ -129,6 +138,9 @@ This is why wisdom is often associated with **perspective**—the ability to see
  │  • Considering consequences                           │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the cognitive component of wisdom, listing attention to what matters, the big picture, importance, the long view, and consequences.*
+
 
 The engineer I worked with had this. When a decision was on the table, he did not start with the technical details. He started with the question: *what are we actually trying to achieve?* He could see which details mattered and which were noise. He could tell when the room was optimizing for the wrong thing.
 
@@ -158,6 +170,9 @@ The engineer I worked with was not just technically strong. He was **honest** in
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the character component of wisdom, listing honesty, courage, humility, integrity, patience, compassion, and justice.*
+
+
 ### Component 3: The Practical — Living Well
 
 The third component is **living well**—the application of knowledge and virtue to the concrete circumstances of life.
@@ -175,6 +190,9 @@ Wisdom is not abstract. It is not a theory that you hold; it is a practice that 
  │  • Solving everyday problems                          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the practical component of wisdom, listing navigating complexity, managing conflict, making trade-offs, adapting to change, and solving everyday problems.*
+
 
 The engineer I worked with was practical in a way that is hard to describe. He did not just have good ideas. He knew how to get them adopted. He knew when to push and when to wait. He knew how to disagree without creating enemies. He knew how to make a decision and then commit to it, even when he had argued for the other side.
 
@@ -202,6 +220,9 @@ The three components—cognitive, character, and practical—are not separate. T
    Knowledge informs life; life informs knowledge;
    the two are unified in the wise person.
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram showing knowledge and life informing each other in both directions and coming together as wisdom.*
+
 
 This integration has three dimensions.
 
@@ -249,6 +270,9 @@ Wisdom is not just about what you know. It is about **how firmly you hold it.** 
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram comparing guidance for high and low stakes: high stakes call for 70 percent confidence, commitment, and frequent review, while low stakes call for 40 percent confidence, experimentation, and review when convenient.*
+
+
 The wise person does not hold all beliefs with the same firmness. They calibrate. They hold low-stakes beliefs loosely, because revision is cheap. They hold high-stakes beliefs firmly enough to act, because action requires commitment—but they build in review, because being wrong is expensive.
 
 This is what the engineer I worked with did. He held technical opinions firmly enough to argue for them, and loosely enough to change them when the evidence shifted. He held process opinions loosely, because process is cheap to change. He held ethical commitments firmly, because those are not negotiable. The calibration was not conscious. It was a disposition—the disposition to hold each belief at the right firmness for the stakes.
@@ -271,6 +295,9 @@ Most people get this wrong in one of two directions.
    │                      │      │                      │
    └──────────────────────┘      └──────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns comparing errors of excessive certainty and excessive doubt: holding everything firmly leads to dogmatism and inability to correct, while holding nothing firmly leads to paralysis and inability to act.*
+
 
 The dogmatist holds everything firmly, including the things that should be held loosely. They cannot correct, because correction requires admitting that something they held firmly was wrong. The skeptic holds nothing firmly, including the things that should be held firmly. They cannot act, because action requires commitment.
 
@@ -350,6 +377,9 @@ This is the Socratic insight. Socrates was wise because he knew he was ignorant.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of three limits of knowledge: what can be known, what an individual can know, and the role of knowledge itself as a tool rather than the highest good.*
+
+
 **The limits of what can be known.** Some things are unknowable—the future, the minds of others, the ultimate nature of reality. The wise person accepts these limits. They do not pretend to know what cannot be known.
 
 **The limits of what you can know.** Even within the domain of the knowable, your knowledge is limited—by your experience, your intelligence, your time, your attention. The wise person recognizes these limits. They do not overestimate their own knowledge.
@@ -375,6 +405,9 @@ We have described wisdom as the integration of knowledge and life. Now let us se
  │    • The fruit of the pipeline                        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram describing wisdom as the context, guide, limit, and fruit of the pipeline.*
+
 
 **Wisdom is the context of the pipeline.** The pipeline does not operate in a vacuum. It operates in a life—a life with goals, values, relationships, and constraints. Wisdom is the context that gives the pipeline its purpose.
 
@@ -405,6 +438,9 @@ How do you cultivate wisdom? There is no formula, but there are six practices.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram listing six ways to cultivate wisdom: examine life, cultivate virtue, seek diverse experiences, reflect on experience, engage with great works, and seek mentors and community.*
+
+
 ### Practice 1: Examine Your Life
 
 **Examine your life.** This is the Socratic practice—the practice of questioning, reflecting, and refusing to accept comfortable falsehoods.
@@ -421,6 +457,9 @@ How do you cultivate wisdom? There is no formula, but there are six practices.
  │  • What am I avoiding?                                │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of questions for examining life, moving from beliefs and their reasons to values, alignment with those values, blind spots, and avoidance.*
+
 
 The knowledge engineer examines their life. They ask: What do I believe? Why do I believe it? What are my values? Am I living in accordance with them? What are my blind spots? What am I avoiding?
 
@@ -458,6 +497,9 @@ The knowledge engineer seeks diverse experiences. They travel, read widely, enga
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A cycle from experience to reflection to insight to action, then back to experience; it is complete only when insight changes action.*
+
+
 The knowledge engineer reflects on their experience. They keep a journal. They review their decisions. They extract lessons. They turn experience into wisdom.
 
 ### Practice 5: Engage with Great Works
@@ -481,6 +523,9 @@ The knowledge engineer engages with great works. They read the classics. They st
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of ways to seek mentors and community: find wiser mentors, build a community of inquiry, support one another, and hold one another accountable.*
+
+
 The knowledge engineer seeks mentors. They find people who are wiser than they are—people who can guide them, challenge them, and model the examined life. They build community—groups of people who share their commitment to wisdom, who support each other, and who hold each other accountable.
 
 The engineer I worked with was a mentor to me, though I did not recognize it at the time. He did not give me advice. He modeled a way of being—the way of holding knowledge with humility, acting with commitment, and living with integrity. I learned more from watching him than from any book.
@@ -502,6 +547,9 @@ The culmination of wisdom is the **examined life**—the life in which knowledge
  │  • HUMBLE      →  recognize your limits               │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram describing the examined life through five qualities: reflective, honest, committed, open to evidence, and humble about personal limits.*
+
 
 The examined life has five characteristics.
 

@@ -47,6 +47,9 @@ The knowledge pipeline is a seven-stage process for converting information into 
  └───────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the knowledge pipeline, moving from selection through pre-processing, generation, and testing to integration, retaining or discarding, and correction. Correction loops back to selection, making the process iterative.*
+
+
 **Select** what deserves attention. **Pre-process** it into something usable. **Generate** candidate models and hypotheses. **Test** them against evidence. **Integrate** them into a coherent whole. **Retain** what survives, and **discard** what does not. **Correct** your beliefs in light of error.
 
 Each stage has a distinct function:
@@ -108,6 +111,9 @@ The pipeline is a **network of loops**. Every stage feeds back into every other 
    The pipeline learns at every level.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the pipeline as a network of feedback loops among selection, pre-processing, generation, testing, integration, retaining or discarding, and correction. The stages feed back into earlier parts of the process rather than forming a one-way line.*
+
+
 This matters because it changes how you use the pipeline. You do not march through it once. You enter it wherever you are, and you loop until you have what you need.
 
 ---
@@ -141,6 +147,9 @@ If you already have a question and a set of sources, you can start at pre-proces
       new fact"         model to        coherent
                         prune"          picture"
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of pipeline entry points, pairing selection with a question, pre-processing with a source, generation with a hypothesis, testing with a model, and later stages with new facts, pruning, or a coherent picture. Arrows link the stages in sequence while showing that work can begin at different points.*
+
 
 This is liberating. You do not have to start from scratch every time. You enter where you are, use the stages you need, and loop back as necessary.
 
@@ -177,6 +186,9 @@ The third thing that the linear representation hides is that **no single stage i
 
    If one stage misses the error, the next can catch it.
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram mapping seven error types to pipeline stages: irrelevant information to selection, dirty data to pre-processing, premature conclusions to generation, confirmation bias to testing, fragmentation to integration, clutter to retaining or discarding, and stagnation to correction. Each stage is another chance to catch an error missed earlier.*
+
 
 This is why the pipeline works even when individual stages are imperfect. You will not always select perfectly. You will not always test rigorously. But if you have multiple stages, the errors that slip through one stage can be caught by another.
 
@@ -230,6 +242,9 @@ But with practice, each stage becomes a reflex. You notice when you are consumin
    automatically.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of seven pipeline stages as reflexive questions, from asking whether information is relevant or clean to considering explanations, disproof, fit with existing knowledge, importance, and what was wrong. The questions are grouped across two rows, with correction shown as the final stage.*
+
+
 This is why the pipeline is a discipline, not a procedure. A procedure is a set of steps you follow once. A discipline is a set of reflexes you practice until they become part of how you think.
 
 The junior engineer had trained the reflexes. She did not need a checklist. She did not need a diagram. She had internalized the questions, and they fired automatically when she encountered a problem. That is why she was fast. That is why she was accurate. That is why she won.
@@ -255,6 +270,9 @@ The pipeline is not foreign to the brain. It is a formalization of what the brai
  └──────────────────────┴───────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram pairing brain processes with pipeline stages: attention with selection, perception and encoding with pre-processing, concept formation with generation, prediction and error with testing, memory and association with integration, consolidation and pruning with retaining and discarding, and plasticity with correction.*
+
+
 The brain selects through attention. It pre-processes through perception and encoding. It generates through concept formation and imagination. It tests through prediction and error. It integrates through memory and association. It retains through consolidation. It discards through pruning. It corrects through plasticity.
 
 The pipeline is the brain's own machinery, made explicit and systematic. This is why it works. It is not a set of arbitrary rules imposed on the mind. It is a mirror of the mind's own methods, refined and extended.
@@ -279,6 +297,9 @@ The pipeline corrects for these imperfections. It makes the processes deliberate
    The pipeline does not replace the brain.
    It amplifies it.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns compare the automatic brain with the deliberate pipeline: the brain is fast, effortless, always active, and prone to bias and error, while the pipeline is slower, effortful, engaged when needed, and designed to correct errors. The pipeline is presented as an amplifier, not a replacement for the brain.*
+
 
 The pipeline does not replace the brain. It amplifies it. It takes the brain's natural capacities and extends them with deliberate structure and conscious control. It is the difference between breathing and swimming—between an automatic process and a disciplined skill.
 
@@ -308,6 +329,9 @@ A **discipline** is a set of practices you cultivate. You practice it repeatedly
    It is learned by doing, not by reading.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast a procedure, which is followed once through external steps and a checklist, with a discipline, which is practiced repeatedly and develops into an evolving habit. The pipeline is described as a discipline that improves through use.*
+
+
 The pipeline is a discipline. It is not something you read about and then apply once. It is something you practice, refine, and internalize. The more you use it, the faster it becomes. The more you practice it, the more automatic it becomes. The more you refine it, the more effective it becomes.
 
 This is why the pipeline is not a formula. A formula gives you the answer. The pipeline gives you a way of thinking that, over time, produces better answers—not because the formula is magic, but because you have become the kind of person who asks the right questions.
@@ -318,7 +342,7 @@ This is why the pipeline is not a formula. A formula gives you the answer. The p
 
 Before we examine each stage in detail, it is worth asking: why a pipeline at all? Why not just think hard, read widely, and trust your judgment?
 
-The answer is that **unstructured thinking is unreliable**. The human mind is powerful, but it is also biased, distractible, and prone to error. It jumps to conclusions, seeks confirmation, ignores disconfirming evidence, and mistakes familiarity for understanding. The pipeline is a **corrective**—a set of external constraints that compensate for the weaknesses of the mind.
+The answer is that **unstructured thinking is unreliable**. The human mind is powerful, but it is also biased, distractible, and prone to error (Tversky and Kahneman, Judgment under Uncertainty: Heuristics and Biases, 1974; see Appendix D). It jumps to conclusions, seeks confirmation, ignores disconfirming evidence, and mistakes familiarity for understanding. The pipeline is a **corrective**—a set of external constraints that compensate for the weaknesses of the mind.
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -334,6 +358,9 @@ The answer is that **unstructured thinking is unreliable**. The human mind is po
  │  Rigid           ────►   Correction loops             │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram pairs limits of the mind with pipeline supports: bias with structured selection, distraction with focused attention, overconfidence with explicit testing, inconsistency with coherence checks, forgetfulness with external retention, and rigidity with correction loops.*
+
 
 The pipeline is also **scalable**. The brain's automatic processes work well for the environments in which they evolved—small groups, immediate threats, concrete problems. They do not scale to the complexity of modern information environments. The pipeline provides a way to extend the brain's capacities—to handle more information, more complexity, and more uncertainty than the unaided mind can manage.
 
@@ -384,6 +411,9 @@ Let us trace a single cycle through the pipeline to see how the stages work toge
  │                  quo bias                                    │
  └──────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram traces a worked example through the pipeline, from selecting benchmarks and critiques to verifying and organizing evidence, generating and testing hypotheses, and integrating findings. It ends by retaining the decision and reasoning, discarding evidence details, and scheduling a review to check for bias.*
+
 
 One cycle. Seven stages. A decision grounded in evidence, tested against reality, integrated with existing knowledge, and open to correction.
 

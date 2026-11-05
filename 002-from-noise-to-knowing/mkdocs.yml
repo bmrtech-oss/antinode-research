@@ -7,6 +7,7 @@ docs_dir: .
 site_dir: ../_site
 exclude_docs: |
   tools/
+  editorial/
 hooks:
   - tools/mkdocs_hooks.py
 extra_css:
@@ -86,6 +87,7 @@ nav:
       - "Appendix C — Fallacy Cheat Sheet": back-matter/98-appendix-c-fallacy-cheat-sheet.md
       - "Appendix D — Further Reading": back-matter/98-appendix-d-further-reading.md
       - "Appendix E — Limitations": back-matter/98-appendix-e-limitations.md
+      - "Appendix F: Index": back-matter/98-appendix-f-index.md
       - "Finis": back-matter/99-finis.md
   - Extras:
       - "From Noise to Knowing: Why I Wrote a Book About the One Skill AI Can't Replace": 00-front-matter/00-blog-post.md

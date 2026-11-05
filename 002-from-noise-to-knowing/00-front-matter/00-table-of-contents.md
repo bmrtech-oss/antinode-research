@@ -14,6 +14,9 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+<!-- diagram-alt -->*Diagram description: A title page names From Noise to Knowing, subtitled The Discipline of Turning Information into Knowledge, and credits Pramod Rathod as the author.*
+
+
 ---
 
 ## Front Matter
@@ -98,7 +101,7 @@
 ## Part V — The Tools
 
 > *"The summation of human experience is being expanded at a prodigious rate, and the means we use for threading through the consequent maze is the same as was used in the days of square-rigged ships."*
-> — Vannevar Bush, 1945
+> — Vannevar Bush, "As We May Think," *The Atlantic Monthly*, July 1945
 
 <!-- toc:part-5-the-tools:start -->
 | Ch. | Title |
@@ -135,6 +138,7 @@
 - [Appendix C — Fallacy Cheat Sheet](../back-matter/98-appendix-c-fallacy-cheat-sheet.md)
 - [Appendix D — Further Reading](../back-matter/98-appendix-d-further-reading.md)
 - [Appendix E — Limitations](../back-matter/98-appendix-e-limitations.md)
+- [Appendix F: Index](../back-matter/98-appendix-f-index.md)
 - [Finis](../back-matter/99-finis.md)
 <!-- toc:back:end -->
 
@@ -225,6 +229,8 @@ Figures are numbered by chapter. A range such as 8.2–8.10 groups the diagrams 
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A quotation block presents the idea that a better method matters more than more information and attributes it to From Noise to Knowing.*
 
 <!-- book-nav:start -->
 

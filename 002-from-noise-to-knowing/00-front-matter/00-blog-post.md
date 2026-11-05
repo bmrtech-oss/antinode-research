@@ -53,6 +53,9 @@ Here is the entire argument of the book, compressed into a single image:
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasts an abundant information deluge with a much smaller knowledge trickle, showing information passing through a pipeline of selection, preprocessing, generation, testing, integration, retention or discarding, and correction. It presents method, rather than access, as the source of the gap.*
+
+
 Most people try to close that gap by adding more information. More feeds. More newsletters. More saved articles. More AI-generated summaries.
 
 It doesn't work. It makes the flood worse.
@@ -173,3 +176,6 @@ That is the way this book is meant to be read.
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A quotation block presents the idea that a better method matters more than more information and attributes it to Pramod Rathod, an AI engineer and researcher.*
+

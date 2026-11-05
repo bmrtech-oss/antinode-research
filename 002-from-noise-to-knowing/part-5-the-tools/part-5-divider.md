@@ -53,10 +53,13 @@
               BUT A SCAFFOLD CAN ALSO REPLACE IT.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of a repeating pipeline from select through pre-process, generate, test, integrate, retain or discard, and correct, returning to selection; below it, personal knowledge management, context engineering, AI partnership, and data science are shown as scaffolds extending the mind, with a warning they can also replace it.*
+
+
 ---
 
 > *"The summation of human experience is being expanded at a prodigious rate, and the means we use for threading through the consequent maze to the momentarily important item is the same as was used in the days of square-rigged ships."*
-> — Vannevar Bush, 1945
+> — Vannevar Bush, "As We May Think," *The Atlantic Monthly*, July 1945
 
 > *"We can know more than we can tell."*
 > — Michael Polanyi, 1966
@@ -96,6 +99,9 @@ By the end of this part, you should understand the tools that make the pipeline 
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram stating that tools extend the mind but can also replace it, and that the difference may become apparent only after the tool is gone.*
+
 
 ---
 

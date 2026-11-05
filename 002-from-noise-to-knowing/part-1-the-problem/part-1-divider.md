@@ -40,6 +40,9 @@
                 THE FLOOD IS FREE. THE TRICKLE IS EARNED.
 ```
 
+<!-- diagram-alt -->*Diagram description: A broad block narrows downward into a sparse trickle, contrasting plentiful information with knowledge earned through effort. The caption reads The flood is free; the trickle is earned.*
+
+
 ---
 
 > *"A wealth of information creates a poverty of attention."*
@@ -77,6 +80,9 @@ The rest of the book is about that method.
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A quotation block states that more information is not needed; instead, a method is needed to turn what is available into what is needed.*
+
 
 ---
 

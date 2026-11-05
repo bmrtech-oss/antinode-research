@@ -39,6 +39,9 @@ Run this on any argument that matters.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A six-step detection method moves from identifying a conclusion and its premises to checking logic, terms, evidence, and relevance. The final checks look for appeals to irrelevant authority, emotion, popularity, or ignorance.*
+
+
 ---
 
 ## Quick Reference Table
@@ -83,7 +86,7 @@ Run this on any argument that matters.
 
 **What it is:** Assuming the truth of the conclusion in the premise.
 
-**Example:** "God exists because the Bible says so, and the Bible is the word of God."
+**Example:** "Our benchmark is trustworthy because the best model scores highest on it, and we know it is the best model because it scores highest on our benchmark."
 
 **How to spot it:** Ask: *Would I have to already accept the conclusion in order to accept the premise?* If yes, the argument is circular.
 
@@ -147,7 +150,7 @@ Run this on any argument that matters.
 
 **What it is:** Presenting a situation as if there are only two options, when there are more.
 
-**Example:** "You are either with us or against us."
+**Example:** "Either we ship the model this sprint, or we admit the project has failed."
 
 **How to spot it:** Ask: *Are there other options being excluded?* Almost always, yes.
 
@@ -187,7 +190,7 @@ Run this on any argument that matters.
 
 **What it is:** Using the same word in different senses within one argument.
 
-**Example:** "A feather is light. What is light cannot be dark. Therefore, a feather cannot be dark."
+**Example:** "Every model has a bias term. Bias is unfair. Therefore every model is unfair." (*Bias* means a statistical offset in one sentence and prejudice in the next.)
 
 **How to spot it:** Track key terms. Do they mean the same thing each time?
 
@@ -199,7 +202,7 @@ Run this on any argument that matters.
 
 **What it is:** Ambiguity arising from grammatical structure.
 
-**Example:** "The professor said he would meet the student in the library with a book." (Who has the book?)
+**Example:** "Fixed the bug in the parser with the new tokenizer." (Was the bug fixed using the tokenizer, or is the bug in the parser that has the tokenizer?)
 
 **How to spot it:** Parse the sentence more than one way. If both readings are possible and the conclusion depends on one, suspect amphiboly.
 
@@ -211,7 +214,7 @@ Run this on any argument that matters.
 
 **What it is:** Ambiguity arising from emphasis.
 
-**Example:** "We should not speak ill of our FRIENDS." (Implies: it's fine to speak ill of others.)
+**Example:** "I never SAID the results were wrong." (Stressed that way, it implies I suggested it some other way.)
 
 **How to spot it:** Change the emphasis. Does the meaning change?
 
@@ -251,7 +254,7 @@ Run this on any argument that matters.
 
 **What it is:** Assuming two correlated events are causally related when both are caused by a third factor.
 
-**Example:** "People who carry umbrellas get wet. Therefore, umbrellas cause getting wet." (The common cause is rain.)
+**Example:** "Servers with more alerts have more outages. Therefore alerts cause outages." (The common cause is load and complexity.)
 
 **How to spot it:** Ask: *What third variable could explain both?*
 
@@ -355,7 +358,7 @@ Run this on any argument that matters.
 
 **What it is:** Using emotion—fear, pity, anger, enthusiasm—in place of evidence.
 
-**Example:** "Think of the children! We must pass this law."
+**Example:** "Think of the engineers who will lose their jobs if we fall behind. We must adopt this tool today."
 
 **How to spot it:** Ask: *Is the emotion doing the work that evidence should do?*
 
@@ -472,6 +475,9 @@ Language models introduce a new set of failure modes. These are not logical fall
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A reference list names seven AI failure modes: hallucination, fabricated citations, sycophancy, false precision, plausible non sequitur, stale authority, and consensus confabulation. Each is paired with a brief description and a way to detect it.*
+
+
 **The rule for AI:** *Fluent is not the same as correct. Confident is not the same as true. Always verify.*
 
 ---
@@ -510,6 +516,9 @@ Pin this above your desk.
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A fallacy desk reference lists six questions for examining conclusions, premises, logic, terms, evidence, and irrelevant appeals, followed by four common fallacies and three final diagnostic questions.*
+
 
 ---
 

@@ -51,6 +51,9 @@ If you think knowledge is a collection of facts, you will build a process for co
    and very different systems.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two paired comparisons show that treating knowledge as a collection of facts leads to accumulation and memorization, while treating it as tested models leads to construction and testing.*
+
+
 The history of education, science, and technology is littered with the wreckage of fact-collection mistaken for knowledge. The student who memorizes the periodic table but cannot predict how two elements will react. The manager who has every metric but cannot diagnose why sales are falling. The pundit who has read every headline but cannot explain a single mechanism.
 
 All of them have information. None of them has knowledge.
@@ -99,6 +102,9 @@ In all of these accounts, the core of knowledge is the same: a model that genera
                  └──────────► MODEL
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow from model to prediction to observation to prediction error loops back to update the model, showing how beliefs generate expectations that are checked against events.*
+
+
 This loop is the engine of all knowledge, from navigating by the stars to testing a scientific theory. The model need not be conscious. But it must be predictive: it tells you what to expect, and it is corrected when the expectation fails.
 
 The implication is important. **A "fact" that does not feed into any predictive model is not knowledge.** It is information. It may be true, it may be interesting, it may be worth storing somewhere. But it does not become knowledge until it is integrated into a structure that allows you to anticipate, explain, or act.
@@ -124,6 +130,9 @@ The implication is important. **A "fact" that does not feed into any predictive 
    └─────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasts the fact that water boils at 100?C at sea level with a model linking pressure to boiling point, cooking time, altitude, and food safety for predictions in different settings.*
+
+
 The person who knows *that* water boils at 100°C has a fact. The person who has the model can predict what happens when the pressure changes. The first can recite. The second can act.
 
 ---
@@ -145,6 +154,9 @@ If knowledge is a model, what is a model made of? Models vary enormously in cont
  │                                    the case)          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A knowledge model is shown as comprising entities, relations, and mechanisms, alongside constraints on what can happen and priors about what usually happens.*
+
 
 **Entities** are the things the model is about. In a medical model, entities might be organs, pathogens, cells, and symptoms. In an economic model, entities might be buyers, sellers, prices, and goods. In a model of a software system, entities might be services, queues, databases, and callers.
 
@@ -177,6 +189,9 @@ A good knowledge model has all five components. A model with entities and relati
    │              │  model at all.                       │
    └──────────────┴──────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A table pairs missing model components with consequences: without mechanisms correlations lack explanation, without constraints impossible explanations remain, without priors small samples fail, and without relations entities are only a list.*
+
 
 The richness of the model determines the richness of the knowledge.
 
@@ -221,6 +236,9 @@ Knowing why is the most powerful form of knowledge because it is the most **tran
  └──────────────┴────────────────────┴─────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A table contrasts knowing that facts are acquired through reading, listening, and memorization; knowing how skills through practice, feedback, and apprenticeship; and knowing why mechanisms through explanation and experimentation.*
+
+
 This distinction is why my evaluation suite was measuring the wrong thing. It was measuring **knowing that**—whether the system could produce the right string. It was not measuring **knowing why**—whether the system could explain, generalize, or handle a case it had never seen. The benchmark was real. It was just measuring a fragment of the target.
 
 ---
@@ -247,6 +265,9 @@ Polanyi's dictum—"We can know more than we can tell"—captures the essence. T
   transmit   transmit   transmittable transmit   to transmit
 ```
 
+<!-- diagram-alt -->*Diagram description: A continuum runs from explicit knowledge such as formulas and recipes, which are easy to transmit, through diagnostic heuristics, to tacit bike balance and intuition, which are difficult to transmit.*
+
+
 This has profound implications for knowledge engineering. It means that **not all knowledge can be captured in information systems**. The most valuable knowledge in any domain—the judgment of the expert, the skill of the craftsperson, the intuition of the navigator—is often the least codifiable. It can only be cultivated through apprenticeship, practice, and feedback.
 
 For the individual, the implication is equally important. Reading about a skill is not the same as acquiring it. The transformation from explicit to tacit knowledge requires **practice**—repeated action, feedback, and correction.
@@ -272,6 +293,9 @@ There is no single test, but there are four criteria that, taken together, provi
  │  4. ACTIONABLE  →  Does it guide effective action?   │
  └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four tests of knowledge: predictive accuracy, explanation, coherence with other knowledge, and guidance for effective action.*
+
 
 ### Test 1: Predictive
 
@@ -318,6 +342,9 @@ Not every piece of knowledge needs to pass all four tests with equal strength. A
    The first is information. The second is knowledge.
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison table rates two ice-melting models against prediction, explanation, coherence, and action: both pass prediction, coherence, and action, but only the heat-breaking-lattice explanation passes the explanatory test.*
+
+
 This is what my benchmark could not measure. It could measure prediction—did the system produce the right string. It could not measure explanation, coherence, or actionability. A system that scored perfectly on the benchmark might have failed three of the four tests.
 
 ---
@@ -338,6 +365,9 @@ It is useful to place knowledge in a family of related concepts, to see how it d
  │ KNOWLEDGE  │ Integrated, tested, actionable model        │
  └────────────┴─────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A table distinguishes data as raw and meaningless, information as structured and meaningful, opinion as subjective judgment, belief as assent with or without evidence, and knowledge as an integrated, tested, actionable model.*
+
 
 The key distinction is between **belief** and **knowledge**. Belief is assent to a proposition—you believe something when you hold it to be true. Knowledge is belief that has been **justified** and **tested**. Not all beliefs are knowledge; some are false, some are unjustified, some are lucky guesses. Knowledge is belief that has survived the tests.
 
@@ -376,6 +406,9 @@ But provisionality has implications for how we should hold our knowledge. We sho
    As evidence accumulates, confidence should rise—
    but it should never reach absolute certainty.
 ```
+
+<!-- diagram-alt -->*Diagram description: A graph shows confidence rising as evidence accumulates, while the accompanying statement cautions that confidence should never reach absolute certainty.*
+
 
 This is the mature attitude toward knowledge. Not "I know for certain," but "I have good reason to believe, and I will revise if the evidence changes." Not "I don't know anything," but "I know enough to act, and I am open to learning more."
 
@@ -427,6 +460,9 @@ The pipeline that we will describe in the chapters that follow is designed to me
    │                                                     │
    └─────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A statement defines knowledge as a revisable model that predicts, explains, coheres, and guides action; it places information below this standard and wisdom beyond it.*
+
 
 ---
 

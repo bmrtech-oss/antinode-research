@@ -42,6 +42,6 @@ Finally, the pipeline is a synthesis and a working method, as the note on eviden
 
 ---
 
-[← Appendix D](../back-matter/98-appendix-d-further-reading.md) | [Contents](../README.md) | [Finis →](../back-matter/99-finis.md)
+[← Appendix D](../back-matter/98-appendix-d-further-reading.md) | [Contents](../README.md) | [Appendix F →](../back-matter/98-appendix-f-index.md)
 
 <!-- book-nav:end -->

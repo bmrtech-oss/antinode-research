@@ -60,6 +60,9 @@ Both minds and systems hoard. A mind accumulates memories, beliefs, and habits. 
    The first is the default. The second is a discipline.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two flows contrast accumulation, where each input is stored and the store grows without bound, with deliberate retention, where each input is assessed and either kept or discarded to maintain a focused store.*
+
+
 The default is not malicious. It is rational in the short term. When storage is cheap, keeping everything seems like the safe choice. You never know when you might need it. You never know what you might lose.
 
 But the cost of accumulation is not storage. It is **signal-to-noise ratio**. Every obsolete document, every superseded model, every irrelevant note dilutes the signal. The knowledge base becomes a hoard, and a hoard is not a library. It is a pile.
@@ -82,6 +85,9 @@ We have said that integration connects tested models into a coherent knowledge b
  │  4. FORGETTING ENABLES FLEXIBILITY                    │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four reasons retention and discard matter: limited cognitive capacity, noise interfering with signal, and forgetting enabling generalization and flexibility.*
+
 
 **Cognitive capacity is limited.** The human brain has limited working memory, limited attention, and limited time. Every piece of knowledge you retain consumes cognitive resources—resources that could be used for something else.
 
@@ -111,6 +117,9 @@ The retrieval system failed because it violated the second principle. The noise�
    inaccurate.                      accurate.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns compare a hoarded knowledge base, where noise buries the signal and retrieval is slow and inaccurate, with a pruned base, where the signal is clear and retrieval is fast and accurate.*
+
+
 The hoarded knowledge base is larger, but it is not better. It is slower, noisier, and less accurate. The pruned knowledge base is smaller, but it is more useful.
 
 ---
@@ -130,6 +139,9 @@ What should you retain? Not everything that survives testing deserves to be kept
  │  5. RELEVANCE        →  does it matter for your goals?│
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists five retention criteria: predictive power, explanatory depth, coherence, actionability, and relevance to goals.*
+
 
 **Predictive power.** Does the knowledge generate accurate predictions? Does it help you anticipate what will happen? Knowledge that predicts well is worth retaining, because it is useful.
 
@@ -157,6 +169,9 @@ For the retrieval system, the retention criteria were clear. A document should b
    └─────────────────────┴───────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A two-column table pairs five retention criteria with questions: whether knowledge helps anticipate, understand, fit existing knowledge, guide decisions, and serve personal goals.*
+
+
 Not every piece of knowledge needs to score high on every criterion. A purely theoretical model may be predictive and explanatory but not immediately actionable. A practical skill may be actionable but not fully explanatory. But the more criteria a model satisfies, the more valuable it is.
 
 ---
@@ -176,6 +191,9 @@ What should you discard? The criteria for discard are the inverse of the criteri
  │  5. IS OBSOLETE     →  no longer true                 │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists five reasons to discard knowledge: it fails tests, is superseded by a better model, is irrelevant to goals, is noise, or is obsolete.*
+
 
 **Fails tests.** A model that has been tested and found wanting should be discarded. This is the most basic criterion.
 
@@ -207,6 +225,9 @@ The fix was to add an **expiration date** to every document. Documents that had 
                                                    history
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow shows the retention lifecycle from creation to an active index, then a review flag, and finally archive or deletion; current relevant material remains active, is flagged after 18 months, and is removed from active use but may be kept for history.*
+
+
 This is what retention and discard look like in practice. It is not a one-time decision. It is a lifecycle—a continuous process of review, pruning, and archiving.
 
 ---
@@ -226,6 +247,9 @@ How do you forget? Forgetting is not a single process. It operates through sever
  │  ACTIVE ERASURE    →  memory actively degraded        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists five mechanisms of forgetting: passive decay over time, interference from new memories, failure to retrieve stored memories, modification during reconsolidation, and active erasure.*
+
 
 **Passive decay.** Memories weaken over time if they are not rehearsed or retrieved. The synaptic connections that encode a memory gradually weaken, and the memory becomes harder to access.
 
@@ -260,6 +284,9 @@ The fix was to build active erasure into the system. I added a process that iden
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of active erasure gives four steps: identify obsolete documents, verify they are truly superseded, remove them from the active index, and archive them for historical reference without retrieving them.*
+
+
 This is the discipline of discard. It is not passive. It is not automatic. It is an active process of identifying, verifying, and removing what no longer serves.
 
 ---
@@ -278,6 +305,9 @@ Retention is equally important as discard. The knowledge engineer must actively 
  │  APPLICATION        →  use knowledge in practice      │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists three retention techniques: review at increasing intervals through spaced repetition, practice active recall, and apply knowledge in practice.*
+
 
 **Spaced repetition.** Instead of reviewing material all at once, you review it at increasing intervals—one day, three days, one week, one month, three months. Each review strengthens the memory, and the spacing between reviews ensures that the memory is consolidated.
 
@@ -307,6 +337,9 @@ I added logging. The system recorded which documents were retrieved, which were 
    It flags what is not.
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow follows a retrieved document through use in an answer and a helpfulness rating; a yes to both strengthens and retains it, while a no weakens it and flags it for review.*
+
+
 This is retention in practice. It is not passive storage. It is an active process of reinforcement, feedback, and learning.
 
 ---
@@ -327,6 +360,9 @@ Discard takes three forms. Each is a different kind of pruning.
  │                         links                         │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists three forms of pruning: removing irrelevant or obsolete information, revising or rejecting superseded models, and removing spurious or unhelpful connections.*
+
 
 **Pruning information.** Removing irrelevant, obsolete, or misleading information from your knowledge base. This is the work of cleaning up—of deleting files, archiving old notes, and unsubscribing from sources that no longer serve you.
 
@@ -353,6 +389,9 @@ For the retrieval system, all three forms of pruning were necessary. I pruned in
    └─────────────────────┴───────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A two-column table matches pruning forms with what they remove: information pruning removes obsolete, duplicate, or noisy content; model pruning removes superseded rankings or outdated assumptions; connection pruning removes spurious links or stale references.*
+
+
 ---
 
 ## The Balance: Dynamic Equilibrium
@@ -375,6 +414,9 @@ Retention and discard are not opposites; they are complementary. The knowledge e
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram links retaining too much with clutter, retaining too little with loss, discarding too much with fragmentation, and discarding too little with pollution; dynamic equilibrium is the goal.*
+
+
 The balance is not a fixed point. It is a **dynamic equilibrium**—a constant adjustment as circumstances change. The knowledge engineer cultivates the judgment to know what to keep and what to let go.
 
 ```
@@ -396,6 +438,9 @@ The balance is not a fixed point. It is a **dynamic equilibrium**—a constant a
    what should be discarded tomorrow.
 ```
 
+<!-- diagram-alt -->*Diagram description: A graph shows retention rising and then falling over time, illustrating that the optimal balance shifts and knowledge worth keeping today may need discarding later.*
+
+
 The retrieval system's balance shifted over time. In the early days, retention was more important than discard—the system needed to accumulate knowledge. As the system matured, discard became more important—the system needed to prune what was no longer useful. The optimal balance was not a fixed policy. It was a moving target.
 
 ---
@@ -416,6 +461,9 @@ Letting go is hard. We are attached to our beliefs, our models, our knowledge. W
  │  4. UNCERTAINTY IS NOT FAILURE                        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of letting go lists four ideas: beliefs are not identity, knowledge is provisional, letting go is liberating, and uncertainty is not failure.*
+
 
 **Beliefs are not identity.** You are not your beliefs. You can revise a belief without losing yourself. In fact, revising beliefs is a sign of growth.
 
@@ -454,6 +502,9 @@ The answer is yes—but the **nature** of what we retain changes.
  │    • Integrate into a coherent whole                  │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram comparing what AI can do with what humans must do in retention and discard. AI stores, retrieves, and summarizes information, while humans build integrated knowledge models, decide what matters, and combine it into a coherent whole.*
+
 
 **AI can store information; humans must store knowledge.** AI can remember every fact, every document, every conversation. But AI cannot build the integrated, actionable models that constitute knowledge. That remains the human's job.
 

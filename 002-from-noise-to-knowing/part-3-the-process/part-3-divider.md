@@ -27,6 +27,9 @@
                 SEVEN STAGES. ONE LOOP. A LIFETIME OF PRACTICE.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the pipeline as a loop: Select leads to Pre-process, Generate, and Test; the path continues through Integrate, Retain or Discard, and Correct, then returns to Select. Its caption describes seven stages, one loop, and a lifetime of practice.*
+
+
 ---
 
 > *"The first principle is that you must not fool yourself—and you are the easiest person to fool."*
@@ -75,6 +78,9 @@ By the end of this part, you should have a working method—not just an understa
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram stating that the pipeline is not a formula but a discipline, and that disciplines are learned by doing.*
+
 
 ---
 

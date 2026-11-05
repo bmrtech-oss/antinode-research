@@ -57,6 +57,9 @@ We have already distinguished data, information, and knowledge. It is worth rest
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of three layers arranged from data at the base, to information organized from data, to knowledge constructed from information as integrated, actionable models.*
+
+
 Most conversations about information stop at this diagram. They treat the movement from data to information as a solved problem—just add structure, just add context, just clean the data. What they miss is that even after data becomes information, it is still mostly noise. The signal-to-noise ratio does not improve automatically. It has to be engineered.
 
 ---
@@ -89,6 +92,9 @@ But it also created a conceptual trap that we are still struggling to escape.
    at the speed of light. He did not give us the tools
    to understand it.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns contrast Shannon-measured information, a transferable quantity measured in bits and reduced to probability, with meaning, a contextual quality that must be constructed by a knower.*
+
 
 By treating information as a quantity independent of meaning, Shannon made it possible to transmit information without understanding it. This is exactly what the modern internet does. It moves bits at enormous speed with almost no understanding of what those bits mean. The understanding—the conversion from information to knowledge—is left to the receiver.
 
@@ -126,6 +132,9 @@ But facts are not as simple as they look. A fact has three components:
    │                                                     │
    └─────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of a fact composed of a claim, a measurement, and context, illustrated by the unemployment rate of 3.5 percent in the United States in July 2023; removing any component makes it misleading or meaningless.*
+
 
 The danger with facts is **decontextualization**. A fact stripped of its context can be misleading or meaningless. "The unemployment rate is 3.5 percent" is a fact. But is it good or bad? Compared to what? Measured how? For whom? Without context, the fact is inert.
 
@@ -178,6 +187,9 @@ The danger with opinions is **confusion with facts**. When opinions are presente
    └──────────────┴──────────────────────┴─────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A table compares fact, observation, claim, model, and opinion by characteristic and primary danger, from decontextualization for facts to confusion with facts for opinions.*
+
+
 The knowledge engineer must know which type of information they are dealing with, because each type requires a different approach to validation.
 
 ---
@@ -222,6 +234,9 @@ Noise comes from many sources.
    └─────────────┴────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A table lists five sources of noise: irrelevance, inaccuracy, ambiguity, manipulation, and overload, each paired with its effect or definition.*
+
+
 ### The Signal-to-Noise Ratio
 
 The concept of the **signal-to-noise ratio** (SNR) comes from engineering. It is a measure of how much signal there is relative to noise.
@@ -248,6 +263,9 @@ In the information age, the SNR is often very low. This is not because there is 
    for the left.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two panels compare high and low signal-to-noise ratios: the high-ratio panel has a clear, strong signal, while the low-ratio panel buries sparse signal in noise.*
+
+
 This is the second thing I learned from my retrieval failure. I had built a system that was good at finding documents. I had not built a system that was good at finding signal *within* documents. The SNR inside the retrieved content was low, and the system had no mechanism to improve it.
 
 Improving the SNR requires both **increasing the signal** (finding better sources, asking better questions, focusing on what matters) and **decreasing the noise** (filtering, ignoring, and discarding what is irrelevant or unreliable).
@@ -273,6 +291,9 @@ This is not laziness. It is discipline. It requires knowing what you are looking
    │  IGNORE NOISE       │  Extract signal from signal      │
    └─────────────────────┴──────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A table presents four ways to ignore information: filter sources by quality, define topics by domain, design the environment to avoid distractions, and extract signal from noise.*
+
 
 **Ignoring sources.** Not all sources are equally valuable. Some are reliable, some are not. Some are relevant, some are not. Some are worth your time, some are not. Learning to ignore low-quality sources is a skill.
 
@@ -311,6 +332,9 @@ Context has several dimensions:
    │  PURPOSIVE   │  What is the information for?        │
    └──────────────┴──────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A table lists five dimensions of context: semantic meaning, situation, history, causes and effects, and purpose.*
+
 
 The loss of context is one of the greatest dangers of the information age. Information is often stripped of its context—decontextualized, fragmented, and presented in isolation. A statistic without its source, a quote without its surrounding text, a study without its limitations—these are forms of information that can mislead as much as they inform.
 
@@ -352,6 +376,9 @@ But provenance is not a simple matter of "trustworthy" vs. "untrustworthy." It i
    └──────────────┴──────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A table presents six dimensions for judging source quality: expertise, track record, incentives, evidence, transparency, and independence, each framed as a question.*
+
+
 When I rebuilt the retrieval system, I added a provenance layer. Every document had to carry metadata about its source, its date, and its confidence level. The system did not just retrieve documents; it retrieved documents with a context that told the model how much to trust them.
 
 The quality of the answers improved dramatically. Not because the model was better. Because the raw material was cleaner.
@@ -380,6 +407,9 @@ Misinformation comes in several forms, and each requires a different response.
    │                  │  political cause or viewpoint   │
    └──────────────────┴─────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A table distinguishes misinformation, false or inaccurate information regardless of intent; disinformation, false information spread deliberately; malinformation, true information used to harm; and propaganda, information promoting a political cause or viewpoint.*
+
 
 The problem of misinformation is not just that people believe false things. It is that misinformation **erodes trust**. When people cannot tell what is true, they may stop trusting anything. They retreat to tribes, where they trust their own sources and distrust everyone else's.
 

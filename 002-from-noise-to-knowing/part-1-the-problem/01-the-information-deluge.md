@@ -43,6 +43,9 @@ Here is the situation in one image.
           1970  1980  1990  2000  2010  2020  2024  2030
 ```
 
+<!-- diagram-alt -->*Diagram description: A rising line chart shows annual information production on a logarithmic scale, increasing from about 0.002 in 1970 through 2 and 64 zettabytes to a projected 180 zettabytes by 2030.*
+
+
 And here is the same period from the perspective of a single human mind.
 
 ```
@@ -54,6 +57,9 @@ And here is the same period from the perspective of a single human mind.
           └──┬────┬────┬────┬────┬────┬────┬────┬────┬────┬──
            1970  1980  1990  2000  2010  2020  2024  2030
 ```
+
+<!-- diagram-alt -->*Diagram description: A horizontal bar chart shows human processing capacity remaining roughly constant at about 50 bits per second from 1970 through 2030.*
+
 
 One line explodes. The other does not move. That gap—between the exponential growth of information and the fixed capacity of attention—is the central fact of our intellectual lives. Everything else in this book follows from it.
 
@@ -115,6 +121,9 @@ That world is gone.
                                          THE CHOKE POINT
 ```
 
+<!-- diagram-alt -->*Diagram description: Two comparisons show the bottleneck shifting from access to attention: earlier, expensive, slow, limited information was choked by access; now, free, fast, abundant information is choked by attention.*
+
+
 This inversion changes everything. In a world of information scarcity, the winner is the person who can **find** the most. In a world of information abundance, the winner is the person who can **ignore** the most—who can filter, prioritize, and focus while discarding the rest.
 
 Herbert Simon saw this in 1971, decades before the internet made it acute. *"A wealth of information,"* he wrote, *"creates a poverty of attention."* He understood that attention is the ultimate scarce resource, and that abundance of information does not produce knowledge. It produces distraction.
@@ -131,7 +140,7 @@ What does the deluge actually cost us? Four things, and they compound.
 
 The brain evolved in an environment of information scarcity. It is exquisitely adapted for a few tasks: recognizing faces, detecting threats, navigating small social groups, making rapid decisions under uncertainty. It is not adapted for abstract, decontextualized information at scale.
 
-When the volume exceeds capacity, several things happen. Attention fragments. Working memory congests. The capacity for sustained reasoning declines. And we default to fast, automatic thinking—the mode that is efficient but biased.
+When the volume exceeds capacity, several things happen. Attention fragments. Working memory congests. The capacity for sustained reasoning declines. And we default to fast, automatic thinking—the mode that is efficient but biased (Kahneman, Thinking, Fast and Slow, 2011; see Appendix D).
 
 ```
    UNDER LOAD, THE MIND DEFAULTS TO FAST THINKING
@@ -141,6 +150,9 @@ When the volume exceeds capacity, several things happen. Attention fragments. Wo
 
    The deluge keeps us permanently in the high-load state.
 ```
+
+<!-- diagram-alt -->*Diagram description: A flow contrasts high load, which leads to fast, automatic System 1 thinking, with low load, which allows slower, deliberate System 2 thinking. The information deluge is said to keep the mind in the high-load state.*
+
 
 ### 2. The Illusion of Understanding
 
@@ -165,6 +177,9 @@ Psychologists call this the **illusion of explanatory depth**. Ask people to rat
 
    The gap is the illusion.
 ```
+
+<!-- diagram-alt -->*Diagram description: A comparison shows confidence in understanding at 90 percent before an explanation is requested and 25 percent after a step-by-step explanation is attempted. The drop represents the illusion of explanatory depth.*
+
 
 The deluge intensifies this illusion. The more we consume, the more familiar we become with the *surface* of things. Familiarity feels like understanding. It is not.
 
@@ -206,6 +221,9 @@ Adding more information to a broken process does not fix the process. It makes i
    Better method ──► Less noise ──► More signal ──► More knowledge
 ```
 
+<!-- diagram-alt -->*Diagram description: Two flows contrast a doom loop, where more information creates noise and overwhelm and reduces knowledge, with a better method, which reduces noise and increases signal and knowledge.*
+
+
 The person who responds to information overload by consuming even more information is like the person who responds to debt by borrowing more money. The immediate relief is real. The underlying problem is compounded.
 
 ---
@@ -235,6 +253,9 @@ It is a seven-stage process for converting information into knowledge:
         │
         └──────────────────────────► back to SELECT
 ```
+
+<!-- diagram-alt -->*Diagram description: A seven-stage process moves from select through preprocess, generate, and test, then through integrate, retain or discard, and correct. The final stage loops back to selection.*
+
 
 **Select** what deserves attention. **Pre-process** it into something usable. **Generate** candidate models and hypotheses. **Test** them against evidence. **Integrate** them into a coherent whole. **Retain** what survives, and **discard** what does not. **Correct** your beliefs in light of error.
 

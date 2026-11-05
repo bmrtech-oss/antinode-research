@@ -53,6 +53,9 @@ Without testing, the pipeline is speculation. With testing, it is knowledge.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of what testing separates: beliefs become knowledge when tested and sustained, hypotheses become theories through extensive testing, and opinions become evidence-based judgments when exposed to and corrected by evidence.*
+
+
 Testing is also the stage that most people skip. They form a belief, and then they look for evidence that confirms it. They avoid evidence that challenges it. They treat their beliefs as conclusions rather than as hypotheses.
 
 The knowledge engineer does the opposite. They seek out disconfirming evidence. They try to falsify their models. They take seriously the possibility that they are wrong.
@@ -97,7 +100,10 @@ At its core, testing is a simple loop: **predict, observe, compare**.
           └──────────► MODEL
 ```
 
-This loop is the same one we encountered in the brain's predictive processing and in the generation-testing cycle. It is the fundamental logic of knowledge acquisition.
+<!-- diagram-alt -->*Diagram description: A downward flow from a model of the world to a prediction, then to an observation, which produces prediction error that updates the model in a feedback loop.*
+
+
+This loop is the same one we encountered in the brain's predictive processing (Clark, Surfing Uncertainty: Prediction, Action, and the Embodied Mind, 2016; see Appendix D) and in the generation-testing cycle. It is the fundamental logic of knowledge acquisition.
 
 The loop is simple, but executing it well is hard. The difficulty is not in understanding the logic; it is in **avoiding the traps** that make testing unreliable.
 
@@ -123,6 +129,9 @@ The second trap is a test that measures the wrong thing. My suite measured wheth
    │                      │        │  itself.             │
    └──────────────────────┘        └──────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns compare a test that cannot fail, where a known document earns a high score and merely confirms prior knowledge, with a test using nDCG@10 as a proxy for answer quality even though it measures a correlated target rather than answer quality itself.*
+
 
 The knowledge engineer must design tests that avoid both traps. The test must be capable of failing, and it must measure the thing that matters.
 
@@ -150,6 +159,9 @@ The key to prediction as a test is **specificity**. A prediction that is vague (
  │            (Testable)                                 │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts a vague, untestable prediction that a system will probably improve with a specific, testable prediction that latency will fall below 200 milliseconds for 90 percent of requests within two weeks.*
+
 
 ### Observation
 
@@ -188,6 +200,9 @@ The third form is **experimentation**. You intervene in the world—you change s
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow compares a treatment group receiving an intervention with a control group receiving none; their outcomes are compared, and the difference represents the intervention's effect.*
+
+
 The controlled comparison is the gold standard. It involves treatment and control groups, random assignment, blinding, and measurement.
 
 ### Falsification
@@ -209,6 +224,9 @@ The logic of falsification is asymmetric. No amount of confirming evidence can p
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of falsification contrasts confirming evidence, which does not prove a model, with disconfirming evidence, which can disprove it; the knowledge engineer is urged to seek the latter.*
+
 
 For my retrieval system, the disconfirming evidence was the production failure. The model was wrong. The test that had confirmed it was contaminated. The disconfirming evidence—the actual failures—was the signal I needed. I had not been looking for it. I had been looking at the nDCG score.
 
@@ -232,6 +250,9 @@ The test is a **crucial experiment**—one whose outcome is predicted differentl
    The experiment is "crucial" because it discriminates
    between the two hypotheses.
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of a crucial experiment: hypothesis A predicts X and hypothesis B predicts Y, while the observed X supports A and challenges B, distinguishing the rival explanations.*
+
 
 In practice, crucial experiments are rare. Most of the time, rival hypotheses make overlapping predictions. But when a crucial experiment is possible, it is the most powerful form of testing.
 
@@ -257,6 +278,9 @@ The core idea is simple: your belief in a hypothesis should be proportional to t
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Bayesian stance: prior belief combines with new evidence to produce updated belief; strong priors lead to smaller updates, strong evidence to larger ones, and calibration replaces certainty as the goal.*
+
+
 The Bayesian stance is a corrective to two common errors: **overconfidence** (believing too strongly) and **underconfidence** (believing too weakly). The knowledge engineer calibrates their confidence to the evidence.
 
 ```
@@ -281,6 +305,9 @@ The Bayesian stance is a corrective to two common errors: **overconfidence** (be
    but it should never reach absolute certainty.
 ```
 
+<!-- diagram-alt -->*Diagram description: A graph shows confidence rising in steps as evidence accumulates over time, while remaining below absolute certainty.*
+
+
 For my retrieval system, the Bayesian update should have been: the nDCG score gave me high prior confidence in the system. The production failures were strong disconfirming evidence. The correct update was a large downward revision. I did not make it, because I was not looking at the production failures as evidence. I was looking at them as bugs to fix, not as tests of the model.
 
 ---
@@ -301,6 +328,9 @@ Confirmation bias operates at every stage of information processing.
  │               readily than disconfirming evidence     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of confirmation bias identifies three stages: selection favors sources that agree, interpretation sees what is expected, and memory more readily recalls confirming than disconfirming evidence.*
+
 
 My evaluation suite was a monument to confirmation bias. I had built a test that confirmed what I already believed—that the system was good. I had selected the queries. I had selected the relevance judgments. I had selected the metric. Every choice was shaped by my prior belief, and the test reflected that belief back to me.
 
@@ -341,6 +371,9 @@ I had not kept a record. I had built the suite, run it, and moved on. I had no r
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists four ways to combat confirmation bias in order: seek disconfirming evidence, consider alternatives, test predictions, and keep a record.*
+
+
 ---
 
 ## The Discipline of Falsification
@@ -362,6 +395,9 @@ The knowledge engineer cultivates the **discipline of falsification**. They trea
  │  5. Am I willing to change my mind?                   │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the falsification checklist asks what could prove a belief wrong, what evidence would conflict with it, whether that evidence was sought and interpreted fairly, and whether the person is willing to change their mind.*
+
 
 If you cannot answer question 1, your model is not falsifiable. It is a belief.
 
@@ -397,6 +433,9 @@ Testing is hard, and it is easy to do badly. Here are the five pitfalls I have e
  │  CORRELATION ≠ CAUSATION →  confounded relationships  │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists common testing pitfalls and their effects: contaminated data has been seen before, overfitting memorizes noise, hindsight bias claims prior knowledge, small samples make chance look patterned, and correlation can be mistaken for causation.*
+
 
 **Contaminated test set.** The test data has been seen by the system—either directly, through training, or indirectly, through the annotators. The system is being tested on memorization, not generalization.
 
@@ -436,6 +475,9 @@ For my retrieval system, the first pitfall—contaminated test set—was the fat
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of test contamination shows an index used to write test queries, which then enter an evaluation suite; because the test material has been seen, the suite measures memorization rather than retrieval.*
+
+
 The fix was to build a test set that was independent of the index. Queries written by people who had never seen the index. Documents that had not been used to build the index. A test that could not be passed by memorization.
 
 The scores dropped. From 0.89 to 0.62. The system looked worse. But the scores were now measuring something that mattered. And the system that scored 0.62 was the one that actually worked in production.
@@ -461,6 +503,9 @@ But AI testing has its own pitfalls.
  │  CONTAMINATION                                        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists AI testing pitfalls: wrong metrics encourage benchmark optimization over real-world performance, biased data can teach and conceal bias, opaque models expose only outputs, and benchmark contamination occurs when the test set is used for training.*
+
 
 **Wrong metrics.** A model that performs well on a benchmark may perform poorly in the real world. The choice of metric is a value judgment, not a technical one.
 

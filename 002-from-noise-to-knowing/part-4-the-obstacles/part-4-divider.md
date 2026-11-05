@@ -56,6 +56,9 @@
               A GOOD METHOD IS NOT ENOUGH. THE WORLD INTERFERES.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two stacked diagrams contrast an ideal pipeline cycle?SELECT, PRE-PROCESS, GENERATE, TEST, INTEGRATE, RETAIN, and CORRECT, returning to SELECT?with the same cycle pushed off course by interfering forces.*
+
+
 ---
 
 > *"The first principle is that you must not fool yourself—and you are the easiest person to fool."*
@@ -97,6 +100,9 @@ By the end of this part, you should understand why the pipeline fails even when 
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram introduces four chapters on obstacles by contrasting the pipeline itself, described as not the hard part, with running it in the world, described as the difficult part.*
+
 
 ---
 

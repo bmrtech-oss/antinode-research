@@ -43,6 +43,9 @@ Judgment is different from knowledge in five ways.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast knowledge, which concerns general provisional truths that can be validated and delegated, with judgment, which concerns particular actions evaluated by outcomes and cannot be delegated.*
+
+
 **Knowledge is about what is true. Judgment is about what to do.** Knowledge describes the world. Judgment decides how to act in the world.
 
 **Knowledge can be validated. Judgment cannot.** A knowledge claim can be tested against evidence. A judgment can only be evaluated by its outcomes—which are often uncertain, delayed, and confounded.
@@ -78,6 +81,9 @@ The migration decision had all the knowledge. The cost model was accurate. The r
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A migration example contrasts a correct analysis of cost, risk, expected value, and opportunity cost with unaccounted team capacity and human costs; the numbers favored migration, but judgment cautioned that the team could not absorb it.*
+
+
 ---
 
 ## The Anatomy of Judgment
@@ -99,6 +105,9 @@ What happens when you make a judgment? What are the components of the process?
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A flow of judgment moves from situation to options, values, and uncertainty, then downward to commitment and action.*
+
 
 **The situation** is the particular circumstances in which the judgment is made—the facts, the context, the constraints, and the uncertainties. The situation is always particular. It is never exactly like any situation you have faced before.
 
@@ -130,6 +139,9 @@ My migration analysis had the situation, the options, the uncertainty, and the c
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A decision flow links situation, options, values, and uncertainty, while highlighting values as the missing criteria needed to judge the options rather than treating them as numbers alone.*
+
+
 ---
 
 ## The Five Enemies of Good Judgment
@@ -148,6 +160,9 @@ Good judgment is hard. It is undermined by five enemies.
  │                            investment                 │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A numbered list names five enemies of good judgment: analysis paralysis, impulsivity, groupthink, emotional hijacking, and sunk cost, each paired with its decision-making failure.*
+
 
 ### Enemy 1: Analysis Paralysis
 
@@ -170,6 +185,9 @@ Good judgment is hard. It is undermined by five enemies.
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram illustrates analysis paralysis through repeated demands for more information, analysis, and time, noting that completeness never arrives and commitment eventually becomes necessary.*
+
 
 I have been guilty of this. The migration analysis took three weeks longer than it needed to, because I kept refining the model, adding variables, checking assumptions. The refinement improved the accuracy of the model by perhaps two percent. It delayed the decision by three weeks. The delay cost more than the accuracy gained.
 
@@ -194,9 +212,12 @@ I have been guilty of this. The migration analysis took three weeks longer than 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram illustrates impulsivity through calls to act immediately and think later, warning that action without deliberation can lead to worse-than-expected consequences.*
+
+
 ### Enemy 3: Groupthink
 
-**Groupthink** is the tendency of groups to prioritize harmony over critical evaluation. We discussed this in Chapter 18. It undermines judgment by suppressing dissent, ignoring alternatives, and creating an illusion of unanimity.
+**Groupthink** is the tendency of groups to prioritize harmony over critical evaluation (Irving L. Janis, Groupthink: Psychological Studies of Policy Decisions and Fiascoes, 2nd ed., 1982; see Appendix D). We discussed this in Chapter 18. It undermines judgment by suppressing dissent, ignoring alternatives, and creating an illusion of unanimity.
 
 ```
    GROUPTHINK
@@ -213,6 +234,9 @@ I have been guilty of this. The migration analysis took three weeks longer than 
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A sequence shows a group converging on and ratifying a decision because nobody objects, then clarifies that the silence reflected self-censorship rather than agreement.*
+
 
 My migration decision was made in a room where nobody objected. I was the most senior person in the room. I had done the analysis. The team listened. Nobody said "this will burn us out." They may have thought it. They did not say it. I read the silence as agreement.
 
@@ -237,9 +261,12 @@ My migration decision was made in a room where nobody objected. I was the most s
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram links fear to risk avoidance, anger to retaliation, greed to inflated rewards and minimized risks, and hope to ignoring contrary evidence; it calls for awareness to correct emotional influence.*
+
+
 ### Enemy 5: Sunk Cost
 
-**The sunk cost fallacy** is the tendency to continue investing in a course of action because of the resources already invested, even when the expected future return is negative.
+**The sunk cost fallacy** is the tendency to continue investing in a course of action because of the resources already invested, even when the expected future return is negative (Kahneman, Thinking, Fast and Slow, 2011; see Appendix D).
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -256,6 +283,9 @@ My migration decision was made in a room where nobody objected. I was the most s
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram challenges the sunk cost fallacy of continuing because of past investment, redirecting attention to the future and the best course from the present point.*
+
 
 ---
 
@@ -285,7 +315,10 @@ There are five strategies. None of them is sufficient on its own. Each is a tool
  └───────────────────────────────────────────────────────┘
 ```
 
-Expected value is a useful heuristic, but it has limits. It assumes that you know the probabilities, which you often do not. It assumes that the value of outcomes is linear, which it often is not. And it ignores risk aversion—the fact that people often prefer certain outcomes to uncertain ones.
+<!-- diagram-alt -->*Diagram description: A comparison calculates expected values of twenty-five dollars for Option A and ten dollars for Option B, so the method favors A while noting that it omits risk, uncertainty, and values.*
+
+
+Expected value is a useful heuristic, but it has limits. It assumes that you know the probabilities, which you often do not. It treats outcomes as if they can be represented on a common scale, which may not fit every decision. And it does not represent every risk preference; people often prefer a certain gain to a gamble with the same expected value (Kahneman, Thinking, Fast and Slow, 2011; see Appendix D).
 
 It also ignores **values**. My migration analysis used expected value. It captured the operational savings and the migration cost. It did not capture the human cost, because human cost is not a variable in a cost model. That was the failure.
 
@@ -309,6 +342,9 @@ It also ignores **values**. My migration analysis used expected value. It captur
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram describes minimax regret: find each option?s worst-case regret and choose the smallest, prioritizing avoidance of the worst outcomes over maximizing the best.*
+
+
 Minimax regret is useful when the stakes are high and the probabilities are unknown. If I had applied it to the migration, I would have asked: what is the worst case if we migrate, and what is the worst case if we wait? The worst case if we migrate included losing the senior engineers. The worst case if we wait included falling behind on a roadmap. The regret of losing the engineers was greater. I did not ask the question.
 
 ### Strategy 3: Satisficing
@@ -330,6 +366,9 @@ Minimax regret is useful when the stakes are high and the probabilities are unkn
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A three-step process for satisficing defines criteria, searches options, and selects the first option that meets them, accepting good enough instead of insisting on the best.*
+
+
 Satisficing is useful when the search for the optimal option is too costly, or when the difference between good and optimal is small. It is a way of avoiding analysis paralysis.
 
 ### Strategy 4: Reversibility
@@ -349,6 +388,9 @@ Satisficing is useful when the search for the optimal option is too costly, or w
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts reversible decisions, which can be undone, with irreversible ones, which cannot, and recommends preferring reversible choices under uncertainty to keep options open.*
+
 
 Reversibility is a useful heuristic when uncertainty is high. It says: when you are unsure, prefer the option that keeps your options open. You can always escalate later; you cannot always de-escalate.
 
@@ -373,6 +415,9 @@ The migration was irreversible. Once we started, we could not go back without lo
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A pre-mortem asks decision-makers to imagine failure and identify what went wrong, what was missed, and what they would change, surfacing risks before commitment.*
+
 
 A pre-mortem would have surfaced the risk I missed: *the team may not have the capacity to absorb the migration.* That risk was real. It was not in my cost model. A pre-mortem would have put it there.
 
@@ -401,6 +446,9 @@ Judgment is not just about probabilities and outcomes. It is also about **values
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A list pairs conflicting values such as security and liberty or speed and quality, explaining that judgment weighs their relative importance through deliberation rather than reducing them to one metric.*
+
+
 Values are often in conflict. Security conflicts with liberty. Prosperity conflicts with justice. Efficiency conflicts with equity. Good judgment requires weighing these values—not by reducing them to a single metric, but by deliberating about their relative importance.
 
 My migration analysis reduced all values to a single metric: expected value. That is the defining move of cost-benefit analysis, and it is a useful move when the values are commensurable. But the values in this decision were not commensurable. The operational savings and the human cost were not the same kind of thing. You cannot add them. You can only weigh them.
@@ -424,6 +472,9 @@ My migration analysis reduced all values to a single metric: expected value. Tha
    │                      │      │                      │
    └──────────────────────┘      └──────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns distinguish commensurable values, such as dollar costs and savings that can be added, from incommensurable values, such as team well-being and efficiency that must be weighed.*
+
 
 The migration analysis was a cost-benefit analysis. Cost-benefit analysis assumes that all values are commensurable. They are not always. When they are not, judgment is required—not calculation.
 
@@ -451,6 +502,9 @@ How firmly to hold that judgment, once you have made it, is the question of the 
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of a hierarchy of values, with well-being above trust and efficiency; the ranking is flexible, as crises may raise efficiency while stable periods may raise well-being.*
+
+
 ---
 
 ## Cultivating Judgment
@@ -468,6 +522,9 @@ How do you cultivate judgment? There is no formula, but there are five practices
  │  5. CULTIVATE VIRTUES                                 │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of five ways to cultivate judgment, listed in order: seek diverse perspectives, reflect on decisions, study history and literature, practice deliberately, and cultivate virtues.*
+
 
 **Seek diverse perspectives.** Judgment is improved by exposure to different viewpoints—different values, different experiences, different ways of seeing the situation.
 
@@ -511,6 +568,9 @@ The migration decision failed on the first practice. I did not seek diverse pers
    is extracted and applied.
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow for correcting judgment: decide, observe the outcome, reflect, and extract a lesson, then use that lesson to decide better next time.*
+
+
 ---
 
 ## Judgment and the Pipeline
@@ -528,6 +588,9 @@ We have described judgment as the application of knowledge to action. Now let us
  │    • The application of the pipeline                  │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of judgment in relation to the pipeline, describing it as the pipeline?s goal, test, correction, and application.*
+
 
 **Judgment is the goal of the pipeline.** The pipeline is not just about acquiring knowledge; it is about acquiring knowledge that can guide judgment.
 

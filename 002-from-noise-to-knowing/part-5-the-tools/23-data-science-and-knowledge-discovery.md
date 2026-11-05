@@ -50,6 +50,9 @@ We have described the knowledge pipeline as a process that a human mind executes
  └───────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of a computational pipeline moving from data selection through cleaning, model building, and evaluation, then back across refinement, validation, and interpretation to deployment.*
+
+
 The computational pipeline is powerful because it can handle **scale** and **complexity** that the human mind cannot. It can process millions of records, identify patterns across hundreds of variables, and build models that would be impossible to construct by hand.
 
 But it is also dangerous, because it can produce **false confidence**. A model that scores well on a test set is not necessarily a model that works in the world. The test set is not the world. The test set is a sample of the world, and the sample can be contaminated, biased, or unrepresentative in ways that the score does not reveal.
@@ -84,6 +87,9 @@ The standard framework for knowledge discovery in data is the **KDD process**—
  └───────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow of the KDD process from selection through pre-processing, transformation, and data mining to interpretation and evaluation, which leads to knowledge.*
+
+
 The KDD process is not linear. It is iterative. You loop back to selection if the data are inadequate, to pre-processing if the data are dirty, to transformation if the features are wrong, to mining if the model is poor.
 
 The churn model failed at the **transformation** stage. The temporal structure of the data was not preserved. The transformation—the train-test split—destroyed the information that the model needed to learn from: the fact that behavior changes over time.
@@ -111,6 +117,9 @@ The churn model failed at the **transformation** stage. The temporal structure o
    └──────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of temporal leakage along a 2021?2024 timeline, contrasting training and test sets and noting that a random split mixes years; it highlights that learning past behavior does not expose the model to future data.*
+
+
 The fix was to split the data **temporally**. Train on 2021–2022, validate on 2023, test on 2024. The model has to predict the future from the past. It has to learn what is stable about churn behavior, not what is specific to a particular year.
 
 The score dropped. From 0.94 to 0.71. The model looked worse. But the score was now measuring something that mattered—generalization to a future period. And the model that scored 0.71 was the one that actually flagged churners in production.
@@ -130,6 +139,9 @@ Data science has three temptations that produce the illusion of knowledge. Each 
  │  3. GOODHARTING    →  optimizing the metric           │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing three data science temptations: overfitting the noise, leakage through testing on training data, and Goodharting by optimizing the metric.*
+
 
 ### Temptation 1: Overfitting
 
@@ -151,6 +163,9 @@ Data science has three temptations that produce the illusion of knowledge. Each 
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram showing overfitting as near-perfect training accuracy of 0.99 but lower test accuracy of 0.62, illustrating that fitting training noise does not generalize.*
+
 
 The countermeasure is **out-of-sample testing**. Split the data. Train on one part, test on another. If the model performs well on data it has never seen, it is likely to generalize.
 
@@ -179,6 +194,9 @@ But out-of-sample testing has a limit: it only works if the test set is **repres
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram explaining leakage as access to information unavailable in production, with temporal, target, and group leakage examples; the score may be real even when the learned knowledge is not.*
+
 
 The countermeasures are **temporal splits** (train on the past, test on the future), **target isolation** (make sure the label is not in the features), and **group splits** (make sure the same entity is not in both train and test).
 
@@ -210,6 +228,9 @@ In data science, this takes a specific form. You choose a metric. You optimize t
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasting a goal of reducing customer churn with maximizing AUC: the model identifies likely churners, not those an intervention could save, because prediction and causal effect differ.*
+
+
 The countermeasure is to **align the metric with the goal**. If the goal is to reduce churn, the metric should be the causal effect of the intervention, not the predictive accuracy of the model. This requires causal inference, not just prediction.
 
 ---
@@ -233,6 +254,9 @@ The first pillar of computational knowledge discovery is **statistical inference
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of statistical inference moving from a null hypothesis through sample data and a p-value to rejection when p is below 0.05, while warning that statistical and practical significance differ.*
+
 
 Statistical inference is powerful, but it has limits.
 
@@ -271,6 +295,9 @@ The second pillar is **causal inference**—the process of determining whether a
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of confounding in which temperature causes both ice cream sales and drowning rates, making their apparent relationship spurious.*
+
+
 The central problem of causal inference is **confounding**—a variable that is correlated with both the cause and the effect, creating a spurious association.
 
 The methods of causal inference include:
@@ -302,6 +329,9 @@ The model was predictive. It was not causal. It did not tell us what to do. It t
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A comparison of prediction, asking who will churn, with causation, asking who will stay after intervention; the two questions concern correlation and causal effect and need different methods.*
+
 
 ---
 
@@ -335,6 +365,9 @@ Machine learning is powerful. It can find patterns that humans would never see. 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of error against model complexity, with bias-related error falling and variance-related error rising to form a U-shaped total error curve; the minimum marks the optimal point between underfitting and overfitting.*
+
+
 The central tension is the **bias-variance tradeoff**. A model that is too simple misses important patterns (high bias, underfitting). A model that is too complex fits the noise (high variance, overfitting). The goal is to find the balance.
 
 Machine learning has four limits that the knowledge engineer must understand:
@@ -349,6 +382,9 @@ Machine learning has four limits that the knowledge engineer must understand:
  │  4. NOT FAIR          →  inherits and amplifies bias    │
  └─────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing four machine-learning limits: it is not causal, interpretable, robust, or fair, and may inherit or amplify bias.*
+
 
 **Not causal.** A model can predict accurately without understanding causation. It can learn that ice cream sales predict drowning rates, without knowing that temperature is the confounder.
 
@@ -388,6 +424,9 @@ The fourth pillar is **validation**—the process of testing whether a model act
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram splitting a full dataset into training data for building a model and a separate test set for evaluation; the test data must be unseen and representative of deployment conditions.*
+
+
 Validation is essential, but it has limits.
 
 **Validation is only as good as the test set.** If the test set is not representative of the real world—if it is biased, too small, or from a different distribution—validation will be misleading.
@@ -418,6 +457,9 @@ My churn model failed the first limit. The test set was not representative of th
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasting what a test set measures?past-data performance?with deployment?s need for future-data performance; the difference is the validation gap, so a good test score is not sufficient.*
+
+
 ---
 
 ## When to Trust an Algorithm
@@ -435,6 +477,9 @@ How do you know when to trust an algorithm? There is no formula, but there are f
  │  5. CAUSAL VALIDITY           →  captures causation?    │
  └─────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing five checks for trusting an algorithm: out-of-sample performance, robustness, interpretability, fairness, and causal validity.*
+
 
 **Out-of-sample performance.** Does the model perform well on data it has never seen?
 
@@ -464,6 +509,9 @@ We have described the computational pipeline and its pillars. Now let us examine
  │  4. CANNOT REPLACE THE PIPELINE                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing limits of algorithmic knowledge: algorithms cannot replace judgment, understand meaning, take responsibility, or replace the pipeline.*
+
 
 **Algorithms cannot replace judgment.** They can process data, find patterns, and build models. But they cannot decide what matters, what is ethical, what is wise.
 

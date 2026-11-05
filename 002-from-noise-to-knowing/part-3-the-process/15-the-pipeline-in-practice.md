@@ -64,6 +64,9 @@ That gap is not a failure of intelligence. It is a failure of implementation. Kn
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A downward path from reading the book to understanding the pipeline reaches a gap where most people stop, then continues through using it, using it consistently, and making it a habit.*
+
+
 The gap is crossed by **practice**, not by understanding. The rest of this chapter is about how to practice.
 
 ---
@@ -96,6 +99,9 @@ Do not try to implement all seven stages at once. Do not build a system. Do not 
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A contrast between a wrong start of building a perfect system with every stage and metric, which risks collapse, and a right start of choosing one question, applying one stage, and repeating it until the habit compounds.*
+
+
 Start with a question that matters to you. A decision you need to make. A problem you need to solve. A topic you want to understand. Apply one stage of the pipeline. Then apply another. Then do it again tomorrow.
 
 The habit will grow. The system will emerge. But it will emerge from practice, not from design.
@@ -126,6 +132,9 @@ Building the pipeline into a habit happens in three stages. Most people try to s
  │    • You correct automatically                        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the pipeline becoming a habit through three stages: conscious use with deliberate checklists and reflection, fluent use with less effort and adaptation, and automatic use where the pipeline becomes second nature and skipped stages are noticed.*
+
 
 **Stage 1: Conscious use.** At first, using the pipeline is slow and deliberate. You have to consciously remember to select, to pre-process, to generate, to test. It feels like learning to drive—every action is conscious and effortful.
 
@@ -161,6 +170,9 @@ I set a purpose: to determine whether the framework would reduce operational com
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Select stage, which favors relevant, credible, and novel sources such as benchmarks, case studies, discussions, documentation, and critiques, while ignoring vendor claims, hype, and unverified claims.*
+
+
 ### Stage 2: Pre-process
 
 I clean the information: verify the benchmarks, check the dates, resolve inconsistencies between the documentation and the case studies.
@@ -183,6 +195,9 @@ I connect it: compare it to the frameworks we already use, identify the gaps it 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Pre-process stage: clean and verify information, structure it by capabilities and costs, contextualize it by age and maturity, then connect it to the existing stack.*
+
+
 ### Stage 3: Generate
 
 I form hypotheses:
@@ -203,6 +218,9 @@ I generate alternative explanations: maybe the case studies are unrepresentative
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Generate stage listing three hypotheses about reduced complexity, introduced risks, and long-term benefit with short-term cost, alongside an alternative explanation that the case studies are unrepresentative.*
+
+
 ### Stage 4: Test
 
 I compare the hypotheses against evidence. I look for disconfirming evidence: are there teams that tried the framework and abandoned it? Are there benchmarks that show it performing poorly?
@@ -221,6 +239,9 @@ I find that the evidence supports hypothesis 3—beneficial in the long run, cos
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Test stage, which seeks disconfirming evidence such as abandoned adoptions and poor benchmarks, looks for measurable complexity changes, and finds hypothesis 3 supported.*
+
+
 ### Stage 5: Integrate
 
 I connect the finding to what I already know. We have adopted new frameworks before; the migration cost is usually higher than expected. Our team has limited capacity for learning new tools right now. The long-term benefits are real but not urgent.
@@ -235,6 +256,9 @@ I connect the finding to what I already know. We have adopted new frameworks bef
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Integrate stage evaluating coherence with past migrations, consilience with team capacity, and the hierarchy of long-term benefit versus short-term cost. The resulting application is to adopt later, not now.*
+
+
 ### Stage 6: Retain or Discard
 
 I retain the key finding: adopt the framework, but not now. I discard the details of the benchmarks and case studies—they are no longer needed once the decision is made. I keep a note for later review.
@@ -246,6 +270,9 @@ I retain the key finding: adopt the framework, but not now. I discard the detail
  │  • Discard: benchmark details, case study details     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasting what to retain and discard: keep the decision, reasoning, and review date, but discard benchmark and case-study details.*
+
 
 ### Stage 7: Correct
 
@@ -259,6 +286,9 @@ I review the decision. Did I miss any evidence? Was I biased toward the status q
  │  • Schedule: review in six months                     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the Correct stage asking whether evidence was missed, checking for status quo bias, and scheduling a review in six months.*
+
 
 One cycle. Seven stages. A decision grounded in evidence, tested against reality, integrated with existing knowledge, and open to correction.
 
@@ -284,6 +314,9 @@ One cycle. Seven stages. A decision grounded in evidence, tested against reality
  │                  quo bias                                    │
  └──────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the full pipeline cycle, from selecting and pre-processing sources through generating hypotheses, testing, and integrating, then retaining the decision and reasoning, discarding evidence details, and scheduling correction to check for bias.*
+
 
 This is what the pipeline looks like in practice. It is not a formula. It is a discipline. And it is the subject of the exercises that follow.
 
@@ -315,6 +348,9 @@ The example below is constructed. The documents are invented to show the process
    │  12  │  A critic's long post                            │
    └──────┴──────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing twelve documents in a folder: three vendor whitepapers, engineering posts written after an outage and at launch, practitioner and vendor conference talks, a survey, an internal postmortem, a forum thread, official documentation, and a critic's post.*
+
 
 ### Before: What I Would Do by Instinct
 
@@ -356,6 +392,9 @@ I write one line per document: what it claims, what it offers as evidence, and w
    │  Dates checked:   launch post predates the outage    │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of pre-processing a folder by fixing terminology, listing one claim per document, noting system context, and checking dates to establish that the launch post predates the outage.*
+
 
 ### Stage 3: Generate
 
@@ -429,6 +468,9 @@ This is what I hand the team. It is shorter than the folder and longer than my i
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A team briefing asks whether replication lag explains stale reads and what to do, then answers probably not because lag was small and stale reads followed saves, recommending a read-path change. It lists supporting evidence, uncertainties about a high-lag case and cache effects, trusted sources, a result that would change the conclusion, and a two-week review.*
+
+
 The proportions are worth noticing. Selection and pre-processing took about half the afternoon, and generation and testing took most of the rest. Reading the documents, the activity my instinct would have spent the whole afternoon on, was the smallest part. Most of the work was deciding what to read, what to ask of it, and what would count as an answer.
 
 Compare it with the summary I wrote by instinct. The first version could be forwarded to anyone and be equally useful to all of them. The second is useful to this team, this week, and can be proved wrong. That is the difference between information and knowledge, and in this example it took one afternoon.
@@ -461,6 +503,9 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Daily Question exercise: choose one question, spend 15 minutes practicing select and pre-process without trying to answer it, and reflect weekly.*
+
+
 ### Exercise 2: The Hypothesis Journal
 
 **Purpose:** To practice generation and testing.
@@ -480,6 +525,9 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
  │  • Reflect monthly                                    │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the Hypothesis Journal exercise, moving from one hypothesis each day to identifying supporting and refuting evidence, checking that evidence later, and reflecting monthly.*
+
 
 ### Exercise 3: The Integration Map
 
@@ -501,6 +549,9 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Integration Map exercise: choose a topic, map existing knowledge, add one new piece of information, integrate it, and reflect on the change.*
+
+
 ### Exercise 4: The Pruning Session
 
 **Purpose:** To practice retention and discard.
@@ -520,6 +571,9 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
  │  • Reflect on the change                              │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the Pruning Session exercise: weekly review of notes, bookmarks, and reading lists, followed by deleting or archiving obsolete material, reinforcing important material, and reflecting on the change.*
+
 
 ### Exercise 5: The Correction Review
 
@@ -541,6 +595,9 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Correction Review exercise: monthly revision of one belief and one model, identifying the evidence that changed the belief and reflecting on recurring patterns.*
+
+
 ```
  ┌─────────────────────────────────────────────────────────┐
  │              EXERCISES FOR BUILDING THE PIPELINE        │
@@ -552,6 +609,9 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
  │  EXERCISE 5: The Correction Review→  correct            │
  └─────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram mapping five exercises to pipeline stages: the Daily Question to select and pre-process, Hypothesis Journal to generate and test, Integration Map to integrate, Pruning Session to retain or discard, and Correction Review to correct.*
+
 
 ---
 
@@ -637,6 +697,9 @@ Checklists are powerful tools for ensuring that you do not skip stages. See Chap
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the pipeline checklist, pairing each stage from Select through Correct with prompts: assess sources and omissions, clean and structure information, form hypotheses and alternatives, test predictions and rivals, integrate consistently, retain useful knowledge, and correct fairly from evidence.*
+
+
 ---
 
 ## Common Implementation Challenges
@@ -654,6 +717,9 @@ Implementing the pipeline is not easy. There are several challenges you will enc
  │  PERFECTIONISM →  act when you have enough            │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram linking common implementation challenges to responses: start small for time, adapt to complexity, build virtues and community to address resistance, prune to reduce overwhelm, and act when there is enough to counter perfectionism.*
+
 
 **Challenge 1: Time.** The pipeline takes time. It is not a quick fix.
 
@@ -695,6 +761,9 @@ The pipeline is not a one-size-fits-all framework. It must be adapted to differe
  │    • Systems, incentives, culture                     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram showing the pipeline adapted across three levels: individuals use personal discipline, tools, and habits; teams use collective discipline, shared norms, and roles; organizations use strategic discipline through systems, incentives, and culture.*
+
 
 **For individuals.** The pipeline is a personal discipline. Use personal knowledge management tools, build personal checklists and routines, focus on the stages most relevant to your work.
 
@@ -745,6 +814,9 @@ Here is what they did to close it.
  └──────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of a hospital pipeline that selects capacity and patient-flow information, prepares it by facility and time, generates and tests capacity and distribution hypotheses, integrates findings with past problems, retains the finding and review date, discards facility details, and schedules correction for bias.*
+
+
 The outcome: the hospital system did not add beds. It added a distribution protocol—a daily synthesis meeting where the metrics were integrated into a single picture, tested against what was actually happening on the ground, and corrected when the picture was wrong. The gap narrowed. Not completely. Enough to matter.
 
 ---
@@ -774,6 +846,9 @@ The pipeline can be supported by tools. Here are some categories of tools that c
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram grouping pipeline tools into knowledge management, collaboration, and AI. Examples include note-taking apps and reference managers, shared documents and dashboards, and language models, search tools, and research assistants.*
+
+
 Tools are not a substitute for the pipeline. They are **amplifiers**. They make the pipeline faster, easier, and more scalable. But they cannot replace the discipline of the pipeline itself.
 
 ---
@@ -801,6 +876,9 @@ The pipeline is not a guarantee of success. It is not a formula for certainty. I
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram stating that the pipeline is not something to know but something to do, and urging the reader to start now.*
+
 
 ---
 

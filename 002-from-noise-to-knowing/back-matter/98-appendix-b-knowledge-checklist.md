@@ -56,6 +56,9 @@ Print this. Pin it above your desk.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A quick-reference card lists seven knowledge-pipeline stages in order, from select to correct, with guiding questions and checks for each. It ends with three questions about disproof, ignored evidence, and willingness to change one?s mind.*
+
+
 ---
 
 ## Stage 1 — Selection
@@ -273,6 +276,9 @@ Before starting any significant inquiry, run this.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A pre-flight checklist presents eight questions to answer before research, covering the question, desired answer, disconfirming evidence, credible and challenging sources, time, note-taking, and openness to changing one?s mind.*
+
+
 If you cannot check all of these, you are not ready to begin. Fix what is missing first.
 
 ---
@@ -303,6 +309,9 @@ After completing a cycle of the pipeline, run this.
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A post-flight review form provides five prompts for recording lessons, mistakes, remaining uncertainty, changes for next time, and the next question.*
+
 
 The post-flight review is where the pipeline becomes a **learning system**. Without it, each cycle is isolated. With it, each cycle improves the next.
 
@@ -364,6 +373,9 @@ When the pipeline is used to support a decision, this template ensures that noth
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A decision memo template proceeds from the decision, date, and owner through nine sections: question, options, evidence, uncertainties, values, trade-offs, recommendation, pre-mortem, and review plan. Each section has space for a written response.*
+
+
 ---
 
 ## The Reading Protocol
@@ -399,6 +411,9 @@ When reading a book, paper, or long article, run this protocol.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A reading protocol organizes questions into before, during, and after reading, moving from purpose and prior knowledge to claims, evidence, assumptions, and omissions, then to summary, model changes, verification, and discarding.*
+
+
 ---
 
 ## The Listening Protocol
@@ -421,6 +436,9 @@ When in a meeting, conversation, or presentation, run this protocol.
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A listening protocol lists questions for assessing a speaker?s main claim, evidence, incentives, assumptions, omissions, possible disproof, strongest argument, and points to verify later.*
+
 
 ---
 
@@ -458,6 +476,9 @@ Once a week, take thirty minutes to run this.
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A weekly review form provides seven prompts, from what was learned and misunderstood to unresolved questions, unprocessed notes, what to discard, and plans for next week?s question and media.*
+
 
 ---
 
@@ -529,6 +550,9 @@ Print this. It is the whole appendix on a single page.
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A knowledge extraction checklist arranges seven stages from select through correct, with checks for each stage. Beneath them are three questions about what would disprove a belief, what evidence is being ignored, and willingness to change one?s mind.*
+
 
 ---
 

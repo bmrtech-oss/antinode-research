@@ -56,6 +56,9 @@ Five constraints become acute when we try to execute the knowledge pipeline.
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists five limits of the unaided mind: working memory of about four chunks, narrow and hijackable attention, fallible long-term memory, biased and error-prone reasoning, and finite time and energy.*
+
+
 Each of these limits is real. Each is biological. And each becomes a bottleneck when the volume and velocity of information exceed what the mind can handle.
 
 The knowledge pipeline requires all five capacities simultaneously. It requires holding many pieces in mind (working memory), focusing on one thing for an extended period (attention), remembering what you have learned (long-term memory), reasoning carefully and systematically (reasoning), and doing all of this for enough hours to produce a result (time and energy).
@@ -66,7 +69,7 @@ An unaided mind cannot do this at scale. It was not designed to.
 
 ## The Extended Mind
 
-The philosopher Andy Clark and the biologist David Chalmers argued in 1998 that the mind is not confined to the brain. It extends into the environment through tools, systems, and social structures. They called this the **extended mind**.
+The philosopher Andy Clark and the biologist David Chalmers argued in 1998 that the mind is not confined to the brain. It extends into the environment through tools, systems, and social structures. They called this the **extended mind** (Andy Clark and David J. Chalmers, “The Extended Mind,” 1998; see Appendix D).
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -86,6 +89,9 @@ The philosopher Andy Clark and the biologist David Chalmers argued in 1998 that 
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram places the brain, tools, and other people within a larger cognitive system, showing that the mind extends beyond the brain into its environment.*
+
 
 The extended mind thesis is useful. It tells us that the unit of cognition is not the brain alone, but the brain plus its environment. A person with a notebook is not the same as a person without one. A team with a shared document is not the same as a team without one. The scaffold is part of the cognitive system.
 
@@ -111,6 +117,9 @@ There are four categories of scaffold. Each addresses a different limit.
  │                   share load                          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four cognitive scaffolds and their roles: writing frees working memory, tools extend memory and reasoning, systems structure processes, and collaboration adds perspectives and shares the load.*
+
 
 **Writing** externalizes thought. It takes the contents of working memory and puts them on paper (or screen). This frees working memory for other tasks and allows the writer to review, revise, and refine their thinking.
 
@@ -148,6 +157,9 @@ A scaffold can do one of two things. It can **extend** a capacity, or it can **s
    └──────────────────────┘        └──────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast extension and substitution: with extension, a scaffold raises capacity and capacity remains when it is removed; with substitution, capacity atrophies and is lost without the scaffold.*
+
+
 A **training-wheel** scaffold builds capacity. You use it while you learn, and then you remove it. The capacity remains. A **prosthetic** scaffold replaces capacity. You use it because you cannot do the thing without it. When you remove it, the capacity is gone.
 
 The problem is that both feel the same while you are using them. Both feel like help. Both feel like progress. You cannot tell which one you have built until you try to take it away.
@@ -171,6 +183,9 @@ The problem is that both feel the same while you are using them. Both feel like 
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts extension with substitution: while a scaffold is present both can seem equally effective, but removing it reveals whether the underlying capacity remains or is gone.*
+
 
 On that trip, I found out. I had built substitution for two years, and I did not know it until the scaffold was gone. The system had not extended my memory. It had replaced it. And when it was unavailable, the memory was not there.
 
@@ -202,6 +217,9 @@ Substitution does not happen on purpose. Nobody decides to atrophy their own cap
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A downward flow shows substitution developing in five steps: use the faster scaffold, stop practicing unaided capacity, weaken from disuse, become dependent on the scaffold, and lose the ability to tell whether the capacity remains.*
+
 
 Each step is rational. The scaffold *is* faster. Practicing without it *does* feel like wasted time. The capacity *does* weaken when unused. The scaffold *does* become necessary. And at the end, you *cannot* tell whether the capacity would still be there, because you have not tested it.
 
@@ -236,6 +254,9 @@ I have come to think of this as **scaffold debt**.
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram defines scaffold debt as lost unaided capacity, the time needed to rebuild it, and the risk of scaffold failure; like financial debt, it compounds and becomes visible when support is removed.*
+
+
 Scaffold debt is not a reason to avoid scaffolds. Scaffolds are necessary. The unaided mind cannot execute the pipeline at scale. You need writing, tools, systems, and collaboration.
 
 But scaffold debt is a reason to **design scaffolds that pay down their own debt**—scaffolds that build capacity even as they extend it. And it is a reason to **test your capacity periodically**—to find out whether the scaffold is an extension or a substitution before you need to know.
@@ -258,6 +279,9 @@ How do you design a scaffold that pays down its own debt? Here are five principl
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists five principles for designing scaffolds well: match them to the limitation, build for removal, test capacity without support, reduce friction, and iterate.*
+
+
 ### 1. Match the Scaffold to the Limit
 
 Different scaffolds address different limits. Writing addresses working memory. Tools address memory and reasoning. Systems address attention and consistency. Collaboration addresses bias and diversity.
@@ -278,6 +302,9 @@ The knowledge engineer diagnoses their limits and chooses scaffolds that address
    │  TIME AND ENERGY     │  Automation, delegation    │
    └──────────────────────┴────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A two-column diagram matches limits to scaffolds: writing and diagrams for working memory, systems and environment design for attention, notes and databases for memory, checklists and collaboration for reasoning, and automation or delegation for time and energy.*
+
 
 ### 2. Build for Removal
 
@@ -315,6 +342,9 @@ This is the **unscaffolded test**. It is the only way to know whether the scaffo
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram proposes periodically testing one task without its scaffold, such as writing without a template or thinking without AI, to check whether the underlying capacity remains and reveal scaffold debt.*
+
 
 ### 4. Reduce Friction
 
@@ -361,6 +391,9 @@ We have described scaffolds as tools, systems, and collaborations. Now let us se
  │                  DANGER: atrophy of self-correction   │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram maps scaffolds to each pipeline stage, pairing tools such as search engines, notes, AI, statistical software, knowledge maps, spaced repetition, and feedback systems with risks of atrophy or distortion in the corresponding skills.*
+
 
 The danger is highest at the stages where the scaffold does the cognitive work for you. A search engine that selects sources for you can atrophy your source judgment. An AI that summarizes for you can atrophy your summarization skills. A memory system that remembers for you can atrophy your memory.
 

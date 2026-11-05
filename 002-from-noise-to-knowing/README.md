@@ -4,6 +4,8 @@
 
 Start reading with the [cover](00-front-matter/00-cover-page.md) or [opening thoughts](00-front-matter/00-opening-thoughts.md). Each page links to the previous and next page.
 
+**Read it online:** [https://bmrtech-oss.github.io/antinode-research/](https://bmrtech-oss.github.io/antinode-research/)
+
 ## Front Matter
 
 - [Cover](00-front-matter/00-cover-page.md)
@@ -64,6 +66,7 @@ Start reading with the [cover](00-front-matter/00-cover-page.md) or [opening tho
 - [Appendix C — Fallacy Cheat Sheet](back-matter/98-appendix-c-fallacy-cheat-sheet.md)
 - [Appendix D — Further Reading](back-matter/98-appendix-d-further-reading.md)
 - [Appendix E — Limitations](back-matter/98-appendix-e-limitations.md)
+- [Appendix F: Index](back-matter/98-appendix-f-index.md)
 - [Finis](back-matter/99-finis.md)
 
 ## Extras

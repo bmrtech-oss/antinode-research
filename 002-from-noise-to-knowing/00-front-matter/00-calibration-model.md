@@ -32,6 +32,9 @@ Every belief you act on has three properties, and the discipline is to keep them
    Firm enough to act. Loose enough to correct.
 ```
 
+<!-- diagram-alt -->*Diagram description: A confidence and stakes calibration table compares low- and high-stakes decisions across required confidence, review frequency, and the response to error. Low stakes allow experimentation and cheap revision, while high stakes call for firmer commitment, frequent review, and early correction.*
+
+
 ## Two ways to fail
 
 The dogmatist holds everything firmly, including the things that should be held loosely, and so cannot correct. The skeptic holds nothing firmly, including the things that should be held firmly, and so cannot act. Wisdom is not a midpoint between them. It is the habit of asking, for each belief, what the stakes are, and setting the firmness accordingly.

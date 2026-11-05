@@ -71,6 +71,9 @@
 ╚══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
+<!-- diagram-alt -->*Diagram description: A book cover names From Noise to Knowing, subtitled The Discipline of Turning Information into Knowledge, by Pramod Rathod, identified as an AI engineer and researcher. Its tagline says that better method matters more than more information.*
+
+
 ---
 
 
@@ -124,6 +127,8 @@
 │                                                                                  │
 └──────────────────────────────────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A back-cover overview contrasts widespread information with rare knowledge and presents a seven-stage pipeline: select, preprocess, generate, test, integrate, retain or discard, and correct. It describes the book as a practical discipline for turning information into reliable, actionable knowledge.*
 
 <!-- book-nav:start -->
 

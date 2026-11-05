@@ -88,6 +88,9 @@ def apply_footers(order):
         path.write_text(text + footer(order, i), encoding="utf-8", newline="")
 
 
+SITE_URL = "https://bmrtech-oss.github.io/antinode-research/"
+
+
 def write_readme(front, parts, back):
     out = [
         "# From Noise to Knowing",
@@ -97,6 +100,8 @@ def write_readme(front, parts, back):
         "Start reading with the [cover](00-front-matter/00-cover-page.md) or "
         "[opening thoughts](00-front-matter/00-opening-thoughts.md). "
         "Each page links to the previous and next page.",
+        "",
+        f"**Read it online:** [{SITE_URL}]({SITE_URL})",
         "",
         "## Front Matter",
         "",
@@ -127,6 +132,7 @@ def write_mkdocs(front, parts, back):
         "site_dir: ../_site",
         "exclude_docs: |",
         "  tools/",
+        "  editorial/",
         "hooks:",
         "  - tools/mkdocs_hooks.py",
         "extra_css:",

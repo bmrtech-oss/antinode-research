@@ -51,6 +51,9 @@ Biases affect every stage of the pipeline.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of cognitive biases mapped across the pipeline, from SELECT and PRE-PROCESS through GENERATE, TEST, INTEGRATE, RETAIN, and CORRECT, with different biases listed at each stage.*
+
+
 The evaluation suite was a **selection** bias (I chose the questions) and a **representativeness** bias (I thought my questions were representative) and a **confirmation** bias (I looked for evidence that the system worked, not that it failed). It was also a **metric design** bias—I chose metrics that measured what I had built, not what mattered.
 
 The bias was not in any single decision. It was in the pattern of decisions. That is what makes it hard to catch.
@@ -79,6 +82,9 @@ Kahneman described two modes of thinking.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns compare System 1 and System 2: System 1 is fast, automatic, intuitive, effortless, always on, and bias-prone, while System 2 is slow, deliberate, analytical, effortful, activated as needed, and able to correct bias.*
+
+
 Biases arise from System 1. They are the shortcuts that System 1 uses to make rapid judgments—shortcuts that are usually adaptive but sometimes produce systematic errors. System 2 can correct these errors, but it is slow, effortful, and easily depleted. Most of the time, we rely on System 1, and biases go uncorrected.
 
 ### The Adaptive Function of Bias
@@ -99,6 +105,9 @@ And biases are **energetically efficient**. System 2 is metabolically expensive.
  │  3. ENERGY:   System 2 is expensive; System 1 is cheap│
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of why biases exist, listing speed, social coherence, and energy costs as three reasons fast judgments can be adaptive.*
+
 
 The knowledge engineer recognizes that biases are not simply errors to be eliminated. They are adaptations that must be **managed**. The goal is not to eliminate System 1—that is impossible—but to recognize when System 1 is likely to be biased and to engage System 2 to correct it.
 
@@ -139,6 +148,9 @@ When I wrote the evaluation questions, my biases shaped which questions I wrote.
    │                                                     │
    └─────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram shows the mind shaping an instrument through its chosen questions, documents, metrics, and thresholds; the instrument then produces a score of 0.91 that looks objective but mirrors bias rather than providing a real signal.*
+
 
 This matters for anyone who builds systems, metrics, or processes. The bias audit is not just an audit of your mind. It is an audit of your instruments. Ask: *Did I build this test around what I am good at? Did I choose metrics that confirm my approach? Did I select data that represents my assumptions rather than the world?*
 
@@ -183,11 +195,14 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of confirmation bias across selection, interpretation, and memory, leading people to build tests they can pass; countermeasures include seeking contrary evidence, testing alternatives, recording predictions, using red teams, and auditing instruments.*
+
+
 ### The Availability Heuristic
 
 **What it is:** The tendency to overestimate the likelihood or importance of information that is vivid, recent, or easily recalled.
 
-**How it works:** When judging probabilities or making decisions, we rely on what comes to mind most easily. If a plane crash is in the news, we overestimate the risk of flying.
+**How it works:** When judging probabilities or making decisions, we rely on what comes to mind most easily. If a plane crash is in the news, we may overestimate the risk of flying (Amos Tversky and Daniel Kahneman, "Judgment under Uncertainty: Heuristics and Biases", 1974; see Appendix D).
 
 **Why it exists:** The availability heuristic is a useful shortcut in many situations. Information that is vivid or recent is often more relevant. But it can lead to systematic errors when the ease of recall does not match the actual frequency or importance.
 
@@ -212,9 +227,12 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the availability heuristic: memorable cases can seem more likely or important, so tests may favor remembered cases over common ones; it recommends base rates, silent evidence, and considering what is unreported.*
+
+
 ### The Representativeness Heuristic
 
-**What it is:** The tendency to judge the likelihood of something based on how well it matches a prototype or stereotype, rather than on base rates.
+**What it is:** The tendency to judge the likelihood of something based on how well it matches a prototype or stereotype, rather than on base rates (Amos Tversky and Daniel Kahneman, "Judgment under Uncertainty: Heuristics and Biases", 1974; see Appendix D).
 
 **How it works:** When judging whether someone belongs to a category, we ask: Does this person resemble the typical member of that category? If yes, we assume they belong. But this ignores base rates.
 
@@ -242,9 +260,12 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the representativeness heuristic, where matching a prototype is mistaken for belonging to a category; it recommends base rates, Bayesian reasoning, avoiding stereotypes, and testing edge cases.*
+
+
 ### The Anchoring Effect
 
-**What it is:** The tendency to rely too heavily on the first piece of information encountered (the "anchor") when making judgments.
+**What it is:** The tendency to rely too heavily on the first piece of information encountered (the "anchor") when making judgments (Amos Tversky and Daniel Kahneman, "Judgment under Uncertainty: Heuristics and Biases", 1974; see Appendix D).
 
 **How it works:** When estimating a value, we start from an initial value and adjust from there. But the adjustment is often insufficient, and the final estimate is biased toward the anchor.
 
@@ -271,6 +292,9 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  │    • Consider the range of plausible values           │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the anchoring effect, in which the first information becomes a baseline that pulls later judgments toward it; it recommends multiple starting points and considering plausible ranges.*
+
 
 ### The Narrative Fallacy
 
@@ -303,9 +327,12 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the narrative fallacy, showing how people impose causal stories and meaning on correlation or noise; it recommends alternative explanations and checking what evidence could disprove the story.*
+
+
 ### The Sunk Cost Fallacy
 
-**What it is:** The tendency to continue investing in a belief, a project, or a course of action because of the resources already invested, even when the expected future return is negative.
+**What it is:** The tendency to continue investing in a belief, a project, or a course of action because of the resources already invested, even when the expected future return is negative (Daniel Kahneman, Thinking, Fast and Slow, 2011; see Appendix D).
 
 **How it works:** We are reluctant to abandon something we have invested in. So we continue investing—throwing good money after bad.
 
@@ -333,9 +360,12 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the sunk cost fallacy, where past investment keeps people attached to a suite, tool, or metric after it stops fitting; it recommends focusing on future returns and what would be chosen from scratch.*
+
+
 ### The Hindsight Bias
 
-**What it is:** The tendency to believe, after an outcome is known, that you predicted it all along.
+**What it is:** The tendency to believe, after an outcome is known, that you predicted it all along (Daniel Kahneman, Thinking, Fast and Slow, 2011; see Appendix D).
 
 **How it works:** Once we know what happened, we reconstruct our memory of what we believed before. We remember our predictions as more accurate than they were.
 
@@ -361,9 +391,12 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of hindsight bias, where unrecorded predictions make outcomes seem predictable after the fact; it recommends recording predictions and comparing them with outcomes.*
+
+
 ### The Overconfidence Effect
 
-**What it is:** The tendency to overestimate the accuracy of our beliefs, the quality of our judgments, and the reliability of our knowledge.
+**What it is:** The tendency to overestimate the accuracy of our beliefs, the quality of our judgments, and the reliability of our knowledge (Daniel Kahneman, Thinking, Fast and Slow, 2011; see Appendix D).
 
 **How it works:** We think we know more than we do. We think we are more accurate than we are.
 
@@ -391,6 +424,9 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  │      evidence?                                        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the overconfidence effect, showing how people set thresholds they can meet and metrics they can optimize; it recommends calibrating confidence against evidence and seeking feedback.*
+
 
 ### The Belief Bias
 
@@ -422,9 +458,12 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of belief bias, where arguments that support existing beliefs are accepted and challenges rejected regardless of logic; it recommends independently checking validity and seeking opposing arguments.*
+
+
 ### The Endowment Effect
 
-**What it is:** The tendency to overvalue what we already have, simply because we have it.
+**What it is:** The tendency to overvalue what we already have, simply because we have it (Daniel Kahneman, Thinking, Fast and Slow, 2011; see Appendix D).
 
 **How it works:** We value things more when we own them. This applies not just to physical objects but to beliefs, ideas, and models.
 
@@ -449,6 +488,9 @@ There are dozens of cognitive biases. We cannot examine all of them. But we can 
  │    • Consider the costs of holding on                 │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the endowment effect, where people overvalue a system, metric, or test suite because they built it; it recommends reconsidering whether the evidence would justify adopting it now.*
+
 
 ---
 
@@ -478,6 +520,9 @@ The bias audit has three parts.
  │     • What would I do if I were wrong?                │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the bias audit, moving through three checks: audit the instrument, audit the process, and audit the mind, with questions about confirming choices, disconfirmation, and personal motives.*
+
 
 ### Audit the Instrument
 
@@ -529,6 +574,9 @@ We have examined several biases and their countermeasures. Now let us examine **
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of seven debiasing strategies in order: awareness, slowing down, considering the opposite, seeking diversity, using checklists, getting feedback, and building systems.*
+
+
 **Awareness.** You cannot correct a bias you do not know about. Learn about biases—their names, their mechanisms, their triggers.
 
 **Slow down.** Biases arise from System 1. Slowing down engages System 2. Build in pauses—time to reflect, time to consider, time to check.
@@ -561,6 +609,9 @@ We have described strategies for overcoming bias. But it is important to recogni
  │  4. DEBIASING IS NOT A SUBSTITUTE FOR EVIDENCE        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four limits of debiasing: biases cannot be eliminated, debiasing takes effort, it can backfire, and it cannot replace evidence.*
+
 
 **Biases cannot be eliminated.** They are inherent in the architecture of the mind. You can reduce their influence, but you cannot eliminate them entirely.
 
@@ -600,6 +651,9 @@ But there is a third thing that AI does, which is more subtle and more important
  │    • Bias is laundered into authority                 │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts ways AI can reduce bias with ways it can amplify bias, then shows human bias flowing into training data and a model, where it can be laundered into apparent authority.*
+
 
 This is the deepest problem. A human bias is visible as a human bias. A model bias looks like a model. The output is formatted as objective. The score is presented as a number. The recommendation is presented as a computation. The bias is laundered into authority.
 

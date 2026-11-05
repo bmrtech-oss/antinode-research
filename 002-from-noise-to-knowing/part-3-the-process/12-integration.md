@@ -62,6 +62,9 @@ It is not bookkeeping. Integration is the stage where **knowledge becomes a syst
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasts scattered, potentially conflicting tested models with a connected, coherent knowledge base; the isolated models flow into an integrated network of linked ideas.*
+
+
 The three dashboards were the left image. The feedback loop was the right image. The data was the same. The integration was different.
 
 Integration is what makes knowledge **usable**. A collection of disconnected facts is hard to apply, because you have to find the relevant facts each time. An integrated knowledge base is easier to apply, because the connections between facts are already there. You can traverse the network to find what you need.
@@ -86,6 +89,9 @@ Integration has four dimensions, each of which must be addressed.
  │  APPLICATION →  connects to action                    │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four dimensions of integration: coherence fits existing knowledge, consilience connects domains, hierarchy places ideas within knowledge structure, and application links knowledge to action.*
+
 
 ### Coherence
 
@@ -121,6 +127,9 @@ For the outage, coherence was the thing I lacked. The three dashboards were each
                                    coherent whole.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two diagrams contrast incoherent beliefs that conflict with a coherent network in which connected beliefs support one another.*
+
+
 ### Consilience
 
 **Consilience** is the unity of knowledge across domains. It is the degree to which your knowledge from one domain connects to and illuminates knowledge from another.
@@ -143,6 +152,9 @@ The term was popularized by the biologist E.O. Wilson, who argued that all knowl
          │   Unified Knowledge Base    │
          └─────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram shows physics, biology, and social science converging into a unified knowledge base.*
+
 
 For the outage, consilience was what the three dashboards lacked. They were three separate domains—application performance, infrastructure, client behavior—with no shared model. The feedback loop was a model that connected them. It explained the APM spike (retries add load), the healthy infrastructure (the load was spread across retries), and the log flood (each slow response triggered a retry). One model, three domains.
 
@@ -168,6 +180,9 @@ For the outage, consilience was what the three dashboards lacked. They were thre
          │  AND OBSERVATIONS     │
          └───────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A hierarchy places foundational principles above mid-level theories, which in turn sit above specific facts and observations.*
+
 
 A hierarchical knowledge base is more robust than a flat one. If a specific fact is wrong, it can be corrected without revising the entire structure. If a mid-level theory is wrong, it can be revised without discarding the foundational principles. The hierarchy provides stability and flexibility.
 
@@ -199,6 +214,9 @@ Contradictions come in several forms:
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram distinguishes empirical contradictions as differing predictions, theoretical contradictions as logical inconsistencies, and conceptual contradictions as differing definitions.*
+
+
 **Empirical contradictions.** Two models make different predictions about the same observation. One predicts X; the other predicts Y. If the observation is X, the first model is supported and the second is challenged.
 
 **Theoretical contradictions.** Two models are logically inconsistent. They cannot both be true. For example, one model says that the universe has a beginning; the other says it is eternal.
@@ -220,6 +238,9 @@ For the outage, the contradiction was empirical. The APM tool said the payment s
  │  5. REVISE THE WEAKER MODEL                           │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists five strategies for resolving contradictions: re-examine evidence, clarify concepts, seek a deeper model, acknowledge uncertainty, and revise the weaker model.*
+
 
 **Re-examine the evidence.** Are the models really supported by the evidence? Maybe one of them is based on a flawed study, a misinterpretation, or an overgeneralization.
 
@@ -255,6 +276,9 @@ For the outage, the resolution was **seeking a deeper model**. Neither the APM m
          └─────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram brings together the claims that a service is slow and that it is healthy in a deeper model where a retry loop amplifies load without saturating resources; both claims can be true yet incomplete.*
+
+
 This is the most powerful form of contradiction resolution. It does not require rejecting either model. It requires constructing a model that contains both.
 
 ---
@@ -273,6 +297,9 @@ Integration is not just about resolving contradictions; it is also about **build
  │  HISTORICAL  →  A and B have a common origin          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four forms of connection: causal links explain why, structural links share a form, functional links serve similar purposes, and historical links share an origin.*
+
 
 **Causal connections.** Model A explains why Model B is true. For example, the theory of evolution explains why certain anatomical structures are similar across species.
 
@@ -311,6 +338,9 @@ When you integrate models, you are building a **network**—a structure of nodes
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of a knowledge network uses connected nodes to represent models, concepts, and facts, with edges representing their connections.*
+
+
 The network has several properties:
 
 **Density.** The number of connections between nodes. A dense network is highly integrated; a sparse network is fragmented.
@@ -343,6 +373,9 @@ We have described integration as a deliberate, conscious process. But it is wort
  └──────────────────────┴───────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A two-column table maps brain processes to integration steps: association to building connections, reconsolidation to resolving contradictions, abstraction to building hierarchy, and neural networks to network structure.*
+
+
 The brain **integrates** information through **association**—linking new information to existing knowledge through neural connections. It **resolves contradictions** through **reconsolidation**—updating memories when new information conflicts with old. It **builds hierarchies** through **abstraction**—organizing knowledge from specific to general. It **connects** information through **networks**—the web of neurons and synapses that underlies all knowledge.
 
 The deliberate process of integration is a **formalization** of what the brain does automatically. It is what happens when you take the brain's implicit processes and make them explicit, systematic, and controllable.
@@ -366,6 +399,9 @@ Integration is hard, and it is easy to do badly. Here are the five pitfalls I ha
  │  IGNORING CONTRADICTIONS →  hold inconsistent beliefs │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists common integration pitfalls: connecting before testing, seeing connections everywhere, leaving models isolated, refusing to revise foundations, and ignoring inconsistent beliefs.*
+
 
 **Premature integration.** Connecting models before they have been adequately tested. The result is a knowledge base that is coherent but wrong.
 
@@ -404,6 +440,9 @@ But AI integration has its own pitfalls.
  │    • Take responsibility for the integration          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of AI-assisted integration contrasts tasks AI can perform, such as suggesting cross-domain connections and building knowledge graphs, with limits including distinguishing causal from spurious links, creating coherent hierarchies, explaining meaning, and taking responsibility.*
+
 
 **AI connections can be spurious.** A language model can suggest connections that are statistically plausible but causally meaningless. It can link concepts that co-occur in text but are not actually related.
 

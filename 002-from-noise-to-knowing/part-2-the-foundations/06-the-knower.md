@@ -47,6 +47,9 @@ Brains **predict**. They generate expectations about the world, compare those ex
    The two systems are solving different problems.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast AI training through data, loss minimization, batches, convergence, and test evaluation with brains that continuously predict, minimize surprise, remain open-ended, and live in the world.*
+
+
 The difference matters. When you train a model, you are fitting it to a dataset. When a brain builds knowledge, it is fitting itself to a world that is always changing. The brain cannot be "done." It has to keep predicting, keep correcting, keep updating. That is why it is always learning, and that is why it never stops.
 
 ---
@@ -91,6 +94,9 @@ In recent decades, this model has been overturned. The emerging consensus is tha
         └─────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow from prior model to prediction to sensory input to prediction error ends in an updated model; the error may update the model or be suppressed by it.*
+
+
 This is a profound shift. It means that perception is not passive reception but **active construction**. The brain is not a camera; it is a hypothesis-testing machine. What we see is not the world as it is, but the world as our model predicts it to be—with corrections for the parts that do not fit.
 
 The implications are enormous. It means that **prior knowledge shapes perception**. A radiologist looking at an X-ray sees patterns that a layperson cannot see—not because her eyes are better, but because her model is richer. She has learned what to look for, and her brain generates predictions that guide her attention and interpretation.
@@ -121,6 +127,9 @@ How does the brain form concepts? The classical account describes a sequence: pr
  └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A concept-formation sequence moves from encountering instances to comparing similarities and differences, abstracting common features, continuing refinement, forming a class through generalization, and assigning it a name or symbol.*
+
+
 The brain does this automatically. A child who sees a few dogs forms the concept of "dog" and can recognize a new dog on sight. They have not memorized every dog. They have extracted the features that are common to dogs and that distinguish them from cats, horses, and wolves. The concept is a **model**—a prediction that things that share these features will behave in similar ways.
 
 The brain forms concepts through **overgeneration and selection**. It does not start with a clean slate. It starts with a flood of possible features, and it selects the ones that are predictive. The process is Darwinian: variation followed by selection.
@@ -141,6 +150,9 @@ The brain forms concepts through **overgeneration and selection**. It does not s
 
    The rest are pruned away.
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts many initially generated possible features with a smaller set of predictive features selected and connected after learning, while the rest are pruned.*
+
 
 This is the first lesson I should have applied to my classifier. The model was trained on a fixed set of features. It could not overgenerate and select. It could only fit what it was given. A brain does something different—it explores the space of possible features, tests them against prediction, and keeps the ones that work.
 
@@ -164,6 +176,9 @@ Memory is not a single system. It is a collection of systems, each with its own 
  │  experiences)│  concepts) │                           │
  └─────────────┴─────────────┴───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A memory hierarchy divides long-term memory into declarative knowing-that, comprising episodic events and semantic facts or concepts, and procedural knowing-how, comprising skills, habits, and actions.*
+
 
 **Working memory** is the brain's temporary workspace—the mental scratchpad where information is held and manipulated in the service of current tasks. It is severely limited: about four to seven chunks of information at a time, and the capacity is fragile, easily disrupted by distraction, fatigue, and stress.
 
@@ -191,6 +206,9 @@ Consolidation requires **replay**—the reactivation of memories during sleep an
                     (easily disrupted)      (resistant to
                                              disruption)
 ```
+
+<!-- diagram-alt -->*Diagram description: A flow shows learning and encoding followed by synaptic consolidation over hours and systems consolidation over days to years; synapses strengthen and then reorganize to cortex, as fragile memory becomes durable.*
+
 
 This is the second lesson I should have applied to my classifier. I trained it once and deployed it. I did not give it time to consolidate, to replay, to integrate new examples with old knowledge. I treated learning as a one-time event. The brain treats it as a process that continues for days and years.
 
@@ -222,6 +240,9 @@ Then, with practice, the brain **selects** the connections that work and **elimi
     └─────────────────┘          │   dedicated)    │
                                   └─────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two network sketches contrast an inefficient, overproduced set of connections before learning with a pruned, refined, more efficient and dedicated set after learning.*
+
 
 This is why expertise is not the accumulation of more connections. It is the **elimination** of unnecessary ones. The expert's brain is not more connected than the novice's; it is more **efficiently** connected. It has pruned away the noise and retained the signal.
 
@@ -261,6 +282,9 @@ Sleep, according to SHY, triggers a **global down-selection** of synaptic streng
    signal-to-noise ratio is improved.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two plots compare synapse strength before and after sleep: renormalization lowers overall strength, pruning weak connections while retaining stronger ones and improving the relative signal-to-noise ratio.*
+
+
 This is why sleep is essential for learning. A night of sleep does not just rest the brain; it **reorganizes** it. It consolidates what matters, prunes what does not, and restores the signal-to-noise ratio.
 
 ### Active Forgetting
@@ -296,6 +320,9 @@ The neurotransmitter **dopamine** is central to learning. It is often described 
         → Dopamine dip
         → Weaken the action that led to the outcome
 ```
+
+<!-- diagram-alt -->*Diagram description: Two reward examples show an expected reward of 10 followed by actual rewards of 15 or 5; positive error triggers a dopamine burst and strengthens the action, while negative error triggers a dip and weakens it.*
+
 
 This is the neural basis of the knowledge loop described in Chapter 5. Dopamine is the signal that drives the update.
 
@@ -333,6 +360,9 @@ Expertise is not the accumulation of more information. It is the **construction 
    The expert is not more connected.
    The expert is more efficiently connected.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two network sketches compare a novice with many weak connections to an expert with fewer, stronger, faster connections, emphasizing efficient rather than more numerous connections.*
+
 
 This is why experts can make rapid decisions that seem intuitive. The intuition is not magic; it is the output of a highly trained model that has been refined through thousands of cycles of prediction and correction. The expert "sees" the situation differently because their model is richer and more efficient.
 
@@ -377,6 +407,9 @@ This is the process by which the brain's overgenerated connections are selective
    prunes the noise.
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow cycles from attempt through feedback, correction, and refinement back to another attempt, strengthening signal and pruning noise with each round.*
+
+
 This is the third lesson I should have applied to my classifier. I trained it once and stopped. I did not give it a feedback loop. I did not give it a chance to practice, to correct, to refine. The human agent does this every day, with every ticket. My model was a snapshot. (The loop itself is the one defined in Chapter 5.)
 
 ---
@@ -411,6 +444,9 @@ We have surveyed the brain's machinery for building knowledge: prediction, conce
  │  8. AUTOMATE →  build efficient sub-circuits         │
  └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A numbered sequence summarizes the brain?s knowledge machinery: predict, observe, correct, consolidate, prune, tag, practice, and automate.*
+
 
 The pipeline we will describe in the next part of the book is a deliberate, conscious version of these processes. It is what the brain does automatically, made explicit and systematic. It is knowledge engineering.
 

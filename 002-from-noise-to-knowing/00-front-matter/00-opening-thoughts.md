@@ -27,6 +27,9 @@ I call this process the **knowledge pipeline**. It has seven stages:
    CORRECT ◄── RETAIN/DISCARD ◄── INTEGRATE
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow moves from select through preprocess, generate, and test, then continues to integrate, retain or discard, and correct. The stages form a sequence for turning information into knowledge.*
+
+
 **Select** what deserves attention. **Pre-process** it into something usable. **Generate** candidate models and hypotheses. **Test** them against evidence. **Integrate** them into a coherent whole. **Retain** what survives, and **discard** what does not. **Correct** your beliefs in light of error.
 
 This pipeline is not a new invention. It is a formalization of what the best minds have always done—the scientists, the navigators, the physicians, the craftsmen, the philosophers. It is what the brain does automatically, made explicit and deliberate. It is what separates the person who is merely informed from the person who truly **knows**.
@@ -121,6 +124,8 @@ Let us begin.
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A quotation block presents the idea that a better method matters more than more information and attributes it to Pramod Rathod, an AI engineer and researcher.*
 
 <!-- book-nav:start -->
 

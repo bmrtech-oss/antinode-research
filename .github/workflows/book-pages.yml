@@ -25,7 +25,10 @@ jobs:
       - run: pip install mkdocs-material "mkdocs<2"
       - name: Check generated navigation is up to date
         run: |
+          python 002-from-noise-to-knowing/tools/build_index.py
           python 002-from-noise-to-knowing/tools/build_book.py
+          python 002-from-noise-to-knowing/tools/chapter_meta.py
+          python 002-from-noise-to-knowing/tools/diagram_alt.py apply
           git diff --exit-code -- 002-from-noise-to-knowing
       - name: Check links and chapter references
         run: python 002-from-noise-to-knowing/tools/check_links.py

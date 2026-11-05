@@ -52,6 +52,9 @@
               MASTERY IS WHAT YOU DO WITH IT.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of mastery: the pipeline cycles through selecting, preprocessing, generating, testing, integrating, retaining or discarding, and correcting before returning to selection; it leads through expertise, judgment, wisdom, and the discipline of knowing to mastery.*
+
+
 ---
 
 > *"The unexamined life is not worth living."*
@@ -99,6 +102,9 @@ By the end of this part, you should understand what the pipeline is *for*. It is
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasting the pipeline as a means with mastery as its end, and describing mastery as something practiced rather than possessed.*
+
 
 ---
 

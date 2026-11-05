@@ -62,6 +62,9 @@ He was not describing a temporary condition. He was describing a structural feat
                   └──────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns show limited, finite human attention as supply and advertisers, platforms, publishers, creators, politicians, and algorithms as demand. They converge on intense competition in a market that rewards what captures attention rather than what informs.*
+
+
 The attention market is not aligned with your interests. It rewards engagement, not accuracy. It rewards emotional arousal, not understanding. It rewards novelty, not truth. The information that shouts the loudest is rarely the information that matters.
 
 This is why selection is difficult. It is not that the right information is hard to find. It is that the wrong information is designed to find *you*, and to keep you.
@@ -98,6 +101,9 @@ But selection is not just "choosing good sources." That framing is too narrow. S
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows finite attention being divided among six competing demands labeled A through F. Selection is the decision about how to allocate that limited budget.*
+
+
 This reframing matters because it changes the question. The question is not "Is this interesting?" The question is "Is this the **best use** of my attention right now?" Those are very different questions, and they have very different answers.
 
 When I set `top_k` to twenty, I was answering the first question. Every document was *potentially* relevant. Every document was *interesting* in some sense. I was maximizing the amount of potentially useful material I was passing to the model. What I should have been asking was: *which few documents are the best use of the model's limited context?*
@@ -117,6 +123,9 @@ Selection is guided by three criteria. They are not the only criteria you could 
  │  NOVELTY     →  Does it tell me something new?        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists three selection criteria: relevance to the question, credibility or trustworthiness, and novelty or whether information adds something new.*
+
 
 ### Relevance
 
@@ -143,6 +152,9 @@ This means that **relevance requires a purpose.** You cannot know what is releva
    └──────────────────┘             └──────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast having no purpose, when everything seems equally relevant and selection is impossible, with having a purpose, which makes only some things relevant and allows selection.*
+
+
 This is why I failed with `top_k`. I had not defined what the retrieval was *for*. I had not asked: what is the model supposed to do with these documents? Once I defined the task—answer a specific question using only the evidence that bears on it—the relevance criterion became sharp. Documents that were tangentially related to the topic were no longer relevant. They were noise.
 
 ### Credibility
@@ -163,6 +175,9 @@ Credibility is not binary. It is a spectrum. And it depends on several factors:
  │  INDEPENDENCE →  freedom from conflicts of interest   │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists six factors for judging credibility: expertise, track record, incentives, evidence, transparency, and independence. Each factor is linked to a question about knowledge, accuracy, motives, support, openness, or conflicts of interest.*
+
 
 The knowledge engineer evaluates credibility **before** investing attention. This is not always possible—sometimes you must read something to know whether it is credible—but it is always the goal. The first few seconds of encountering a source should be spent asking: *Is this source credible?* If the answer is clearly no, redirect attention. If the answer is unclear, read with appropriate skepticism.
 
@@ -196,6 +211,9 @@ Novelty is not the same as importance. Some important information is not novel�
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows novel information being checked for whether it changes a model. If it does, it is kept and integrated; if not, it is discarded as entertainment.*
+
+
 The knowledge engineer seeks novelty, but not for its own sake. The goal is not to be surprised. The goal is to **update**. Novel information is valuable when it changes your model—when it provides new evidence, challenges an existing belief, or fills a gap in your understanding.
 
 Novel information that does not change your model is entertainment. That is not a bad thing. Entertainment has its place. But it is not knowledge work, and it should not consume the budget that knowledge work requires.
@@ -216,6 +234,9 @@ The three criteria provide a conceptual framework. In practice, you need a metho
  │  4. EVIDENCE   →  What supports the claim?            │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram presents source evaluation as four ordered checks: identify the source, assess its expertise, consider its incentives, and examine the evidence supporting its claim.*
+
 
 **Step 1: Identify the source.** Who is providing the information? An individual? An organization? An institution? An algorithm? Each has different characteristics and different credibility signals.
 
@@ -243,6 +264,9 @@ Selection is the process of choosing what to attend to. But it is equally about 
  │  4. IGNORE NOISE     →  extract signal from signal    │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four forms of ignoring: filtering sources by quality, defining a topic domain, designing an environment to avoid distractions, and extracting signal from noise.*
+
 
 **Ignore sources.** Not all sources are equally valuable. Build a source hierarchy—a mental list of sources that are worth attending to, and sources that are not. The hierarchy is not fixed; it evolves as you learn more about the domain. But it provides a starting point.
 
@@ -272,6 +296,9 @@ We can now describe selection in practice as a **filter**—a process that takes
  └──────────┘   └──────────┘   └────────────┘   └───────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram routes information through a selection filter: purpose, source, credibility, relevance, and a passing result lead to novelty and then attention. The arrows show the checks as a staged path toward allocating attention.*
+
+
 The filter is not a one-time event. It is an ongoing process. As you encounter new information, you apply the filter. As your question evolves, you adjust the filter. As you learn more about the domain, you refine the filter.
 
 The knowledge engineer becomes skilled at filtering. They can rapidly assess a source, evaluate its credibility, and decide whether it is worth attending to. This skill is developed through practice—through encountering many sources, making many judgments, and learning from the results.
@@ -299,6 +326,9 @@ Both are important. Focus without serendipity becomes narrow and rigid. Serendip
    │  a specific problem  │        │  a new domain        │
    └──────────────────────┘        └──────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns compare directed selection, which is focused, efficient, and goal-driven for a specific problem, with exploratory selection, which is broad and curiosity-driven for learning a new domain.*
+
 
 **Directed selection** is guided by a specific question or goal. It is focused, deliberate, and efficient. It is the mode you use when you know what you are looking for.
 
@@ -330,6 +360,9 @@ Selection is the first stage, but it is not isolated. It is connected to every o
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram places selection at the start of a pipeline through pre-processing, generation, and testing, then integration, retention, and correction, with arrows looping back. It emphasizes that selection is informed by every other stage.*
+
+
 **Selection feeds pre-processing.** What you select determines what you pre-process. If you select noise, you pre-process noise.
 
 **Pre-processing feeds back into selection.** What you learn during pre-processing may change what you select. A source that seemed credible may turn out to be unreliable.
@@ -360,6 +393,9 @@ Selection requires four virtues. They are not optional. Without them, the pipeli
  │  HUMILITY    →  revise your criteria when wrong       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four virtues of selection: purpose to clarify the goal, judgment to evaluate sources and information, discipline to reject what does not matter, and humility to revise criteria when they prove wrong.*
+
 
 **Purpose.** You cannot select without knowing what you are trying to accomplish. The first question is not "What is interesting?" but "What am I trying to do?"
 

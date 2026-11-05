@@ -47,6 +47,9 @@ It is also the hardest, for a reason that is easy to miss: **the quality of your
    You have not found the right one.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows five candidates, A through E, being tested, with only B marked as passing; B is the best available answer. The true explanation F was never generated, so testing cannot recover the missed candidate.*
+
+
 This is why generation is the stage that separates good knowledge workers from excellent ones. Two people with the same information, the same testing methods, and the same intelligence can reach different conclusions—because one generated the hypothesis that mattered and the other did not.
 
 The model I was using had generated the plausible. It had not generated the possible. And the possible was where the answer lived.
@@ -68,6 +71,9 @@ Generation is demanding in four ways. Each must be cultivated.
  │  Requires TOLERANCE      →  hold candidates lightly   │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four demands of generation: knowledge for rich prior models, imagination to consider possibilities, judgment to distinguish promising from implausible ideas, and tolerance to hold candidates lightly.*
+
 
 **Knowledge.** You cannot generate good hypotheses about a domain you do not understand. The model I was using had broad knowledge, but it did not have deep knowledge of *our* system—the specifics of which service called which, the peculiarities of our deployment, the history of similar failures. It generated from general knowledge, not specific knowledge.
 
@@ -100,6 +106,9 @@ We discussed concept formation in Chapter 6 as a brain process. Here we treat it
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists four functions of concepts: simplify by grouping instances, predict shared features, explain by placing instances in a theory, and communicate understanding to others.*
+
+
 ### Forming Concepts Deliberately
 
 The brain forms concepts automatically. The knowledge engineer forms them **deliberately**. This means:
@@ -115,6 +124,9 @@ The brain forms concepts automatically. The knowledge engineer forms them **deli
  │                          intend?                      │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram presents deliberate concept formation as four steps: define terms, compare diverse instances, identify essential rather than accidental features, and test whether the concept captures the intended meaning.*
+
 
 **Define terms precisely.** A concept is only as good as its definition. Vague concepts lead to vague knowledge.
 
@@ -146,6 +158,9 @@ A hypothesis is a candidate model—an assertion about how something works, or w
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists five characteristics of good hypotheses: they are testable, specific enough to be falsifiable, explanatory, fruitful in generating questions, and simple or parsimonious.*
+
+
 **Testable.** A good hypothesis makes predictions that can be checked against evidence. If a hypothesis cannot be tested, it is not a scientific hypothesis. It is a belief.
 
 **Specific.** A good hypothesis is specific enough to be falsified. "Something causes the effect" is too vague to test. "This specific mechanism causes the effect" is specific enough.
@@ -173,6 +188,9 @@ How do you generate hypotheses? There is no formula, but there are methods.
  │  ANOMALY     →  notice what doesn't fit               │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists five methods for generating hypotheses: abduction infers the best explanation, analogy imports a model from another domain, inversion works backward, combination joins ideas, and anomaly notices what does not fit.*
+
 
 **Abduction.** Inferring the best explanation for a set of observations. *What cause, if true, would produce these effects?* This is the most common form of hypothesis generation.
 
@@ -206,6 +224,9 @@ Analogy is one of the most powerful tools of generation. It works by recognizing
  └───────────────────┘         └───────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram maps structure from a known source domain to a target domain, showing entities A and B alongside X and Y. The source relation A to B suggests a possible target relation X to Y, which remains a question to investigate.*
+
+
 Analogy has driven some of the most important discoveries in history: the atom as a solar system, the brain as a computer, evolution as a market. It is also the source of some of the most persistent errors.
 
 The rule for using analogy well:
@@ -221,6 +242,9 @@ The rule for using analogy well:
  │  5. TEST the hypotheses against evidence              │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram gives five steps for using analogy: identify source and target domains, map their structure, generate hypotheses, identify where the mapping breaks, and test the hypotheses against evidence.*
+
 
 Step 4 is the one that is most often skipped, and it is the one that matters most. The analogy holds where the structure matches. It breaks where the structure diverges. The knowledge engineer must map both.
 
@@ -246,6 +270,9 @@ Synthesis is the construction of a model from its parts—a theory from its evid
  │  WILLINGNESS TO REVISE →  iterate                     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists four requirements for synthesis: rich selected and pre-processed information, an organizing principle such as a theory or framework, the ability to connect pieces, and willingness to revise.*
+
 
 Synthesis is the most demanding form of generation because it requires holding many pieces in mind simultaneously. It is also the most valuable, because it produces the models that knowledge is made of.
 
@@ -279,6 +306,9 @@ The psychologist and philosopher William James described these moments as "flash
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows an incubation sequence from immersion and intensive study to incubation, illumination or insight, and verification by testing the insight.*
+
+
 Incubation works best when you have **immersed** yourself in the problem—studied it deeply, thought about it intensely—and then let it go. The subconscious continues to process, combining and recombining ideas, until a promising candidate emerges.
 
 For my debugging, I had immersed. I had spent hours reading the trace. What I had not done was let it go. I had kept staring at the same data, generating the same hypotheses. When I finally stepped away—took a walk, worked on something else—the missing dependency occurred to me. It came from nowhere. It came from incubation.
@@ -309,6 +339,9 @@ The answer is: both, at different times.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram gives reasons to generate more hypotheses: increasing the chances of a correct answer, enabling more comparisons, and creating more opportunity for novel insight. It notes the trade-off that more hypotheses require more testing.*
+
+
 Generate broadly, then **filter** aggressively. Generate many hypotheses, but quickly eliminate the implausible ones. Focus your testing on the most promising candidates.
 
 The model I was using generated five hypotheses. That was not too few. It was too *narrow*. Five hypotheses all derived from the same general theory of failure. What I needed was five hypotheses from five *different* theories of failure. The quantity was adequate. The diversity was not.
@@ -330,6 +363,9 @@ The model I was using generated five hypotheses. That was not too few. It was to
    are worth less than five        are worth more than
    different ideas.                fifty variations.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns compare narrow and diverse hypothesis generation: the narrow set shows A1, A2, and A3 from the same family, while the diverse set shows A, B, and C from different families; five different ideas are valued over many variations of one idea.*
+
 
 This is the central lesson I took from the debugging failure. The model was generating quantity. What I needed was diversity. And diversity is exactly what a language model is *not* optimized for—it is trained to produce the most probable continuation, which is the most familiar hypothesis, not the most different one.
 
@@ -359,6 +395,9 @@ This is genuinely powerful. But it introduces a specific failure mode: **the mod
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the modal answer problem: language models predict the next token, favoring plausibility over diversity or truth, so repeated requests for hypotheses tend to produce probable, paraphrased answers rather than unexpected ones.*
+
 
 This is why the model gave me five hypotheses that were the same hypothesis in five costumes. It was doing exactly what it was designed to do. It was generating the modal answer. The modal answer is the familiar answer. The familiar answer is the one that was already in my head.
 
@@ -390,6 +429,9 @@ The knowledge engineer working with AI must compensate for this. Strategies incl
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of AI-assisted generation, contrasting capabilities such as quickly producing candidates and connecting domains with limits such as missing gaps in data, judging importance, and taking responsibility.*
+
+
 The knowledge engineer uses AI as a **generator**, not an **oracle**. They use it to produce candidates, to explore the familiar, to fill in the standard. They do not trust it to produce the frontier. That remains the human's job.
 
 ---
@@ -415,6 +457,9 @@ Generation does not happen in isolation. It is tightly coupled with testing.
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A flow from generating a candidate to testing it and evaluating the result, with evaluation feeding back into another round of generation.*
+
 
 You generate a candidate, test it, learn from the result, and generate a new candidate. The loop continues until you have a model that survives testing.
 

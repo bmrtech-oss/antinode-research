@@ -36,7 +36,7 @@ This is wrong in both directions.
 
 For a machine, the context window is a **sequence** with position-dependent attention. Evidence at the beginning and end is weighted differently than evidence in the middle. The ordering is a design variable, not a storage decision.
 
-For a human, working memory is a **bottleneck** with fragile attention and finite capacity. More information means more load, and more load means degraded processing. The capacity is a constraint, not a target.
+For a human, working memory is a **bottleneck** with limited capacity and attention that can be disrupted (Daniel Kahneman, Thinking, Fast and Slow, 2011; see Appendix D). More information means more load, and more load means degraded processing. The capacity is a constraint, not a target.
 
 ```
    CONTEXT AS CONTAINER VS. CONTEXT AS DESIGN SURFACE
@@ -60,6 +60,9 @@ For a human, working memory is a **bottleneck** with fragile attention and finit
    └──────────────────────┘        └──────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison of context as a container and as a design surface: one favors filling it, more information, and coverage, while the other treats order and audience-specific design as variables and behavior as success.*
+
+
 The shift from container to design surface is the central move of context engineering. Once you make it, the questions change. You stop asking "do I have enough information?" and start asking "is this information structured to produce the behavior I want, from the consumer I'm designing for, at the moment it's needed?"
 
 ---
@@ -68,7 +71,7 @@ The shift from container to design surface is the central move of context engine
 
 The reason context engineering matters is simple: **context determines behavior**.
 
-For a human, context shapes what you notice, what you interpret, and what you decide. The same facts, presented in a different frame, produce a different judgment. This is one of the most robust findings in cognitive psychology, and it applies to everything from medical diagnosis to hiring decisions to investment choices.
+For a human, context shapes what you notice, what you interpret, and what you decide. The same facts, presented in a different frame, can produce a different judgment (Daniel Kahneman, Thinking, Fast and Slow, 2011; see Appendix D). This is one of the most robust findings in cognitive psychology, and it applies to everything from medical diagnosis to hiring decisions to investment choices.
 
 For a machine, the dependence is even more acute. A language model has no persistent memory, no grounded understanding of the world, no stable identity. It has only the context it is given. The context is the model's entire world. Change the context, and you change the model's behavior.
 
@@ -96,6 +99,9 @@ For a machine, the dependence is even more acute. A language model has no persis
    The context is not.
    The behavior differs.
 ```
+
+<!-- diagram-alt -->*Diagram description: A comparison showing the same treatment probability framed as 30% success or 70% failure, with the first judged more favorable and the second less favorable despite identical underlying information.*
+
 
 This is why context engineering matters. It is the lever that controls performance. If you want better outputs, you need better context. If you want more reliable knowledge, you need more carefully designed information environments.
 
@@ -131,6 +137,9 @@ It is broader than user experience design. UX design is about making interfaces 
  │    • A synonym for "more context"                     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram defining context engineering through selecting, structuring, and ordering information, framing goals, and managing memory and tools, while distinguishing it from prompt engineering alone or simply adding context.*
+
 
 The goal of context engineering is to **maximize understanding and minimize cognitive load**. It is to give the cognitive system—human or machine—the information it needs, in the form it needs, in the order it needs it, at the time it needs it, so that it can perform at its best.
 
@@ -168,6 +177,9 @@ Context is not a single thing. It has seven layers, each of which must be design
  └───────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A nested hierarchy of seven context layers, from the inner Instruction and Retrieval through Tool, Memory, and Execution to Interaction and outermost Governance.*
+
+
 **Instruction context** is the task, goal, or question. It frames everything else.
 
 **Retrieval context** is the information selected and provided. It is the raw material.
@@ -200,6 +212,9 @@ The layers are nested. Every layer matters. A failure at any layer can derail th
    └─────────────┴──────────────────────┴──────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison table matching seven context layers with human and machine equivalents, from the question and prompt at Instruction through ethics and safety guidelines at Governance.*
+
+
 The layers are the same for both consumers. The content is different. The discipline is the same.
 
 ---
@@ -231,6 +246,9 @@ A context window is not homogeneous. Within it, some information is signal—it 
    evidence and produces           and produces a plausible
    a grounded answer.              answer built from noise.
 ```
+
+<!-- diagram-alt -->*Diagram description: A comparison of high- and low-signal context: clean evidence supports a grounded answer, while mostly irrelevant information hides the signal and leads to a plausible answer built from noise.*
+
 
 This is what I got wrong with my retrieval system. The fifteen documents were all relevant. But their signal-to-noise ratio *within the context* was low, because most of the content was background, caveats, and examples that did not bear on the specific question. The model had to do its own filtering, and it did not always do it well.
 
@@ -280,6 +298,9 @@ For a human, the ordering affects primacy and recency. The first things you read
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of ordering effects, with a table showing high machine attention and human recall for first and last positions but lower levels in the middle, and a 10-position curve with a middle valley.*
+
+
 The implication is that **the most important evidence should be at the boundaries, not buried in the middle.** For machines, put critical evidence first and last, and summarize the rest. For humans, use the same principle: lead with the conclusion, support it with evidence, close with the implication.
 
 This is the fix I made to my retrieval system. I did not just reduce the number of documents. I **re-ordered** them. The most critical evidence went first. The second-most critical went last. The middle was supporting context, examples, and caveats. The answers improved immediately.
@@ -311,6 +332,9 @@ This is the fix I made to my retrieval system. I did not just reduce the number 
    It gets lost.                   It gets used.
 ```
 
+<!-- diagram-alt -->*Diagram description: A before-and-after comparison of a 15-item ordering that buries key evidence at positions 10 to 12 and a reordered seven-item list that places key evidence at positions 1, 6, and 7 for better use.*
+
+
 This is a small insight, but it is the difference between a system that works and a system that doesn't. And it applies as much to a briefing for a CEO as to a prompt for a model.
 
 ---
@@ -340,6 +364,9 @@ Grounding is the work of connecting the model's output to something external—r
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison of an unsupported model answer that confidently gives Lyon as France?s capital with a retrieval-grounded answer citing a source and giving Paris, which can be checked.*
+
+
 The grounding problem has no human equivalent because humans have direct access to the world. But there is an analogy: humans can also generate confident, fluent, false claims, especially when they are reasoning from memory rather than evidence. The cure is the same—grounding in evidence, verifiable sources, and the discipline of testing.
 
 Context engineering for machines must include grounding. Context engineering for humans can include it too—by making evidence explicit, by citing sources, by separating claims from support.
@@ -365,6 +392,9 @@ The first principle is **reduce cognitive load**. The human working memory is li
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of ways to reduce cognitive load: group information into chunks, organize it in hierarchies, highlight important signals, and offload it into notes and tools.*
+
+
 ### Principle 2: Support Predictive Processing
 
 The second principle is **support predictive processing**. The human brain is a prediction engine. It works best when it can generate expectations and check them against reality.
@@ -378,6 +408,9 @@ The second principle is **support predictive processing**. The human brain is a 
  │  • PROVIDE FEEDBACK: confirm or correct predictions   │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of predictive-processing supports: provide background context, use familiar structures, and give feedback that confirms or corrects predictions.*
+
 
 ### Principle 3: Match the Mode of Representation
 
@@ -395,6 +428,9 @@ The third principle is **match the mode of representation**. Different kinds of 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram matching representations to information types: text for sequential logic, diagrams for structure and space, tables for comparison, charts for quantities, and narratives for cause and time.*
+
+
 ### Principle 4: Design for Attention
 
 The fourth principle is **design for attention**. Human attention is limited and fragile. Context engineering for humans must protect attention and direct it to what matters.
@@ -409,6 +445,9 @@ The fourth principle is **design for attention**. Human attention is limited and
  │  • RESPECT COGNITIVE RHYTHMS                          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing four attention-design principles: minimize distractions, use visual hierarchy, create focus, and respect cognitive rhythms.*
+
 
 ### Principle 5: Order for Primacy and Recency
 
@@ -428,6 +467,9 @@ The fifth principle is **order for primacy and recency**. Put the most important
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram ordering information for primacy and recency: put the conclusion or key claim first, supporting evidence and caveats in the middle, and implications or next steps last, without burying critical evidence.*
+
 
 ---
 
@@ -450,6 +492,9 @@ The first principle is **be explicit**. Machines do not infer context the way hu
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of explicit instructions, listing a clear task, specified format, examples, and defined constraints.*
+
+
 ### Principle 2: Manage the Context Window
 
 The second principle is **manage the context window**. Machines have a limited window—a maximum amount of text they can process at once. Context engineering for machines must fit within this window.
@@ -466,6 +511,9 @@ The second principle is **manage the context window**. Machines have a limited w
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of context-window management, listing prioritization, compression, removal of redundancy, retrieval, and ordering for attention.*
+
+
 ### Principle 3: Provide Structure
 
 The third principle is **provide structure**. Machines work better with structured information than with unstructured text.
@@ -481,6 +529,9 @@ The third principle is **provide structure**. Machines work better with structur
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of ways to provide structure: use delimiters, headers, lists, and schemas.*
+
+
 ### Principle 4: Ground the Model
 
 The fourth principle is **ground the model**. Machines can hallucinate. Context engineering for machines must ground the model in reliable information.
@@ -495,6 +546,9 @@ The fourth principle is **ground the model**. Machines can hallucinate. Context 
  │  • USE RETRIEVAL-AUGMENTED GENERATION                 │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of ways to ground a model: provide sources, require citations, verify outputs, and use retrieval-augmented generation.*
+
 
 ### Principle 5: Order for Attention
 
@@ -514,6 +568,9 @@ The fifth principle is **order for attention**. The context window has position-
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram ordering context for attention: put the task instruction and key evidence first, supporting documents and caveats in the middle, and a critical exception or final instruction last because the middle is an attention valley.*
+
 
 ---
 
@@ -546,6 +603,9 @@ The principles for humans and machines are different, but they share a common lo
  └──────────────────┴─────────────────────┴─────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison table of design choices for human and machine consumers across selection, structure, ordering, grounding, attention, and feedback, pairing human relevance and visual hierarchy with machine retrieval, schemas, citations, position-aware order, and verification.*
+
+
 The table is not a checklist. It is a reminder that context engineering is a **design problem**—and that the design choices depend on the consumer.
 
 ---
@@ -571,6 +631,9 @@ A manager needs to decide whether to approve a new product launch. The context e
  │  GOVERNANCE:   values, risk tolerance, legal          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the context for a Product X Q3 launch decision memo, mapping the question to Instruction, research to Retrieval, resources to Tool, past lessons to Memory, constraints to Execution, format to Interaction, and values and law to Governance.*
+
 
 The memo is structured to support the decision:
 
@@ -602,6 +665,9 @@ The memo is structured to support the decision:
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of a decision memo ordered with the recommendation first, market and financial evidence early, risks and alternatives in the middle, and the implication of waiting last.*
+
+
 The recommendation is first. The evidence is early. The caveats and alternatives are in the middle. The implication is last.
 
 This structure is not cosmetic. It is designed for primacy and recency. It is designed to reduce cognitive load by leading with the conclusion. It is designed to support the reader's predictive processing by giving them the frame before the details.
@@ -630,6 +696,9 @@ We have discussed context engineering for humans and machines. Now let us examin
  │                        evidence                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing five AI-specific context risks: poisoning with misleading information, distraction from irrelevant material, confusion from conflicting information, dilution when critical information is buried, and grounding failure without evidence.*
+
 
 **Context poisoning.** The retrieved documents contain false or misleading information. The model faithfully reproduces it. The fix is provenance and source quality, not better prompting.
 

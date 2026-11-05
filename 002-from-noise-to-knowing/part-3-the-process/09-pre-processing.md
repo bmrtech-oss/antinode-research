@@ -55,6 +55,9 @@ Pre-processing is the stage that determines whether the rest of the pipeline has
    └─────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A bar chart gives a rough distribution of retrieval-system failures across pipeline stages. Pre-processing has by far the most failures, followed by testing, while selection, retention, and correction have the shortest bars.*
+
+
 The bar chart is not a scientific finding. It is a confession. For years I looked for the problem in the model, in the prompt, in the retrieval ranking. It was almost always upstream of all of those—in the raw material I had handed to the system without preparing it.
 
 ---
@@ -68,6 +71,9 @@ Pre-processing has four tasks. Each takes the output of the previous task and pr
  │ CLEAN  │──►│ STRUCTURE │──►│ CONTEXTUALIZE │──►│ CONNECT │
  └────────┘   └───────────┘   └───────────────┘   └─────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram shows four pre-processing tasks in order: clean information, structure it, contextualize it, and connect it to related knowledge.*
+
 
 They are not strictly sequential. You will loop back. But the order is a useful default: clean first, because structuring dirty data is wasted effort; structure before contextualizing, because context attaches to structure; connect last, because connection requires knowing what you are connecting.
 
@@ -91,6 +97,9 @@ It is the least glamorous task in the pipeline and the one with the highest retu
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists five error types to check during cleaning: factual errors are false claims, inconsistencies are contradictions, ambiguity allows multiple interpretations, omissions leave information missing, and bias creates systematic distortion.*
+
+
 Each type requires a different cleaning strategy:
 
 ```
@@ -104,6 +113,9 @@ Each type requires a different cleaning strategy:
  │  BIAS DETECTION    →  look for systematic distortion  │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists five cleaning strategies and their purposes: cross-check other sources, verify the original source, check definitions, analyze gaps, and detect systematic bias.*
+
 
 In a retrieval system, cleaning takes a specific form. It means:
 
@@ -137,6 +149,9 @@ Raw information is often unstructured. It arrives as a stream of text, a jumble 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists five ways to structure information: categories group shared characteristics, hierarchies organize levels, sequences organize time or process, matrices organize dimensions, and networks organize connections.*
+
+
 The choice of structure depends on the purpose. A hierarchy is good for understanding a topic. A sequence is good for understanding a process. A matrix is good for comparing options. A network is good for understanding a system.
 
 For the chunking problem, the right structure was a **hierarchy** that respected the document's own organization:
@@ -162,6 +177,9 @@ For the chunking problem, the right structure was a **hierarchy** that respected
                                      └──────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast naive chunks that split text and code across boundaries with structure-aware chunks that retain a section header, parent, child information, and coherent content. The latter preserves each chunk's structural context.*
+
+
 The fix was to chunk on **semantic boundaries**—headers, paragraphs, code blocks, table boundaries—rather than on token count. Each chunk carried metadata about its parent section, its siblings, and its place in the document. When the chunk was retrieved, the model received not just the text but the structure.
 
 This is what structuring means in practice. It is not a formatting exercise. It is the work of preserving the relationships that give information meaning.
@@ -185,6 +203,9 @@ We discussed context in Chapter 4. Here we treat it as a pre-processing task.
  │  PURPOSIVE   →  what is it for?                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists five dimensions of context: semantic meaning, the situation, historical background, causes and effects, and purpose.*
+
 
 When information is decontextualized, it becomes ambiguous or misleading. A statistic without its source is a rumor. A quote without its surrounding text is a distortion. A study without its limitations is an overclaim.
 
@@ -215,6 +236,9 @@ In retrieval systems, contextualizing takes a specific form. Every retrieved chu
    It can weigh, compare, and cite appropriately.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows a content chunk wrapped with metadata for its source, date, version, scope, and confidence. The model receives both the content and this context so it can weigh, compare, and cite it appropriately.*
+
+
 This is what "contextualizing" means for a retrieval system. It is not enough to retrieve the right text. You must retrieve the text with the context that tells the model how to interpret it.
 
 ---
@@ -237,6 +261,9 @@ Connection is the beginning of integration. It is the process of situating new i
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists five forms of connection: similarity, difference, causation, contradiction, and implication. Each relates new information to what is already known or to what may follow.*
+
+
 In retrieval systems, connecting takes a specific form. It means retrieving not just the chunk that matches the query, but the chunks that are **related** to it—parent sections, sibling chunks, cross-references, related documents.
 
 ```
@@ -252,6 +279,9 @@ In retrieval systems, connecting takes a specific form. It means retrieving not 
    Model receives one               Model receives the chunk
    chunk in isolation.              and its neighborhood.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns contrast flat retrieval, where a query returns one isolated chunk, with connected retrieval, which adds its parent section, sibling chunks, cross-references, and related documents. The model receives the chunk's neighborhood as well as the chunk itself.*
+
 
 This is what connecting means in practice. It is the work of ensuring that the model—or the human—receives not just the piece of information, but the piece in its network.
 
@@ -283,6 +313,9 @@ The four tasks form a workflow. It is iterative, not linear.
  └───────────────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows an iterative pre-processing workflow: clean, structure, contextualize, and connect, with an arrow looping from connection back to cleaning. The loop indicates that the steps can be repeated.*
+
+
 The workflow can be summarized as four questions:
 
 ```
@@ -296,6 +329,9 @@ The workflow can be summarized as four questions:
  │  CONNECT:        How does it relate to what I know?   │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists questions for each pre-processing stage: cleaning checks accuracy, consistency, completeness, and bias; structuring asks how to organize information; contextualizing asks about context; and connecting asks how it relates to existing knowledge.*
+
 
 Ask them habitually. Ask them of every document, every dataset, every chunk. They will become automatic.
 
@@ -316,6 +352,9 @@ Pre-processing is hard, and it is easy to do badly. Here are the five pitfalls I
  │  CONFUSING STAGES     →  never move forward           │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists common pre-processing pitfalls and their effects: skipping cleaning accepts errors, over-structuring imposes false order, decontextualizing ignores meaning, under-connecting fragments knowledge, and confusing stages prevents progress.*
+
 
 **Skipping cleaning.** The most common pitfall. Accepting information at face value without checking for errors, inconsistencies, or biases.
 
@@ -345,6 +384,9 @@ We have described pre-processing as a deliberate, conscious process. But it is w
  │   Neural networks    │   Connecting          │
  └──────────────────────┴───────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram pairs brain processes with pre-processing steps: sensory filtering with cleaning, categorization with structuring, memory and association with contextualizing, and neural networks with connecting.*
+
 
 The brain **cleans** information through sensory filtering—ignoring irrelevant stimuli, correcting for noise, and filling in gaps. It **structures** information through categorization and schemas. It **contextualizes** information through memory and association. It **connects** information through neural networks.
 
@@ -380,6 +422,9 @@ But AI is not a substitute for the knowledge engineer's judgment. AI can make er
  │    • Take responsibility for the knowledge            │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts AI-assisted pre-processing capabilities with limits. AI can summarize, clean, structure, extract metadata, and identify connections, but cannot judge truth, understand inquiry purpose, make final relevance decisions, or take responsibility for knowledge.*
+
 
 In my own work, I now use AI to do the first pass of pre-processing—summarizing, tagging, extracting structure—and then I review the output manually. The AI saves me perhaps 70% of the time. The remaining 30% is where the quality lives, and it requires human judgment.
 

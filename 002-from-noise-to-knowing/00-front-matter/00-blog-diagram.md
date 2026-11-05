@@ -32,6 +32,9 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasts an abundant information deluge with a much smaller knowledge trickle, showing everything a person could consume passing through a pipeline of selection, preprocessing, generation, testing, integration, retention or discarding, and correction. It emphasizes that the gap is caused by method, not access.*
+
+
 **Caption:**
 > *Information is everywhere. Knowledge is rare. The difference is method.*
 

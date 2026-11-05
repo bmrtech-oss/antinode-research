@@ -31,6 +31,10 @@ Read [the shared principles](shared/principles.md) and
 
 ## Current work
 
+[From Noise to Knowing](002-from-noise-to-knowing/README.md) is a book on turning
+information into knowledge. Read it online at
+<https://bmrtech-oss.github.io/antinode-research/>.
+
 [Design Decisions for a Business Rule Extraction Platform](001-aidlc-business-rule-extraction/README.md)
 is a registered report, version 3.0. It records the research plan and the
 platform's architectural decisions; it does not claim that proposed evaluations

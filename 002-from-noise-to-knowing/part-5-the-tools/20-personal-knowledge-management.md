@@ -55,6 +55,9 @@ It is not just technology. Tools matter, but they are not the essence. The essen
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of what personal knowledge management is and is not: it captures and retrieves ideas, processes information, and supports thinking, rather than being merely note-taking, productivity, technology, or an unused collection.*
+
+
 That last line is the one that matters. Most PKM systems fail not because they are poorly designed, but because they are designed for **capture** and not for **retrieval**. They are optimized for the moment of writing, not for the moment of need.
 
 ---
@@ -83,6 +86,9 @@ The fallacy is seductive. When you save an article, you feel like you have learn
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the collector?s fallacy, contrasting the belief that saving, highlighting, and bookmarking mean knowing or understanding with the reminder that accumulation is not learning and capture is not retrieval.*
+
 
 The result is a **digital hoard**—a vast collection of saved articles, highlighted books, and bookmarked resources that you never look at again. The hoard grows, but the knowledge does not. You have more information than ever, but you are no wiser.
 
@@ -119,6 +125,9 @@ When I stopped thinking of my notes as a collection and started thinking of them
    └──────────────────────┘       └──────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison of collection and index mentalities: collection asks what is already held and optimizes for capture and note count, while an index anticipates future needs and optimizes for retrieval and successful finds.*
+
+
 This reframing has consequences. If your system is a collection, you measure it by size. If your system is an index, you measure it by **hit rate**—how often you find what you need when you need it.
 
 My old system had a size of thousands of notes and a hit rate of approximately zero. My new system has a size of a few hundred notes and a hit rate I actually check. It is smaller, and it is better.
@@ -144,6 +153,9 @@ My old system had a size of thousands of notes and a hit rate of approximately z
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the hit rate test, asking whether a note was found, how long it took, and whether it was the right note, then using a monthly rate to evaluate retrieval design.*
+
+
 ---
 
 ## The Five Principles
@@ -162,6 +174,9 @@ What makes a PKM system effective? There is no single formula, but there are fiv
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram listing the five PKM principles in order: capture selectively, process thoroughly, connect generously, retrieve effortlessly, and review regularly.*
+
+
 ### Principle 1: Capture Selectively
 
 Not everything is worth capturing. Capture what is relevant, novel, and useful—and ignore the rest.
@@ -178,6 +193,9 @@ Not everything is worth capturing. Capture what is relevant, novel, and useful�
  │  Capture what matters. Let the rest go.               │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of selective capture, assessing information for relevance, novelty, usefulness, and connection to existing knowledge, and advising that only what matters be kept.*
+
 
 The hardest part of selective capture is accepting that you will miss things. You will read an article and not save it, and later wish you had. That is the cost of a system that works. A system that captures everything has a different cost: it captures nothing findably.
 
@@ -198,6 +216,9 @@ Capturing is not enough. You must process what you capture—summarize it, conne
  │  knowledge.                                           │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of thorough processing: summarize the key point, contextualize its meaning, connect it to existing knowledge, and integrate it into the knowledge base to turn captures into knowledge.*
+
 
 The rule I use: **a note that is not processed within a week is not a note. It is a bookmark.** Bookmarks are fine, but they belong in a bookmark folder, not in your knowledge base. If it is in your knowledge base, it should be processed.
 
@@ -224,6 +245,9 @@ Knowledge is not a collection of isolated notes. It is a network of connected id
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of connected notes, with A, B, and C linked across a top row and D, E, and F linked across a bottom row, with vertical links between corresponding notes; it emphasizes that connected notes are more useful.*
+
+
 Connection is what makes a knowledge base valuable—and it is what makes it retrievable. When you are looking for one note, you often find it through another note that links to it. Connections are retrieval paths.
 
 ### Principle 4: Retrieve Effortlessly
@@ -244,6 +268,9 @@ A knowledge base is only useful if you can find what you need when you need it.
  │  knowledge base you can't use.                        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of effortless retrieval, listing search, browsing, surfacing relevant notes, and following connections as ways to find and use knowledge.*
+
 
 This is the principle I violated. I spent two years on capture and connection and almost no time on retrieval. I had built a graph with no search function.
 
@@ -266,6 +293,9 @@ A knowledge base is not a static archive. It is a living system that must be mai
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of regular reviews at increasing intervals: weekly processing of new captures, monthly link updates, quarterly system pruning, and annual goal and system adjustments.*
+
+
 Review is the maintenance function. Without it, the system drifts into a hoard. With it, the system stays an index.
 
 ---
@@ -283,6 +313,9 @@ How do you know whether a note is worth keeping? Three tests.
  │  3. GENERATIVITY  →  Does it change your thinking?    │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing three tests of a note in order: findability asks whether it can be found, usability whether it can be used, and generativity whether it changes thinking.*
+
 
 **Findability.** Can you find the note when you need it? This is the retrieval test. A note that cannot be found is not a note.
 
@@ -310,6 +343,9 @@ My forty-three notes on retrieval systems failed all three tests. I could not fi
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison of bookmarks and notes across findability, usability, and generativity: bookmarks fail all three tests, while notes pass them by adding a summary, context, and connection to a URL and title.*
+
+
 ---
 
 ## The Methods
@@ -318,7 +354,7 @@ There are several methods for implementing PKM. Each has its own strengths and w
 
 ### The Zettelkasten Method
 
-The **Zettelkasten** method is the system that Niklas Luhmann used. It is based on atomic notes, unique identifiers, links, and indexes.
+The **Zettelkasten** method is the system that Niklas Luhmann used (Niklas Luhmann, “Kommunikation mit Zettelkästen: Ein Erfahrungsbericht,” 1981; see Appendix D). It is based on atomic notes, unique identifiers, links, and indexes (Sönke Ahrens, How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking—for Students, Academics and Nonfiction Book Writers, 2nd ed., 2022; see Appendix D).
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -344,11 +380,14 @@ The **Zettelkasten** method is the system that Niklas Luhmann used. It is based 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Zettelkasten method, showing uniquely identified notes 1a and 1b with reciprocal links and additional links to other notes; their sample ideas illustrate how connections create value.*
+
+
 The Zettelkasten is powerful because it encourages **connection**. But it has a weakness: it optimizes for connection, not for retrieval. A densely connected graph is not necessarily a findable one.
 
 ### The PARA Method
 
-The **PARA** method, developed by Tiago Forte, organizes information into four categories: **Projects**, **Areas**, **Resources**, and **Archives**.
+The **PARA** method, developed by Tiago Forte, organizes information into four categories: **Projects**, **Areas**, **Resources**, and **Archives** (Tiago Forte, Building a Second Brain: A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential, 2022; see Appendix D).
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -374,11 +413,14 @@ The **PARA** method, developed by Tiago Forte, organizes information into four c
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the PARA method, stacking Projects, Areas, Resources, and Archives from active projects to inactive items, and organizing information by actionability rather than topic.*
+
+
 PARA is powerful because it organizes by **actionability**. Projects are things you are actively working on. Resources are things you might use. This makes retrieval easier, because you know where to look.
 
 ### The Building a Second Brain Method
 
-The **Building a Second Brain** (BASB) method combines capture, organize, distill, and express.
+The **Building a Second Brain** (BASB) method combines capture, organize, distill, and express (Tiago Forte, Building a Second Brain: A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential, 2022; see Appendix D).
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -394,6 +436,9 @@ The **Building a Second Brain** (BASB) method combines capture, organize, distil
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A flow from Capture to Organize to Distill to Express in the Building a Second Brain method, moving from collecting resonant material through actionable organization and distillation toward creating and expressing.*
+
 
 BASB is powerful because it emphasizes **expression**. The goal of PKM is not just to collect knowledge; it is to use it.
 
@@ -422,6 +467,9 @@ The method I ended up with is not one of the standard ones. It is a hybrid that 
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of a retrieval-first method in five steps: start with a query, design a retrieval path, write for a future search, test whether the note can be found, and prune what fails.*
+
 
 This is the method that fixed my system. I stopped asking "what should I capture?" and started asking "what will I need to find?" The notes I wrote after that were fewer, longer, more contextualized, and—crucially—findable.
 
@@ -452,6 +500,9 @@ How does PKM work in practice? Here is a workflow that integrates the principles
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of a continuous PKM workflow: Capture leads to Process, Organize, and Retrieve, then to Create and Review, which loops back to continue the cycle.*
+
+
 **Capture.** When you encounter something interesting, capture it—but selectively. Ask: is this relevant, novel, useful, and connected?
 
 **Process.** Within a week, process your captures. Summarize the key point. Contextualize it. Connect it to what you already know. Integrate it into your knowledge base.
@@ -481,6 +532,9 @@ PKM is powerful, but it is easy to do badly. Here are the five pitfalls I have e
  │  WRITE-ONLY MEMORY   →  capturing without retrieving  │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing common PKM pitfalls and their contrasts: collecting without knowing, designing more than using, switching tools instead of using them, waiting instead of starting, and capturing without retrieving.*
+
 
 **The collector's fallacy.** Collecting information is not the same as acquiring knowledge.
 
@@ -513,6 +567,9 @@ We have described PKM as a discipline for capturing, organizing, connecting, and
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the PKM pipeline, listing Select, Pre-process, Generate, Test, Integrate, Retain, and Correct in sequence with example methods for each stage, including search, AI, feedback, and review.*
+
+
 PKM is the **infrastructure** for the pipeline. It is the place where the outputs of each stage are stored, connected, and retrieved. Without PKM, the pipeline has nowhere to put what it produces. With PKM, the pipeline compounds—each cycle builds on the last.
 
 ---
@@ -543,6 +600,9 @@ AI has changed PKM significantly. Large language models can summarize, tag, link
  │    retrieval paths yourself.                          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasting AI capabilities in PKM with its limits: AI can summarize, suggest links, answer questions, and retrieve by meaning, but cannot decide what to capture or build retrieval paths; easy capture can therefore lead to no retrieval.*
+
 
 The risk is subtle. When AI does the retrieval, you stop learning how to retrieve. You stop building the paths. You stop knowing what you know. The knowledge base becomes a black box—you can query it, but you cannot navigate it.
 

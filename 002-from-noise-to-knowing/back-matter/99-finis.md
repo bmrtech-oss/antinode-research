@@ -34,7 +34,7 @@ A book about epistemic honesty cannot be built on a quiet omission. A book about
 
 ## Acknowledgments
 
-To the thinkers whose work this book draws on—Herbert Simon, Daniel Kahneman, Karl Feynman, Michael Polanyi, Karl Popper, Niklas Luhmann, Andy Clark, Vannevar Bush, and the many others whose names appear in these pages—thank you for building the models I have tried to assemble.
+To the thinkers whose work this book draws on—Herbert Simon, Daniel Kahneman, Richard Feynman, Michael Polanyi, Karl Popper, Niklas Luhmann, Andy Clark, Vannevar Bush, and the many others whose names appear in these pages—thank you for building the models I have tried to assemble.
 
 To the readers who take this book seriously enough to argue with it, correct it, and improve it—thank you in advance. The pipeline is not a finished product. It is a living method. Your corrections are part of its growth.
 
@@ -71,6 +71,9 @@ You have the method. Now go use it.
                     └───────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A quotation block presents the idea that a better method matters more than more information and attributes it to Pramod Rathod, an AI engineer and researcher.*
+
+
 ---
 
 *From Noise to Knowing: The Discipline of Turning Information into Knowledge*
@@ -83,6 +86,6 @@ You have the method. Now go use it.
 
 ---
 
-[← Appendix E](../back-matter/98-appendix-e-limitations.md) | [Contents](../README.md)
+[← Appendix F](../back-matter/98-appendix-f-index.md) | [Contents](../README.md)
 
 <!-- book-nav:end -->

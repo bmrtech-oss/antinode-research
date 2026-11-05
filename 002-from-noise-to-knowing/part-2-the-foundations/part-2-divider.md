@@ -46,6 +46,9 @@
                 WHAT YOU ARE BUILDING WITH.
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the Part II title asks what the raw material is over a broad shaded field and states that building requires first knowing what materials are being used.*
+
+
 ---
 
 > *"We can know more than we can tell."*
@@ -82,6 +85,9 @@ By the end of this part, you should have a precise understanding of the material
                     │                           │
                     └───────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of a central statement says knowledge cannot be built from information until the difference between them is understood.*
+
 
 ---
 

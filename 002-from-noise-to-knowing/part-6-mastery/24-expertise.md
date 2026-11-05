@@ -51,6 +51,9 @@ The first thing to understand about expertise is what it is **not**.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasts common myths of expertise, such as having many facts or credentials, with expertise as a compressed model that recognizes patterns, asks useful questions, and supports judgment under uncertainty.*
+
+
 The myth of the expert as encyclopedia is seductive because it is easy to measure. You can test facts. You can count credentials. You can score debates. But these measures do not capture what expertise really is. They capture **proxies**—signals that are correlated with expertise, but that can be present without it.
 
 The senior engineer did not have more facts than I did. She had a **compressed model**—a representation of the domain that was smaller than mine, more efficient, and more predictive. She had compressed the domain into a set of structural relationships that let her see the bug as a consequence of a specific interaction, not as a collection of symptoms to be matched.
@@ -86,6 +89,9 @@ The expert's mind is not a bigger database. It is a better compression algorithm
    The expert has a better model.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns compare novices, who hold many disconnected facts and retrieve them slowly, with experts, who use a few connected principles for faster retrieval and better generalization.*
+
+
 Compression is the process of finding the structure that explains the most data with the fewest principles. The expert has found that structure. The novice has not.
 
 This is why experts can solve problems they have never seen before. They are not matching against a database of past cases. They are **applying a compressed model** to a new case. The model tells them what to look for, what to ignore, and what to expect.
@@ -110,6 +116,9 @@ The senior engineer did not have a memory of this exact bug. She had a compresse
    └──────────────────────┘        └──────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast a novice searching all possible bug causes for six hours with an expert narrowing the search using two questions about deployment and retry logic in ninety seconds.*
+
+
 ---
 
 ## The Four Components of Expertise
@@ -126,6 +135,9 @@ Expertise has four components. Each is built through practice, and each can be t
  │  4. JUDGMENT             →  wise decision             │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram presents four components of expertise in sequence: pattern recognition for seeing structure, mental models for understanding mechanisms, intuition for rapid judgment, and judgment for wise decisions.*
+
 
 ### Component 1: Pattern Recognition
 
@@ -152,6 +164,9 @@ The first component is **pattern recognition**—the ability to look at a situat
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts an expert who recognizes an arrangement of circles as a familiar pattern with a novice who sees only individual circles.*
+
 
 Pattern recognition is not magic. It is the result of extensive experience—of seeing many instances, comparing them, abstracting the common features, and consolidating the result into a model. The expert has seen so many instances that the pattern is obvious.
 
@@ -184,6 +199,9 @@ The second component is **mental models**—a rich, interconnected representatio
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows an expert mental model flowing from entities through relations to mechanisms, alongside constraints through priors to predictions, enabling simulation, prediction, and explanation.*
+
+
 Mental models are what allow experts to **generalize**. A novice can solve a problem they have seen before. An expert can solve a problem they have never seen before, because they can apply their model to new situations.
 
 The senior engineer's model included the mechanism by which retry timeouts interact with downstream latency. She did not need to have seen this specific bug. She needed to understand the mechanism, and the mechanism predicted the bug.
@@ -211,6 +229,9 @@ The third component is **intuition**—rapid, largely unconscious judgment that 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram distinguishes intuition from magic, random guessing, or evidence replacement, describing it instead as a fast, validated, tacit output of a compressed model.*
+
+
 Intuition is the compressed model running fast. It is not magic. It is what happens when a model has been refined through thousands of cycles of prediction and correction, until it can produce a judgment without conscious deliberation.
 
 But intuition has a failure mode: **it is only reliable in high-validity environments**. In environments where patterns are stable, feedback is immediate, and causal relationships are clear, intuition can be trusted. In environments where patterns are unstable, feedback is delayed, and causal relationships are complex, intuition can be misleading.
@@ -233,6 +254,9 @@ But intuition has a failure mode: **it is only reliable in high-validity environ
  │      personnel decisions                              │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two sections contrast reliable intuition in stable, quickly corrected settings such as chess and debugging with unreliable intuition in unstable settings such as markets and forecasting.*
+
 
 The senior engineer's intuition was reliable because debugging is a high-validity environment. The patterns are stable, the feedback is immediate, and the causal relationships are clear. She could trust her intuition because the environment supported it.
 
@@ -257,6 +281,9 @@ The fourth component is **judgment**—the capacity to make wise decisions under
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts judgment with calculation and rule-following, describing it as applying wisdom under uncertainty to identify what matters and decide what to do.*
+
 
 Judgment is the highest form of expertise. It is what distinguishes the expert from the technician. The technician can apply a procedure. The expert can decide which procedure to apply, when to apply it, and when to abandon it.
 
@@ -283,6 +310,9 @@ The distinction between expertise and punditry is crucial—and often blurred.
  │  • Accountable for predictions • Not accountable      │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns compare an experienced expert, who is humble, open to correction, and accountable for predictions, with a media-shaped pundit who is confident and defends positions without accountability.*
+
 
 The pundit is a product of the attention economy. They are rewarded for confidence, not accuracy. They are rewarded for engagement, not truth.
 
@@ -315,6 +345,9 @@ How long does it take to become an expert? The research is remarkably consistent
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows deliberate practice accumulating over ten years, with progressively longer bars from year one to year ten and a statement that expertise has no shortcuts.*
+
+
 The ten-year rule has several implications:
 
 **Expertise takes time.** There are no shortcuts. You cannot become an expert in a weekend, a month, or a year.
@@ -342,6 +375,9 @@ The key to expertise is not just practice—it is **deliberate practice**.
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A four-step list describes deliberate practice as focused on weaknesses, effortful beyond current ability, guided by feedback, and repeated with variation.*
+
+
 Deliberate practice is not the same as experience. Many people have years of experience but are not experts, because they have not practiced deliberately. They have repeated the same actions over and over, without stretching themselves, without seeking feedback, without targeting their weaknesses. They have accumulated experience, but not expertise.
 
 The senior engineer had twenty years of deliberate practice. She had spent those years not just debugging, but studying why bugs happen—reading postmortems, analyzing failure modes, building models of distributed systems. She had practiced deliberately, and the practice had built the compressed model.
@@ -367,6 +403,9 @@ I had six years of experience. I had debugged many bugs. But I had not practiced
    └──────────────────────┘        └──────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns contrast routine experience, which repeats familiar work without feedback, with deliberate practice, which targets gaps and compounds improvement through discomfort and feedback.*
+
+
 ---
 
 ## The Limits of Expertise
@@ -385,6 +424,9 @@ Expertise is powerful, but it is not infallible. Experts can be wrong—sometime
  │  4. RIGIDITY        →  clinging to outdated models    │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A four-part list describes limits of expertise: misrecognizing patterns, unreliable intuition in low-validity settings, overconfidence, and rigidity from outdated models.*
+
 
 **Misrecognition.** Experts recognize patterns, but they can also misrecognize them. They can see a pattern that is not there. They can impose a familiar pattern on a novel situation.
 
@@ -413,6 +455,9 @@ We have described expertise as the possession of a compressed model. But the hig
  │  5. PRACTICE DELIBERATELY                             │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A five-step list recommends cultivating judgment through diverse experiences, reflection on decisions, feedback, studying experts, and deliberate practice.*
+
 
 **Seek diverse experiences.** Judgment is built through exposure to a wide range of situations. The more varied your experience, the richer your models.
 
@@ -448,6 +493,9 @@ We have described expertise as the possession of a compressed model. Now let us 
  │                  to revise                            │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A sequential list shows expertise strengthening each stage of a knowledge pipeline, from selecting and preparing information through generating, testing, integrating, and retaining it to correcting beliefs.*
+
 
 The expert has better selection criteria, better pre-processing skills, better generation methods, better testing procedures, richer integration, better retention, and better correction. The compressed model makes every stage of the pipeline more effective.
 

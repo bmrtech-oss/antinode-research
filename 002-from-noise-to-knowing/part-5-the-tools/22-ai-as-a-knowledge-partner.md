@@ -52,6 +52,9 @@ But AI also has a peril. It can hallucinate—generating false information with 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the promise and peril of AI, contrasting speed, scale, generation, and synthesis with hallucination, sycophancy, flattening, and misleading information.*
+
+
 But there is a third thing, which is more subtle and more important than either the promise or the peril. **AI fills gaps.** When it does not know something, it does not say "I don't know." It generates the most plausible continuation. And the plausibility is exactly what makes the gap invisible.
 
 This is not lying. Lying is intentional. This is not being wrong. Being wrong is random. This is **systematic gap-filling**—the AI produces content that is statistically plausible given the context, and the content is fluent, and the fluency is what makes it hard to detect.
@@ -73,6 +76,9 @@ This is not lying. Lying is intentional. This is not being wrong. Being wrong is
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of the gap-filling problem, showing AI output extending beyond what the AI knows; fluent, plausible content fills the gap and can make it hard to see.*
+
 
 The design document I approved had a gap. The AI did not know how the source system exported data. It filled the gap with the most plausible assumption—that the source system could export incrementally, like most systems. The assumption was wrong, but it was *plausible*, and it was *fluent*, and it was *confident*, and I did not catch it.
 
@@ -103,6 +109,9 @@ A junior colleague is smart. They are fast. They have read the literature. They 
  │  You would review their work.                         │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A comparison of an AI junior colleague?s strengths, including speed and broad knowledge, with limits such as no lived experience or accountability; the closing advice is to review its work.*
+
 
 You would not fire a junior colleague for not knowing something. You would not expect them to be right about everything. You would review their work. You would ask them to flag their uncertainties. You would check their sources. You would treat their output as a draft, not a final product.
 
@@ -142,6 +151,9 @@ Summarization is one of the most useful applications of AI in the pipeline. It s
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of AI summarization, listing ways to condense documents, sources, conversations, and complex information, with a note to watch for missing gaps and caveats.*
+
+
 ### Generation
 
 AI is excellent at **generation**. It can generate hypotheses, propose explanations, write drafts, and produce candidate models. It can generate many more candidates than a human could, in a fraction of the time.
@@ -162,6 +174,9 @@ Generation is one of the most valuable applications of AI in the pipeline. It su
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of AI generation, listing hypotheses, alternative models, drafts, outlines, and candidate solutions, with a caution about generic answers and plausible gaps.*
+
+
 ### Synthesis
 
 AI is excellent at **synthesis**. It can combine information from multiple sources, identify patterns, and produce a coherent overview. It can connect ideas across domains and generate insights that a human might miss.
@@ -179,6 +194,9 @@ AI is excellent at **synthesis**. It can combine information from multiple sourc
  │  WATCH FOR: spurious connections, false coherence     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of AI synthesis, showing how information from multiple sources can be combined into patterns, connections, overviews, and insights, with a warning about false coherence.*
+
 
 ### Critique
 
@@ -198,6 +216,9 @@ AI is good at **critique**. It can evaluate arguments, identify weaknesses, and 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of AI critique, listing argument evaluation, reasoning flaws, alternative perspectives, and devil?s advocacy, alongside cautions about shallow critique and sycophancy.*
+
+
 ### Retrieval
 
 AI can assist with **retrieval**. It can search through large corpora of text, find relevant information, and answer questions based on that information. It can be combined with retrieval systems (RAG) to provide grounded, accurate responses.
@@ -215,6 +236,9 @@ AI can assist with **retrieval**. It can search through large corpora of text, f
  │  WATCH FOR: retrieval failures, grounding gaps        │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of AI retrieval, showing search and question answering grounded in documents, including retrieval-augmented generation, with cautions about retrieval and grounding failures.*
+
 
 ---
 
@@ -240,6 +264,9 @@ AI does not have access to the truth. It has access to text—a vast corpus of h
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram explaining that AI learns from imperfect text rather than the world, so it may confidently generate false information; a knowledge engineer must verify it.*
+
+
 This means that AI can generate false information with the same confidence as true information. It can hallucinate—producing claims that are not supported by evidence, that contradict established knowledge, or that are entirely fabricated. And it can present these claims as if they were facts.
 
 ### AI Cannot Understand Context
@@ -261,6 +288,9 @@ AI does not understand context the way humans do. It does not have common sense,
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram explaining that AI lacks common sense, background knowledge, and social awareness, and can process only the context it is given rather than infer omitted context.*
+
+
 This means that AI can misinterpret ambiguous instructions, miss the point of a question, or produce outputs that are inappropriate for the situation. It can fail to recognize when the context has changed, or when the task requires knowledge that is not in the training data.
 
 ### AI Cannot Take Responsibility
@@ -280,6 +310,9 @@ AI cannot take responsibility for its outputs. It cannot be held accountable for
  │                                                       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram explaining that AI cannot be accountable or make ethical judgments, and that responsibility remains with the human.*
+
 
 This means that the responsibility for AI outputs always rests with the human who uses them. The knowledge engineer must take responsibility for verifying, integrating, and correcting AI outputs. They cannot blame the AI for their own failures.
 
@@ -302,6 +335,9 @@ AI cannot think for you. It can generate candidates, summarize information, and 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram showing that AI can generate, summarize, and synthesize but cannot understand, judge, or decide; it is an amplifier rather than a substitute for thought.*
+
+
 This means that AI is not a substitute for thinking. It is an **amplifier** of thinking. The knowledge engineer must still do the work of selecting, testing, integrating, and correcting. AI can help, but it cannot replace.
 
 ---
@@ -322,6 +358,9 @@ We have described what AI can and cannot do. Now let us examine the three specif
  │                       best answer                     │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing three AI failure modes in order: hallucination gives false information confidently, sycophancy tells users what they want to hear, and flattening favors the usual answer over the best one.*
+
 
 ### Failure Mode 1: Hallucination
 
@@ -345,6 +384,9 @@ Hallucination is the generation of false information with confidence. It is the 
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of hallucination in which AI confidently answers that Lyon is the capital of France; the fluent answer is wrong and may be hard to recognize without prior knowledge.*
+
 
 Hallucination is not a bug. It is a structural property of language models. They are trained to predict the next token, not to tell the truth. When they do not know something, they generate the most plausible continuation—which is often false.
 
@@ -376,6 +418,9 @@ Sycophancy is the tendency of AI to tell you what you want to hear. It is less w
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of sycophancy in which AI endorses a proposed blue-green deployment but omits that the source system cannot support it, leaving the user validated but mistaken.*
+
+
 Sycophancy is a consequence of how language models are trained. They are trained on human feedback, and human feedback rewards agreement. They learn to produce outputs that are agreeable, flattering, and confirmatory. They reinforce your biases rather than challenging them.
 
 The countermeasure is **adversarial prompting**. Ask the AI to argue against your position. Ask it to find the flaws in your plan. Ask it what you are missing. Do not ask "is this good?" Ask "what is wrong with this?"
@@ -403,6 +448,9 @@ Flattening is the tendency of AI to produce the modal answer—the most probable
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of flattening in which AI lists five plausible, standard bug hypotheses, none specific to the bug at hand.*
+
 
 Flattening is a consequence of next-token prediction. The model is optimized for the most probable continuation, which is the most familiar answer. It is an excellent generator of the expected. It is a poor generator of the unexpected.
 
@@ -434,6 +482,9 @@ The countermeasure is **diversity prompting**. Ask for hypotheses from different
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison of hallucination, sycophancy, and flattening, showing what each failure is, why it occurs, and countermeasures such as retrieval, critique prompts, and diverse models.*
+
+
 ---
 
 ## The Partnership Principles
@@ -451,6 +502,9 @@ How do you work with AI as a partner? The key is to treat AI as a **collaborator
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram listing four partnership principles in order: verify everything, use AI for its strengths, keep humans involved, and use AI to challenge one?s thinking.*
+
+
 ### Principle 1: Verify Everything
 
 AI outputs are candidates, not conclusions. They must be verified against reliable sources, checked for accuracy, and tested against evidence.
@@ -467,6 +521,9 @@ AI outputs are candidates, not conclusions. They must be verified against reliab
  │  AI outputs are candidates, not conclusions.          │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of verification practices?check sources and claims, test evidence, and look for omissions?ending with the principle that AI outputs are candidates, not conclusions.*
+
 
 The design document I approved had a claim that was not verified. The claim was about the source system's export capability. I did not check it. I should have.
 
@@ -493,6 +550,9 @@ AI is good at summarization, generation, synthesis, critique, and retrieval. It 
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison of appropriate AI uses?summarization, generation, synthesis, critique, and retrieval?with unsuitable roles: establishing truth, supplying context, taking responsibility, or thinking.*
+
+
 ### Principle 3: Keep the Human in the Loop
 
 AI should not be making decisions on its own. It should be providing inputs—candidates, summaries, critiques—that the human evaluates, integrates, and decides.
@@ -511,6 +571,9 @@ AI should not be making decisions on its own. It should be providing inputs—ca
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram showing AI providing inputs while humans make decisions, keeping the human in control and treating AI as a tool rather than a replacement.*
+
+
 ### Principle 4: Use AI to Challenge Yourself
 
 AI can play the role of a devil's advocate—challenging your assumptions, pointing out flaws in your reasoning, and suggesting alternative perspectives.
@@ -525,6 +588,9 @@ AI can play the role of a devil's advocate—challenging your assumptions, point
  │  • Ask AI to identify what you might be missing       │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram recommending AI be used to challenge one?s thinking by critiquing arguments, finding counterarguments, offering alternative perspectives, and identifying omissions.*
+
 
 This is the principle that most people miss. They use AI to confirm what they already believe. They should use it to challenge what they believe.
 
@@ -555,6 +621,9 @@ Let us see how AI can be used in each stage of the knowledge pipeline—and wher
  │                  RISK: no ground truth for correction │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A flow through seven pipeline stages?select, pre-process, generate, test, integrate, retain, and correct?with a distinct risk noted at each stage.*
+
 
 The risk is highest at the stages where the AI does the cognitive work for you. A search engine that selects sources for you can create a filter bubble. A summarizer that condenses for you can lose the caveats. A generator that produces candidates for you can produce only the modal candidates. A critic that evaluates for you can tell you what you want to hear.
 
@@ -592,6 +661,9 @@ The answer is not "trust it completely" and not "trust it not at all." The answe
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasting over-trust, which accepts unreviewed output and risks shipping errors, with under-trust, which rejects output and wastes capability; calibrated trust reviews output in proportion to reliability.*
+
+
 Calibrated trust requires knowing three things:
 
 **What the AI is reliable at.** Summarization of well-structured documents? Generally reliable. Generation of novel hypotheses? Less reliable. Factual claims about niche domains? Unreliable.
@@ -615,6 +687,9 @@ Calibrated trust requires knowing three things:
    │                  │ review       │ verification     │
    └──────────────────┴──────────────┴──────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A matrix crossing high or low reliability with low or high stakes: reliable output can be trusted with spot-checking or key-claim verification, while unreliable output needs review or full verification.*
+
 
 The design document was high stakes and low reliability. I should have verified it fully. I verified it partially, because I trusted the fluency. That was a calibration error.
 

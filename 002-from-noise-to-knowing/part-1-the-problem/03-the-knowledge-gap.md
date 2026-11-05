@@ -46,6 +46,9 @@ Here is the gap, in one image.
    It is a failure of conversion.
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison shows a large volume of available information beside a much smaller amount of possessed knowledge. The caption attributes the gap to failed conversion rather than lack of access.*
+
+
 The hospital system had the left column. It did not have the right. And no amount of additional information—more dashboards, more metrics, more reports—would have closed the gap, because the gap was not on the information side. It was on the conversion side.
 
 This is the first thing to understand about the knowledge gap: **it is not a supply problem. It is a transformation problem.** The bottleneck is not the availability of information. The bottleneck is the process by which information becomes knowledge—and that process is difficult, expensive, and largely invisible.
@@ -82,6 +85,9 @@ The limits are concrete and measurable:
    These are not defects. They are the conditions of thought.
 ```
 
+<!-- diagram-alt -->*Diagram description: A table lists five cognitive constraints: working memory holds about four chunks, attention is narrow and easily hijacked, long-term memory is fallible and cue-dependent, processing speed is about 50 bits per second, and cognitive energy depletes over the day.*
+
+
 When the volume and velocity of information exceed these constraints, the result is cognitive overload. Attention fragments. Working memory congests. The capacity for sustained reasoning declines. And the mind defaults to fast, automatic thinking—the mode that is efficient but biased.
 
 This is not a problem that can be solved by willpower. The constraints are biological. They can only be addressed by **offloading**—by externalizing information into tools, systems, and collaborators that extend the mind's capacity.
@@ -109,6 +115,9 @@ Knowledge, by contrast, is expensive to produce and difficult to monetize. It re
    The market rewards the left column.
    The world needs the right column.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns contrast information rewarded for speed, low cost, easy monetization, volume, and clicks with knowledge that takes longer and costs more to build and is rewarded by depth and outcomes. The caption says markets reward information while the world needs knowledge.*
+
 
 The result is a market failure: too much information, too little knowledge. This is not a conspiracy. It is the natural consequence of a system that rewards volume over quality, speed over accuracy, and engagement over understanding. The incentives of the information economy are not the incentives of the knowledge economy. And in the competition between the two, information usually wins.
 
@@ -140,6 +149,9 @@ Peer review is slow and imperfect. Academic publishing is expensive and inaccess
    Some are not.
 ```
 
+<!-- diagram-alt -->*Diagram description: Two parallel flows show old gatekeepers such as universities, journals, newspapers, and publishers leading to weakened authority, while new producers such as anyone with a phone or algorithm lead to a flooded marketplace.*
+
+
 The internet has democratized information production, which is a good thing. But it has not democratized knowledge production, which requires discipline, training, and institutions. The result is a landscape in which it is easier than ever to produce information and harder than ever to know what to trust.
 
 ### Reason 4: The Psychology Is Against Us
@@ -160,7 +172,10 @@ The human mind is not naturally oriented toward truth. It is oriented toward sur
    └──────────────────────┴────────────────────────────────┘
 ```
 
-These biases are not defects. They are adaptations. They help us navigate a complex social world efficiently. But they are also obstacles to knowledge. They make us resistant to evidence that contradicts our beliefs. They make us vulnerable to manipulation. They make us overconfident in our own understanding.
+<!-- diagram-alt -->*Diagram description: A table names four psychological obstacles and their effects: confirmation bias seeks supporting evidence, motivated reasoning favors desired conclusions, social proof follows others? beliefs, and cognitive miserliness favors shortcuts.*
+
+
+These biases are not defects. They are adaptations. They help us navigate a complex social world efficiently. But they are also obstacles to knowledge. They make us resistant to evidence that contradicts our beliefs (Tversky and Kahneman, "Judgment under Uncertainty: Heuristics and Biases," 1974; see Appendix D). They make us vulnerable to manipulation. They make us overconfident in our own understanding.
 
 The result is a paradox: the more information we have, the more confident we become, and the less accurate our confidence may be. The information deluge does not cure our biases. It amplifies them.
 
@@ -191,6 +206,9 @@ The knowledge gap is not a single thing. It has five dimensions, and each must b
    │             │  for action                  │              │
    └─────────────┴──────────────────────────────┴──────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A table pairs five dimensions of the knowledge gap with ways to close them: volume with selection, velocity with filtering, validity with testing, integration with integration, and application with judgment.*
+
 
 The hospital system I described had a **volume** problem—they could not attend to all the metrics that mattered. They had a **velocity** problem—the situation was changing faster than the reports could be updated. They had a **validity** problem—some of the data was stale, incomplete, or misclassified. They had an **integration** problem—the metrics lived in different systems and were never assembled into a coherent picture. And they had an **application** problem—even when they knew what was happening, they did not know what to do.
 

@@ -66,6 +66,9 @@ Information has several characteristics that distinguish it from knowledge:
    └────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A table lists five properties of information: it is external, transferable, propositional, cumulative, and passive. Short descriptions explain that information exists outside the mind, can be moved or accumulated, takes statement form, and does not apply itself.*
+
+
 These characteristics are what make information so valuable and so cheap. It can be stored, transmitted, and replicated at almost no cost. It can be organized and searched. It can be aggregated and analyzed. And because it is external, it can be shared among unlimited numbers of people without being diminished.
 
 But these same characteristics are what make information *insufficient* for knowledge. Information is external; knowledge is internal. Information is transferable; knowledge must be constructed. Information is propositional; knowledge is model-based. Information is cumulative; knowledge is integrative. Information is passive; knowledge is active.
@@ -107,6 +110,9 @@ Information is fragmented. It arrives in pieces—a fact here, a statistic there
                                connections
 ```
 
+<!-- diagram-alt -->*Diagram description: Two diagrams contrast scattered, disconnected information with knowledge as facts woven into a connected model. The first is labeled fragmented and the second integrated.*
+
+
 A person who has memorized a thousand isolated facts has more information than a person who understands a single principle deeply. But the person with the principle has more knowledge, because knowledge is about connections, not accumulation.
 
 ### Knowledge Is Actionable
@@ -144,6 +150,9 @@ Knowledge is model-based because reality is too complex to be known in full. We 
                                 variables relate
 ```
 
+<!-- diagram-alt -->*Diagram description: A comparison contrasts the isolated fact that water boils at 100 degrees Celsius with a model linking pressure to boiling point, cooking time, and altitude effects.*
+
+
 The person who knows *that* water boils at 100°C has a fact. The person who knows *why* and *how it changes with pressure* has a model. The first can recite. The second can predict what happens on a mountain, adapt a recipe, and design a pressure cooker.
 
 ### Knowledge Is Provisional
@@ -171,6 +180,9 @@ Finally, knowledge is provisional. It is always subject to revision, correction,
                                    expanding
                                    universe."
 ```
+
+<!-- diagram-alt -->*Diagram description: A comparison contrasts a static claim that the sun revolves around Earth with provisional knowledge that develops from the sun at the center of the solar system to the solar system within a galaxy and an expanding universe. Downward arrows show later revisions as evidence and understanding broaden.*
+
 
 Information can be true or false, and it stays that way. Knowledge is always subject to revision—because the evidence can change, and because the model can always be improved.
 
@@ -202,6 +214,9 @@ The distinction between information and knowledge is often represented by the **
    Each level is produced by transforming the level below it.
 ```
 
+<!-- diagram-alt -->*Diagram description: A hierarchy stacks data at the bottom, followed by information, knowledge, and wisdom at the top. Each level transforms the one below, from raw symbols to meaningful data, actionable models, and applied judgment.*
+
+
 The hierarchy is useful because it captures the intuition that there is a qualitative difference between having data and having wisdom. But it is also **misleading**, in three ways.
 
 **First, it implies a linear progression.** The pyramid suggests that data becomes information, which becomes knowledge, which becomes wisdom—as if each level automatically produces the next. It does not. Most data never becomes information. Most information never becomes knowledge. Most knowledge never becomes wisdom. The transformation requires effort, and most of it is lost.
@@ -225,6 +240,9 @@ The hierarchy is useful because it captures the intuition that there is a qualit
    The levels are not a ladder. They are a loop,
    and the knower is at the center.
 ```
+
+<!-- diagram-alt -->*Diagram description: A revised DIKW diagram links data, knowledge, and wisdom above information, experience, and action, with downward and leftward arrows forming a loop around the knower. It presents the levels as connected processes rather than a one-way ladder.*
+
 
 For our purposes, the most important distinction is between **information** and **knowledge**. Information is the raw material. Knowledge is the product. The transformation between them is the subject of this book.
 
@@ -251,6 +269,9 @@ Consider the knowledge of how to ride a bicycle. You can read a thousand pages o
    Easy to   Easy to    Partly       Hard to    Very hard
    transmit  transmit   transmittable transmit   to transmit
 ```
+
+<!-- diagram-alt -->*Diagram description: A spectrum runs from explicit knowledge that can be written to tacit knowledge that must be practiced, moving through formula, recipe, diagnostic heuristics, bike balance, and intuition or judgment. Ease of transmission declines along the same direction.*
+
 
 Tacit knowledge is pervasive. It is the knowledge of how to recognize a face, how to speak a language, how to play a musical instrument, how to diagnose a disease, how to judge a legal case, how to lead a team. It is the knowledge that experts have but cannot fully explain.
 
@@ -288,6 +309,9 @@ A retrieval-augmented system retrieves documents and passes them to a model. The
    The model has information. It does not have knowledge.
    It has no way to tell the difference.
 ```
+
+<!-- diagram-alt -->*Diagram description: A flow shows information producing a model and then a plausible answer, which can lead to confident wrongness because the model lacks grounding in reality. The caption distinguishes information from knowledge.*
+
 
 This is why retrieval-augmented generation (RAG) helps, but does not solve the problem. RAG grounds the model in information. It does not ground it in knowledge. The model can still assemble accurate facts into an inaccurate model—and present that model with perfect confidence.
 
@@ -328,6 +352,9 @@ The difference between information and knowledge has profound economic implicati
    ones that control the most information. They are the
    ones that have built the most valuable knowledge.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns compare information and knowledge: copying is nearly free and abundant for information, while knowledge is costly to build and scarce; transfer is instant versus slow, and value decays versus endures.*
+
 
 This is why experts are valuable. They possess knowledge that is difficult to acquire and expensive to replace. This is why education is valuable. It is the process by which knowledge is transmitted from one generation to the next—not as information, but as practice, apprenticeship, and discipline.
 

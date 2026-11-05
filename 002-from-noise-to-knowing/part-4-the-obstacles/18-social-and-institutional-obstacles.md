@@ -52,6 +52,9 @@ Cognitive biases are errors in individual cognition. Logical fallacies are error
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram distinguishes three obstacle categories: cognitive biases inside an individual mind, logical fallacies in argument structure, and social or institutional barriers in groups and societies.*
+
+
 The third category is different in kind. A bias can be corrected by the person who holds it. A fallacy can be corrected by the person who reads it. But a social obstacle cannot be corrected by any single person, because it is **distributed across the group**. It lives in the incentives, the hierarchy, the norms, and the unspoken rules about what can be said and by whom.
 
 The junior engineer was not biased. Her argument was not fallacious. She was defeated by the room.
@@ -98,6 +101,9 @@ What happened in that meeting was not an accident. It was a sequence of recogniz
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A flow shows a meeting gradually sidelining an analysis: a high-status anecdote is treated as an answer, social proof follows, silence is read as agreement, implementation begins, and the decision is ratified without the analysis in the minutes.*
+
+
 Notice what is absent from this sequence. There is no moment where anyone says "you're wrong." There is no refutation. There is no vote. The analysis is not defeated. It is **drowned**—first by a non-responsive anecdote, then by social proof, then by the sheer momentum of a conversation that has moved on.
 
 This is why social obstacles are so hard to correct. There is nothing to correct. There is no error to point to. There is only the absence of an answer that was never engaged.
@@ -106,7 +112,7 @@ This is why social obstacles are so hard to correct. There is nothing to correct
 
 ## Mechanism 1: Groupthink
 
-The first mechanism is **groupthink**—the tendency of groups to prioritize harmony and consensus over critical evaluation. Irving Janis coined the term after studying a series of foreign policy disasters in which intelligent, well-informed groups made catastrophic decisions.
+The first mechanism is **groupthink**—the tendency of groups to prioritize harmony and consensus over critical evaluation. Irving Janis coined the term after studying a series of foreign policy disasters in which intelligent, well-informed groups made catastrophic decisions (Irving L. Janis, Groupthink: Psychological Studies of Policy Decisions and Fiascoes, 2nd ed. (Houghton Mifflin, 1982); see Appendix D).
 
 ```
  ┌───────────────────────────────────────────────────────┐
@@ -122,6 +128,9 @@ The first mechanism is **groupthink**—the tendency of groups to prioritize har
  │  8. Self-appointed mindguards                         │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists eight symptoms of groupthink, including collective rationalization, pressure on dissenters, self-censorship, an illusion of unanimity, and mindguards.*
+
 
 In my meeting, symptoms 6 and 7 were doing the work. The junior engineer did not push back after the senior architect's anecdote—self-censorship. And nobody else spoke up, so the room read the silence as agreement—illusion of unanimity. The two fed each other. Her silence confirmed their consensus; their consensus justified her silence.
 
@@ -152,6 +161,9 @@ The second mechanism is the **information cascade**—the tendency for people to
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows an information cascade: each person infers from earlier people?s actions, until the crowd follows those inferences and ignores private information.*
+
+
 In a meeting, the cascade looks like this: the first person to speak sets the direction. The second person, who might have disagreed, now faces a choice between their own judgment and the social cost of contradicting the first speaker. Most people choose the lower cost. The third person now sees two people aligned and infers that the direction must be correct. By the fifth speaker, the direction is not a position—it is the room's reality.
 
 The junior engineer's analysis was independent information. But it entered the room after the cascade had already formed. At that point, engaging with it would have required the room to reverse a direction it had already committed to. Nobody wanted to pay that cost.
@@ -174,6 +186,9 @@ The junior engineer's analysis was independent information. But it entered the r
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A timeline shows the direction of a decision being set before evidence arrives; reversing course later carries costs to face, status, and time, so it does not happen.*
+
 
 The lesson is structural: **sequence matters as much as evidence.** The same analysis, presented first, would have changed the meeting. Presented fifth, it was inert.
 
@@ -205,6 +220,9 @@ The senior architect had every incentive to speak confidently. His anecdote was 
    │                                                     │
    └─────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: Two columns compare speaking up, which carries social risk but shares benefits, with staying quiet, which carries no cost and offers safety; individual incentives favor silence while the group benefits from speaking up.*
+
 
 This is the deepest social obstacle, because it does not require anyone to be biased or fallacious. It only requires everyone to be rational about their own costs. The result is a room full of intelligent people producing a decision that none of them, individually, would have endorsed.
 
@@ -242,6 +260,9 @@ Call it the **courage tax**.
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram contrasts the dissenter?s social, reputational, opportunity, and risk costs with benefits received by everyone; the dissenter bears all the cost but only one share of the benefit, making dissent individually irrational yet essential to the group.*
+
+
 The courage tax explains why organizations that are full of smart people make stupid decisions. It is not that the smart people are wrong. It is that the smart people have correctly calculated that speaking up is not worth it.
 
 The junior engineer had done the calculation, probably without knowing she was doing it. The cost of contradicting a senior architect in front of a vendor, in a meeting she was new to, was high. The benefit—a better decision for the company—was diffuse. She stayed quiet. She was being rational.
@@ -268,6 +289,9 @@ The fourth mechanism operates at the institutional level: the decline of trust i
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram lists four causes of eroding epistemic authority: institutional failures, politicization, the internet weakening gatekeepers, and an attention economy that rewards engagement over accuracy.*
+
+
 Inside an engineering organization, the erosion takes a specific form: **no one agrees on what counts as evidence.** The senior architect's anecdote counts as evidence to him. The junior engineer's incident report counts as evidence to her. The vendor's case studies count as evidence to the account manager. There is no shared standard for adjudicating between them, so the room defaults to the standard it always uses when there is no shared standard: **status.**
 
 The highest-status person's evidence wins. Not because it is best, but because there is no agreed-upon procedure for determining which evidence is best.
@@ -289,6 +313,9 @@ The highest-status person's evidence wins. Not because it is best, but because t
    └──────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram shows status replacing shared evidence standards: a senior person?s anecdote and a vendor case study win while a junior person?s incident report loses, despite no evidence that the winning sources are better.*
+
+
 This is why building a shared standard of evidence is not a bureaucratic nicety. It is the only thing that can override status. A team with a shared standard can say: "anecdotes are not evidence here; incident reports are." A team without one cannot say anything, because there is nothing to appeal to.
 
 ---
@@ -309,6 +336,9 @@ We have described the obstacles. Now the countermeasures. None of them is easy, 
  │  6. BUILD A COMMUNITY OF INQUIRY                      │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram lists six countermeasures: collect judgments independently, assign a devil?s advocate, establish a shared evidence standard, change the sequence, protect dissenters, and build a community of inquiry.*
+
 
 ### 1. Collect Judgments Independently
 
@@ -333,6 +363,9 @@ Before the discussion, have each participant write down their judgment independe
                                  visible before the
                                  cascade can form.
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram contrasts independent judgments made before discussion with collected decisions afterward; seeing disagreement first makes it visible before a cascade can form.*
+
 
 If the junior engineer's judgment had been collected independently, her disagreement would have been on the table before the senior architect spoke. The cascade would have had to start from a state of visible disagreement, which is much harder to do.
 
@@ -362,6 +395,9 @@ The team needs an agreed-upon hierarchy of evidence. Something like:
    can be challenged by a higher form.
    An anecdote cannot override an incident report.
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram ranks evidence from reproducible measurements down to unsupported assertions, with stronger forms above weaker ones; a lower-ranked anecdote cannot override an incident report.*
+
 
 With a shared standard, the junior engineer's incident report outranks the senior architect's anecdote. The room does not have to decide whose status is higher. It has a rule.
 
@@ -397,6 +433,9 @@ The most powerful countermeasure is a group of people who share a commitment to 
  │  • Shared tools and processes                         │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram describes a community of inquiry through shared honesty and critical thinking, diverse perspectives, psychological safety, collective correction, and shared tools and processes.*
+
 
 A community of inquiry is not a team that gets along. It is a team that has agreed to a set of norms that make correction possible. It is the difference between a room that talks an answer out of existence and a room that cannot, because the norms do not permit it.
 

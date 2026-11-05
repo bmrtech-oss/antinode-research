@@ -55,6 +55,9 @@ This is a subtle shift, and it is easy to miss, and missing it is why most peopl
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: Two columns comparing the pipeline as a project and as a practice: projects are bounded, goal-directed episodes measured by output, while practice is continuous and process-directed, measured by compounding.*
+
+
 A project is a sprint. A practice is a gait. A project has a finish line. A practice has a rhythm.
 
 The difference matters because **the pipeline only compounds if it is a practice.** If you run the pipeline once, you get one result. If you run it continuously, each cycle builds on the last, and the accumulation is not linear. It is exponential.
@@ -81,6 +84,9 @@ The difference matters because **the pipeline only compounds if it is a practice
                                    could not have been
                                    produced any other way.
 ```
+
+<!-- diagram-alt -->*Diagram description: Two plots compare linear project output over time with compounding practice, whose output grows progressively; the captions contrast ten separate results with a body of work built through ten years of practice.*
+
 
 The log showed me this. Ten years of daily entries produced something—a way of thinking, a set of models, a network of ideas—that no single year could have produced, and that I could not have planned. The compounding was the point.
 
@@ -111,6 +117,9 @@ A practice has a rhythm. It is not uniform effort; it is structured variation—
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A cycle of practice rhythms moves from daily capture, processing, and reflection to weekly review, reading, and conversation, then monthly audit, pruning, and projects, and yearly review, direction, and commitment before returning to daily practice.*
+
+
 The rhythm is not a schedule. You will miss days. You will skip weeks. The point is not to be perfect; the point is to have a structure to return to.
 
 ### Daily: Capture, Process, Reflect
@@ -134,6 +143,9 @@ The rhythm is not a schedule. You will miss days. You will skip weeks. The point
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of the daily routine: morning sets a question, midday captures and processes what is encountered, and evening reviews what went well or wrong and what was learned.*
+
+
 The daily practice is small. It takes twenty minutes. It is the unit of the compounding—the daily deposit that, over years, produces the body of work.
 
 ### Weekly: Review, Read, Converse
@@ -155,6 +167,9 @@ The daily practice is small. It takes twenty minutes. It is the unit of the comp
  │             Challenge each other                      │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of weekly practice with three parts: review learning and unfinished work, read something substantial and take notes, and converse with someone who thinks differently.*
+
 
 The weekly practice is where the accumulation gets reviewed. It is where you see the pattern that the daily practice cannot see.
 
@@ -178,6 +193,9 @@ The weekly practice is where the accumulation gets reviewed. It is where you see
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram of monthly practice: audit the knowledge base, prune obsolete material while archiving or keeping what matters, and take on a small project to apply the pipeline and reflect.*
+
+
 The monthly practice is where the compounding gets maintained. It is where you make sure the knowledge base is an asset, not a liability.
 
 ### Yearly: Review, Direct, Commit
@@ -198,6 +216,9 @@ The monthly practice is where the compounding gets maintained. It is where you m
  │             What will I keep doing?                   │
  └───────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of yearly practice: review accomplishments and learning, direct the next year?s learning goals, and commit to what to stop, start, and continue.*
+
 
 The yearly practice is where the compounding gets directed. It is where you ask the big questions and commit to a direction.
 
@@ -228,6 +249,9 @@ This joy is not a luxury. It is a **motivation**. It is what sustains the discip
  └───────────────────────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A diagram describing the joy of understanding as the pleasure of figuring something out, including the satisfaction of seeing clearly; it presents this joy as motivation rather than a luxury.*
+
+
 The joy of understanding is available to everyone. It does not require genius, or wealth, or credentials. It requires curiosity, attention, and the willingness to engage with the world. It is the reward of the examined life.
 
 I did not write the log for the joy. But when I read it, years later, the joy was there—in the entries where I had figured something out, in the entries where I had changed my mind, in the entries where I had seen a connection I had not seen before. The log was a record of a decade of small joys. That was the compounding I had not noticed.
@@ -251,6 +275,9 @@ The discipline of knowing is not just a set of practices. It is a set of **virtu
  │  • INTEGRITY                                       │
  └────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram listing seven virtues of the knowledge engineer: curiosity, humility, honesty, courage, patience, resilience, and integrity.*
+
 
 **Curiosity.** The desire to understand, not just to know. The willingness to ask questions, to explore, to follow the thread wherever it leads.
 
@@ -287,6 +314,9 @@ The discipline of knowing is not just a set of practices. It is a set of **virtu
    └──────────────┴──────────────────────────────────────┘
 ```
 
+<!-- diagram-alt -->*Diagram description: A two-column diagram pairing seven virtues with examples: curiosity asks why, humility admits error, honesty reports contrary results, courage raises concerns, patience persists, resilience restarts, and integrity aligns conduct with belief.*
+
+
 These virtues are not optional. They are the foundation of the discipline. Without them, the practices become empty rituals. With them, the practices become a way of life. Humility and courage meet in the confidence–stakes calibration of Chapter 26: the humility to hold a belief loosely enough to correct, and the courage to hold it firmly enough to act.
 
 ---
@@ -319,6 +349,9 @@ At some point in those ten years, the practice stopped being something I did and
    │                                                      │
    └──────────────────────────────────────────────────────┘
 ```
+
+<!-- diagram-alt -->*Diagram description: A diagram of an identity shift through three stages: doing the pipeline as a task, practicing it as a habit, and becoming someone who knows; repeated practice turns doing into being.*
+
 
 The identity shift is not about titles or credentials. It is about the way you hold yourself in the face of uncertainty. It is the difference between someone who reads a book about knowledge and someone who has become a knower.
 
