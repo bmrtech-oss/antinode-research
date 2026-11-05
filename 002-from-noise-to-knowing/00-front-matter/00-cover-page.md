@@ -61,7 +61,7 @@
 ║                                                                                  ║
 ║                                                                                  ║
 ║                                                                                  ║
-║                         "Not more information. Better method."                    ║
+║                         "Not more information. Better method."                   ║
 ║                                                                                  ║
 ║                                                                                  ║
 ║                                                                                  ║
@@ -84,7 +84,7 @@
 │                                                                                  │
 │   ─────────────────────────────────────────────────────────────────────          │
 │                                                                                  │
-│   We live in an age of unprecedented information abundance—and                    │
+│   We live in an age of unprecedented information abundance—and                   │
 │   unprecedented confusion. We have access to more data, more claims,             │
 │   and more perspectives than any generation in history. And yet we               │
 │   struggle to make good decisions, to understand complex issues,                 │

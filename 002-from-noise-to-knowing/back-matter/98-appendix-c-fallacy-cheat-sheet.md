@@ -460,7 +460,7 @@ Language models introduce a new set of failure modes. These are not logical fall
 │     DETECT: Run the six-step detection method manually.         │
 │                                                                 │
 │  6. STALE AUTHORITY                                             │
-│     Citing older sources as current, or presenting             │
+│     Citing older sources as current, or presenting              │
 │     outdated consensus as present fact.                         │
 │     DETECT: Check dates. Ask what has changed recently.         │
 │                                                                 │

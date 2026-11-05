@@ -355,7 +355,7 @@ Let us trace a single cycle through the pipeline to see how the stages work toge
 
 ```
  ┌──────────────────────────────────────────────────────────────┐
- │              A WORKED EXAMPLE                                 │
+ │              A WORKED EXAMPLE                                │
  ├──────────────────────────────────────────────────────────────┤
  │  SELECT       →  benchmarks, case studies, community         │
  │                  discussions, docs, critiques                │

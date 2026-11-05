@@ -337,7 +337,7 @@ How do you cultivate wisdom? There is no formula, but there are six practices.
  ├───────────────────────────────────────────────────────┤
  │  1. EXAMINE YOUR LIFE                                 │
  │  2. CULTIVATE VIRTUE                                  │
- │  3. SEEK DIVERSE EXPERIENCES                         │
+ │  3. SEEK DIVERSE EXPERIENCES                          │
  │  4. REFLECT ON EXPERIENCE                             │
  │  5. ENGAGE WITH GREAT WORKS                           │
  │  6. SEEK MENTORS AND COMMUNITY                        │

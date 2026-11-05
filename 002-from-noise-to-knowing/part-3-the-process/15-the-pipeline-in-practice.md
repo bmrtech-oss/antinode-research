@@ -256,7 +256,7 @@ One cycle. Seven stages. A decision grounded in evidence, tested against reality
 
 ```
  ┌──────────────────────────────────────────────────────────────┐
- │              THE FULL CYCLE                                   │
+ │              THE FULL CYCLE                                  │
  ├──────────────────────────────────────────────────────────────┤
  │  SELECT       →  benchmarks, case studies, community         │
  │                  discussions, docs, critiques                │
@@ -386,15 +386,15 @@ Knowing the pipeline is not enough. You must **practice** it. Here are five exer
 ```
 
 ```
- ┌───────────────────────────────────────────────────────┐
- │              EXERCISES FOR BUILDING THE PIPELINE      │
- ├───────────────────────────────────────────────────────┤
- │  EXERCISE 1: The Daily Question   →  select/pre-process│
- │  EXERCISE 2: The Hypothesis Journal →  generate/test  │
- │  EXERCISE 3: The Integration Map  →  integrate        │
- │  EXERCISE 4: The Pruning Session  →  retain/discard   │
- │  EXERCISE 5: The Correction Review→  correct          │
- └───────────────────────────────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────┐
+ │              EXERCISES FOR BUILDING THE PIPELINE        │
+ ├─────────────────────────────────────────────────────────┤
+ │  EXERCISE 1: The Daily Question   →  select/pre-process │
+ │  EXERCISE 2: The Hypothesis Journal →  generate/test    │
+ │  EXERCISE 3: The Integration Map  →  integrate          │
+ │  EXERCISE 4: The Pruning Session  →  retain/discard     │
+ │  EXERCISE 5: The Correction Review→  correct            │
+ └─────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -570,7 +570,7 @@ Here is what they did to close it.
 
 ```
  ┌──────────────────────────────────────────────────────────────┐
- │              THE HOSPITAL'S PIPELINE                          │
+ │              THE HOSPITAL'S PIPELINE                         │
  ├──────────────────────────────────────────────────────────────┤
  │  SELECT       →  bed capacity, ventilators, staffing,        │
  │                  patient flow                                │

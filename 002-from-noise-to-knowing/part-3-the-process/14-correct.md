@@ -261,15 +261,15 @@ For the retrieval system, the Bayesian update should have been: my prior belief 
 Correction is hard, not just because it requires evidence, but because it requires **psychology**. There are deep psychological barriers to changing one's mind.
 
 ```
- ┌───────────────────────────────────────────────────────┐
- │            PSYCHOLOGICAL BARRIERS TO CORRECTION       │
- ├───────────────────────────────────────────────────────┤
- │  SUNK COST FALLACY  →  "I've invested too much"       │
- │  CONFIRMATION BIAS  →  "I only see confirming evidence"│
- │  IDENTITY THREAT    →  "This belief is who I am"      │
- │  SOCIAL COST        →  "I'll lose my community"       │
- │  FEAR OF UNCERTAINTY→  "I can't handle not knowing"   │
- └───────────────────────────────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────┐
+ │            PSYCHOLOGICAL BARRIERS TO CORRECTION         │
+ ├─────────────────────────────────────────────────────────┤
+ │  SUNK COST FALLACY  →  "I've invested too much"         │
+ │  CONFIRMATION BIAS  →  "I only see confirming evidence" │
+ │  IDENTITY THREAT    →  "This belief is who I am"        │
+ │  SOCIAL COST        →  "I'll lose my community"         │
+ │  FEAR OF UNCERTAINTY→  "I can't handle not knowing"     │
+ └─────────────────────────────────────────────────────────┘
 ```
 
 **The sunk cost fallacy.** The tendency to continue investing in a belief or a model because of the resources already invested in it. "I've spent years believing this. I can't give it up now." The knowledge engineer recognizes that past investment is irrelevant to present truth.

@@ -32,8 +32,8 @@ We have described the knowledge pipeline as a process that a human mind executes
  │   │  DATA      │──►│ PRE-PROCESS│──►│  MODEL     │──►│  EVALUATE  │   │
  │   │ SELECTION  │   │ / CLEAN    │   │  BUILDING  │   │  / TEST    │   │
  │   └────────────┘   └────────────┘   └────────────┘   └────────────┘   │
- │                                                              │       │
- │                                                              ▼       │
+ │                                                              │        │
+ │                                                              ▼        │
  │   ┌────────────┐   ┌────────────┐   ┌────────────┐   ┌────────────┐   │
  │   │  DEPLOY    │◄──│  INTERPRET │◄──│  VALIDATE  │◄──│  REFINE    │   │
  │   │  / USE     │   │  / EXPLAIN │   │  / TEST    │   │  / TUNE    │   │
@@ -61,14 +61,14 @@ The standard framework for knowledge discovery in data is the **KDD process**—
  │   ┌──────────┐   ┌────────────┐   ┌──────────────┐   ┌────────────┐   │
  │   │ SELECTION│──►│PRE-PROCESS │──►│TRANSFORMATION│──►│ DATA MINING│   │
  │   └──────────┘   └────────────┘   └──────────────┘   └────────────┘   │
- │                                                              │       │
- │                                                              ▼       │
+ │                                                              │        │
+ │                                                              ▼        │
  │                                                   ┌────────────────┐  │
  │                                                   │ INTERPRETATION │  │
  │                                                   │ / EVALUATION   │  │
  │                                                   └────────────────┘  │
- │                                                              │       │
- │                                                              ▼       │
+ │                                                              │        │
+ │                                                              ▼        │
  │                                                   ┌────────────────┐  │
  │                                                   │   KNOWLEDGE    │  │
  │                                                   └────────────────┘  │
@@ -313,14 +313,14 @@ Machine learning is powerful. It can find patterns that humans would never see. 
  │     │                                                 │
  │     │  ╲                                              │
  │     │   ╲     Total error                             │
- │     │    ╲   ╱                                       │
- │     │     ╲ ╱                                        │
- │     │      ╳                                         │
- │     │     ╱ ╲                                        │
- │     │    ╱   ╲                                       │
- │     │   ╱     ╲                                      │
- │     │  ╱       ╲                                     │
- │     │ ╱         ╲                                    │
+ │     │    ╲   ╱                                        │
+ │     │     ╲ ╱                                         │
+ │     │      ╳                                          │
+ │     │     ╱ ╲                                         │
+ │     │    ╱   ╲                                        │
+ │     │   ╱     ╲                                       │
+ │     │  ╱       ╲                                      │
+ │     │ ╱         ╲                                     │
  │     └───────────────────────────► Model complexity    │
  │       Underfit    Optimal    Overfit                  │
  │                                                       │
@@ -332,14 +332,14 @@ The central tension is the **bias-variance tradeoff**. A model that is too simpl
 Machine learning has four limits that the knowledge engineer must understand:
 
 ```
- ┌───────────────────────────────────────────────────────┐
- │              LIMITS OF MACHINE LEARNING               │
- ├───────────────────────────────────────────────────────┤
- │  1. NOT CAUSAL        →  predicts without understanding│
- │  2. NOT INTERPRETABLE →  black box, hard to trust     │
- │  3. NOT ROBUST        →  brittle, fails on shift      │
- │  4. NOT FAIR          →  inherits and amplifies bias  │
- └───────────────────────────────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────┐
+ │              LIMITS OF MACHINE LEARNING                 │
+ ├─────────────────────────────────────────────────────────┤
+ │  1. NOT CAUSAL        →  predicts without understanding │
+ │  2. NOT INTERPRETABLE →  black box, hard to trust       │
+ │  3. NOT ROBUST        →  brittle, fails on shift        │
+ │  4. NOT FAIR          →  inherits and amplifies bias    │
+ └─────────────────────────────────────────────────────────┘
 ```
 
 **Not causal.** A model can predict accurately without understanding causation. It can learn that ice cream sales predict drowning rates, without knowing that temperature is the confounder.
@@ -417,15 +417,15 @@ My churn model failed the first limit. The test set was not representative of th
 How do you know when to trust an algorithm? There is no formula, but there are five criteria.
 
 ```
- ┌───────────────────────────────────────────────────────┐
- │              WHEN TO TRUST AN ALGORITHM               │
- ├───────────────────────────────────────────────────────┤
- │  1. OUT-OF-SAMPLE PERFORMANCE →  generalizes?         │
- │  2. ROBUSTNESS                →  works across contexts?│
- │  3. INTERPRETABILITY          →  can you explain it?  │
- │  4. FAIRNESS                  →  works for all groups?│
- │  5. CAUSAL VALIDITY           →  captures causation?  │
- └───────────────────────────────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────┐
+ │              WHEN TO TRUST AN ALGORITHM                 │
+ ├─────────────────────────────────────────────────────────┤
+ │  1. OUT-OF-SAMPLE PERFORMANCE →  generalizes?           │
+ │  2. ROBUSTNESS                →  works across contexts? │
+ │  3. INTERPRETABILITY          →  can you explain it?    │
+ │  4. FAIRNESS                  →  works for all groups?  │
+ │  5. CAUSAL VALIDITY           →  captures causation?    │
+ └─────────────────────────────────────────────────────────┘
 ```
 
 **Out-of-sample performance.** Does the model perform well on data it has never seen?

@@ -287,15 +287,15 @@ When you integrate models, you are building a **network**—a structure of nodes
  │                                                       │
  │   A knowledge network:                                │
  │                                                       │
- │        ○─────○                                       │
- │       ╱ ╲   ╱ ╲                                      │
- │      ○   ○─○   ○                                     │
- │       ╲ ╱   ╲ ╱                                      │
- │        ○─────○                                       │
- │       ╱ ╲   ╱ ╲                                      │
- │      ○   ○─○   ○                                     │
- │       ╲ ╱   ╲ ╱                                      │
- │        ○─────○                                       │
+ │        ○─────○                                        │
+ │       ╱ ╲   ╱ ╲                                       │
+ │      ○   ○─○   ○                                      │
+ │       ╲ ╱   ╲ ╱                                       │
+ │        ○─────○                                        │
+ │       ╱ ╲   ╱ ╲                                       │
+ │      ○   ○─○   ○                                      │
+ │       ╲ ╱   ╲ ╱                                       │
+ │        ○─────○                                        │
  │                                                       │
  │   Nodes = models, concepts, facts                     │
  │   Edges = connections                                 │

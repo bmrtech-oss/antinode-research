@@ -140,7 +140,7 @@ The daily practice is small. It takes twenty minutes. It is the unit of the comp
  │                                                       │
  │  READ:      Something substantial                     │
  │             Read deeply, not superficially            │
- │             Take notes                                 │
+ │             Take notes                                │
  │                                                       │
  │  CONVERSE:  With someone who thinks differently       │
  │             Discuss ideas                             │
@@ -231,17 +231,17 @@ I did not write the log for the joy. But when I read it, years later, the joy wa
 The discipline of knowing is not just a set of practices. It is a set of **virtues**—character traits that dispose a person to pursue knowledge well.
 
 ```
- ┌───────────────────────────────────────────────────────┐
- │              THE VIRTUES OF THE KNOWLEDGE ENGINEER    │
- ├───────────────────────────────────────────────────────┤
- │  • CURIOSITY                                         │
- │  • HUMILITY                                          │
- │  • HONESTY                                           │
- │  • COURAGE                                           │
- │  • PATIENCE                                          │
- │  • RESILIENCE                                        │
- │  • INTEGRITY                                         │
- └───────────────────────────────────────────────────────┘
+ ┌────────────────────────────────────────────────────┐
+ │              THE VIRTUES OF THE KNOWLEDGE ENGINEER │
+ ├────────────────────────────────────────────────────┤
+ │  • CURIOSITY                                       │
+ │  • HUMILITY                                        │
+ │  • HONESTY                                         │
+ │  • COURAGE                                         │
+ │  • PATIENCE                                        │
+ │  • RESILIENCE                                      │
+ │  • INTEGRITY                                       │
+ └────────────────────────────────────────────────────┘
 ```
 
 **Curiosity.** The desire to understand, not just to know. The willingness to ask questions, to explore, to follow the thread wherever it leads.

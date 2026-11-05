@@ -318,16 +318,16 @@ The **Zettelkasten** method is the system that Niklas Luhmann used. It is based 
  ├───────────────────────────────────────────────────────┤
  │                                                       │
  │   ┌─────────────────────────────────────────────┐     │
- │   │  1a                                          │     │
- │   │  "Knowledge is a network."                   │     │
- │   │  → 1b, 2a, 3c                                │     │
+ │   │  1a                                          │    │
+ │   │  "Knowledge is a network."                   │    │
+ │   │  → 1b, 2a, 3c                                │    │
  │   └─────────────────────────────────────────────┘     │
  │         │                                             │
  │         ▼                                             │
  │   ┌─────────────────────────────────────────────┐     │
- │   │  1b                                          │     │
- │   │  "Connections create value."                 │     │
- │   │  → 1a, 2b                                    │     │
+ │   │  1b                                          │    │
+ │   │  "Connections create value."                 │    │
+ │   │  → 1a, 2b                                    │    │
  │   └─────────────────────────────────────────────┘     │
  │                                                       │
  │   Each note is atomic, uniquely identified, and       │

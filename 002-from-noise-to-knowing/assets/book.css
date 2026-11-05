@@ -1,0 +1,11 @@
+/* Roboto Mono (Material's default) has no box-drawing glyphs, so browsers fall back to a
+   font with different widths and the ASCII diagrams drift. Use fonts that include them. */
+.md-typeset pre > code,
+.md-typeset .highlight code {
+  font-family: "DejaVu Sans Mono", "Cascadia Mono", Consolas, Menlo, "Liberation Mono",
+    "Courier New", monospace;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "calt" 0;
+  line-height: 1.1;
+  letter-spacing: 0;
+}

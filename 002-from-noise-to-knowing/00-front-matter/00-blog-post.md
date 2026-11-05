@@ -31,14 +31,14 @@ Here is the entire argument of the book, compressed into a single image:
 ║   ██████████████████████████                     ·                           ║
 ║   ██████████████████████████         ┌───────┐   ·                           ║
 ║   ██████████████████████████         │       │   ·                           ║
-║   ██████████████████████████  ───►   │  THE  │  ───►   ██                   ║
-║   ██████████████████████████         │PIPELINE│        ██                   ║
-║   ██████████████████████████         │       │         ██                   ║
-║   ██████████████████████████         └───────┘         ██                   ║
+║   ██████████████████████████  ───►   │  THE  │  ───►   ██                    ║
+║   ██████████████████████████         │PIPELINE│        ██                    ║
+║   ██████████████████████████         │       │         ██                    ║
+║   ██████████████████████████         └───────┘         ██                    ║
 ║   ██████████████████████████                            ██                   ║
 ║                                                                              ║
-║   EVERYTHING                             SELECT          WHAT YOU           ║
-║   YOU COULD EVER                         PRE-PROCESS     ACTUALLY           ║
+║   EVERYTHING                             SELECT          WHAT YOU            ║
+║   YOU COULD EVER                         PRE-PROCESS     ACTUALLY            ║
 ║   CONSUME                                GENERATE        KNOW                ║
 ║                                          TEST                                ║
 ║   (abundant, cheap,                      INTEGRATE                           ║

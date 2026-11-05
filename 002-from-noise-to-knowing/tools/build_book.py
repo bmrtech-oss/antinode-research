@@ -123,6 +123,8 @@ def write_mkdocs(front, parts, back):
         "  tools/",
         "hooks:",
         "  - tools/mkdocs_hooks.py",
+        "extra_css:",
+        "  - assets/book.css",
         "theme:",
         "  name: material",
         "  features:",

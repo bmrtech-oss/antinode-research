@@ -312,7 +312,7 @@ Discard takes three forms. Each is a different kind of pruning.
  │              FORMS OF PRUNING                         │
  ├───────────────────────────────────────────────────────┤
  │  PRUNING INFORMATION  →  remove irrelevant or         │
- │                         obsolete data                  │
+ │                         obsolete data                 │
  │  PRUNING MODELS       →  revise or reject superseded  │
  │                         beliefs                       │
  │  PRUNING CONNECTIONS  →  remove spurious or unhelpful │

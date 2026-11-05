@@ -190,7 +190,7 @@ The third component is **intuition**—rapid, largely unconscious judgment that 
  ├───────────────────────────────────────────────────────┤
  │                                                       │
  │   Intuition is NOT:                                   │
- │    • Magic                                             │
+ │    • Magic                                            │
  │    • Random guessing                                  │
  │    • A substitute for evidence                        │
  │                                                       │

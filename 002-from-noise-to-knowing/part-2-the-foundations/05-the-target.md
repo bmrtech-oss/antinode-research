@@ -319,16 +319,16 @@ This is what my benchmark could not measure. It could measure prediction—did t
 It is useful to place knowledge in a family of related concepts, to see how it differs from its neighbors.
 
 ```
- ┌────────────┬────────────────────────────────────────────┐
- │ CONCEPT    │ CHARACTERISTIC                             │
- ├────────────┼────────────────────────────────────────────┤
+ ┌────────────┬─────────────────────────────────────────────┐
+ │ CONCEPT    │ CHARACTERISTIC                              │
+ ├────────────┼─────────────────────────────────────────────┤
  │ DATA       │ Raw, unprocessed, meaningless in itself     │
  │ INFORMATION│ Structured data with meaning                │
  │ OPINION    │ Subjective judgment or preference           │
  │ BELIEF     │ Assent to a proposition, with or without    │
  │            │ evidence                                    │
  │ KNOWLEDGE  │ Integrated, tested, actionable model        │
- └────────────┴────────────────────────────────────────────┘
+ └────────────┴─────────────────────────────────────────────┘
 ```
 
 The key distinction is between **belief** and **knowledge**. Belief is assent to a proposition—you believe something when you hold it to be true. Knowledge is belief that has been **justified** and **tested**. Not all beliefs are knowledge; some are false, some are unjustified, some are lucky guesses. Knowledge is belief that has survived the tests.

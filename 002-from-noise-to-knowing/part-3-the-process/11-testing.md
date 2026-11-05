@@ -31,12 +31,12 @@ Without testing, the pipeline is speculation. With testing, it is knowledge.
  │              WHAT TESTING SEPARATES                   │
  ├───────────────────────────────────────────────────────┤
  │  BELIEF          →  KNOWLEDGE                         │
- │  (held to be     │   (tested and survived)             │
- │   true)          │                                     │
+ │  (held to be     │   (tested and survived)            │
+ │   true)          │                                    │
  │                                                       │
  │  HYPOTHESIS      →  THEORY                            │
- │  (candidate      │   (extensively tested and           │
- │   explanation)   │    survived)                        │
+ │  (candidate      │   (extensively tested and          │
+ │   explanation)   │    survived)                       │
  │                                                       │
  │  OPINION         →  EVIDENCE-BASED JUDGMENT           │
  │  (may or may    │   (exposed to evidence and          │
@@ -63,7 +63,7 @@ At its core, testing is a simple loop: **predict, observe, compare**.
  ┌─────────────────┐
  │      MODEL      │
  │  (your beliefs  │
- │  about the world)│
+ │  about the world│
  └────────┬────────┘
           │ generates
           ▼
@@ -164,14 +164,14 @@ The third form is **experimentation**. You intervene in the world—you change s
  │   │  TREATMENT  │          │   CONTROL   │            │
  │   │    GROUP    │          │    GROUP    │            │
  │   └──────┬──────┘          └──────┬──────┘            │
- │          │                        │                  │
- │          ▼                        ▼                  │
+ │          │                        │                   │
+ │          ▼                        ▼                   │
  │   ┌─────────────┐          ┌─────────────┐            │
  │   │ INTERVENTION│          │    NO       │            │
  │   │             │          │ INTERVENTION│            │
  │   └──────┬──────┘          └──────┬──────┘            │
- │          │                        │                  │
- │          ▼                        ▼                  │
+ │          │                        │                   │
+ │          ▼                        ▼                   │
  │   ┌─────────────┐          ┌─────────────┐            │
  │   │  OUTCOME    │          │   OUTCOME   │            │
  │   └─────────────┘          └─────────────┘            │

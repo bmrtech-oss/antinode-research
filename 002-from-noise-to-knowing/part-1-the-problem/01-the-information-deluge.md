@@ -237,9 +237,9 @@ This book offers that method. I call it the **knowledge pipeline**.
 It is a seven-stage process for converting information into knowledge:
 
 ```
-   ┌────────┐   ┌────────────┐   ┌──────────┐   ┌────────┐
-   │ SELECT │──►│ PRE-PROCESS│──►│ GENERATE │──►│  TEST  │
-   └────────┘   └────────────┘   └──────────┘   └────────┘
+   ┌────────┐   ┌────────────┐   ┌──────────┐   ┌─────────┐
+   │ SELECT │──►│ PRE-PROCESS│──►│ GENERATE │──►│  TEST   │
+   └────────┘   └────────────┘   └──────────┘   └─────────┘
                                                       │
                                                       ▼
    ┌────────┐   ┌────────────┐   ┌────────────────────────┐
