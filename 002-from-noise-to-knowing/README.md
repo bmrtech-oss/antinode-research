@@ -67,4 +67,4 @@ Start reading with the [cover](00-front-matter/00-cover-page.md) or [opening tho
 
 - [From Noise to Knowing: Why I Wrote a Book About the One Skill AI Can't Replace](00-front-matter/00-blog-post.md)
 - [Final Blog Diagram](00-front-matter/00-blog-diagram.md)
-- [Rating Notes](00-front-matter/00-rating-notes.md)
+- [Review](00-front-matter/00-rating-notes.md)

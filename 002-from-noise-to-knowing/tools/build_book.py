@@ -22,7 +22,7 @@ FRONT = ["00-cover-page.md", "00-opening-thoughts.md", "00-table-of-contents.md"
 EXTRAS = [
     ("00-front-matter/00-blog-post.md", None),
     ("00-front-matter/00-blog-diagram.md", None),
-    ("00-front-matter/00-rating-notes.md", "Rating Notes"),
+    ("00-front-matter/00-rating-notes.md", None),
 ]
 TITLE_OVERRIDES = {"00-front-matter/00-cover-page.md": "Cover"}
 
