@@ -89,6 +89,7 @@ def apply_footers(order):
 
 
 SITE_URL = "https://bmrtech-oss.github.io/antinode-research/"
+PDF_URL = "https://bmrtech-oss.github.io/antinode-research/FromNoiseToKnowing.pdf"
 
 
 def write_readme(front, parts, back):
@@ -101,7 +102,8 @@ def write_readme(front, parts, back):
         "[opening thoughts](00-front-matter/00-opening-thoughts.md). "
         "Each page links to the previous and next page.",
         "",
-        f"**Read it online:** [{SITE_URL}]({SITE_URL})",
+        f"**Read it online:** [{SITE_URL}]({SITE_URL}) | "
+        f"**Download the PDF:** [From Noise to Knowing]({PDF_URL})",
         "",
         "## Front Matter",
         "",
@@ -135,8 +137,20 @@ def write_mkdocs(front, parts, back):
         "  editorial/",
         "hooks:",
         "  - tools/mkdocs_hooks.py",
+        "plugins:",
+        "  - search",
+        "  - print-site:",
+        "      add_to_navigation: true",
+        "      add_cover_page: false",
+        "      add_table_of_contents: false",
+        "      exclude:",
+        "        - README.md",
+        "        - 00-front-matter/00-blog-post.md",
+        "        - 00-front-matter/00-blog-diagram.md",
+        "        - 00-front-matter/00-rating-notes.md",
         "extra_css:",
         "  - assets/book.css",
+        "  - assets/book-print.css",
         "extra_javascript:",
         "  - assets/book-theme.js",
         "theme:",

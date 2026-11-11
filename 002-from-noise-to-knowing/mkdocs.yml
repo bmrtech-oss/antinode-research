@@ -10,8 +10,20 @@ exclude_docs: |
   editorial/
 hooks:
   - tools/mkdocs_hooks.py
+plugins:
+  - search
+  - print-site:
+      add_to_navigation: true
+      add_cover_page: false
+      add_table_of_contents: false
+      exclude:
+        - README.md
+        - 00-front-matter/00-blog-post.md
+        - 00-front-matter/00-blog-diagram.md
+        - 00-front-matter/00-rating-notes.md
 extra_css:
   - assets/book.css
+  - assets/book-print.css
 extra_javascript:
   - assets/book-theme.js
 theme:

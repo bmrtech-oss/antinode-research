@@ -22,7 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install mkdocs-material "mkdocs<2"
+      - run: pip install mkdocs-material "mkdocs<2" mkdocs-print-site-plugin playwright
+      - run: python -m playwright install --with-deps chromium
       - name: Check generated navigation is up to date
         run: |
           python 002-from-noise-to-knowing/tools/build_index.py
@@ -33,6 +34,7 @@ jobs:
       - name: Check links and chapter references
         run: python 002-from-noise-to-knowing/tools/check_links.py
       - run: mkdocs build --strict -f 002-from-noise-to-knowing/mkdocs.yml
+      - run: python 002-from-noise-to-knowing/tools/export_pdf.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

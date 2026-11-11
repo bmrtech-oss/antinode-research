@@ -4,7 +4,7 @@
 
 Start reading with the [cover](00-front-matter/00-cover-page.md) or [opening thoughts](00-front-matter/00-opening-thoughts.md). Each page links to the previous and next page.
 
-**Read it online:** [https://bmrtech-oss.github.io/antinode-research/](https://bmrtech-oss.github.io/antinode-research/)
+**Read it online:** [https://bmrtech-oss.github.io/antinode-research/](https://bmrtech-oss.github.io/antinode-research/) | **Download the PDF:** [From Noise to Knowing](https://bmrtech-oss.github.io/antinode-research/FromNoiseToKnowing.pdf)
 
 ## Front Matter
 
